@@ -1,0 +1,55 @@
+USER   PID  %CPU %MEM   VSZ   RSS TT  STAT STARTED      TIME COMMAND
+root    11 200.0  0.0     0    32  -  RNL  02:34   110:01.00 [idle]
+root     0   0.0  0.0     0  1104  -  DLs  02:34     0:03.09 [kernel]
+root     1   0.0  0.0 11700  1324  -  SLs  02:34     0:00.03 /sbin/init
+root     2   0.0  0.0     0    32  -  WL   02:34     0:00.44 [clock]
+root     3   0.0  0.0     0    48  -  DL   02:34     0:00.00 [crypto]
+root     4   0.0  0.0     0    48  -  DL   02:34     0:01.34 [cam]
+root     5   0.0  0.0     0    16  -  DL   02:34     0:00.00 [busdma]
+root     6   0.0  0.0     0    16  -  DL   02:34     0:00.00 [mpt_recovery0]
+root     7   0.0  0.0     0   688  -  DL   02:34     0:00.13 [zfskern]
+root     8   0.0  0.0     0    16  -  DL   02:34     0:04.56 [rand_harvestq]
+root     9   0.0  0.0     0    48  -  DL   02:34     0:00.13 [pagedaemon]
+root    10   0.0  0.0     0    16  -  DL   02:34     0:00.00 [audit]
+root    12   0.0  0.0     0   736  -  WL   02:34     0:00.44 [intr]
+root    13   0.0  0.0     0    48  -  DL   02:34     0:00.02 [geom]
+root    14   0.0  0.0     0    16  -  DL   02:34     0:00.00 [sequencer 00]
+root    15   0.0  0.0     0   240  -  DL   02:34     0:00.97 [usb]
+root    16   0.0  0.0     0    16  -  DL   02:34     0:00.00 [vmdaemon]
+root    17   0.0  0.0     0    48  -  DL   02:34     0:00.02 [bufdaemon]
+root    18   0.0  0.0     0    16  -  DL   02:34     0:00.01 [vnlru]
+root    19   0.0  0.0     0    16  -  DL   02:34     0:00.01 [syncer]
+root   375   0.0  0.1 13156  2596  -  Is   02:35     0:00.00 dhclient: system.syslog (dhclient)
+root   378   0.0  0.1 13156  2708  -  Is   02:35     0:00.00 dhclient: em0 [priv] (dhclient)
+_dhcp  461   0.0  0.1 13160  2768  -  ICs  02:35     0:00.00 dhclient: em0 (dhclient)
+root   586   0.0  0.1 14396  3840  -  Ss   02:35     0:00.01 /sbin/devd
+root   783   0.0  0.1 12876  2756  -  Ss   02:35     0:00.02 /usr/sbin/syslogd -s
+ntpd   843   0.0  0.2 23552  7896  -  Ss   02:35     0:00.16 /usr/sbin/ntpd -p /var/db/ntp/ntpd.pid -c /etc/ntp.conf -f /var/db/ntp/ntpd.drift -g
+root   869   0.0  0.1 12916  2516  -  Ss   02:35     0:00.01 /usr/sbin/cron -s
+root   894   0.0  0.2 22836  9824  -  Is   02:35     0:00.00 sshd: /usr/sbin/sshd [listener] 0 of 10-100 startups (sshd)
+root  1573   0.0  0.1 12916  2524  -  I    03:01     0:00.00 cron: running job (cron)
+root  1574   0.0  0.1 13376  3012  -  Is   03:01     0:00.00 /bin/sh - /usr/sbin/periodic daily
+root  1579   0.0  0.1 12712  2128  -  I    03:01     0:00.00 lockf -s -t 0 /var/run/periodic.daily.lock /bin/sh /usr/sbin/periodic LOCKED daily
+root  1580   0.0  0.1 13376  2992  -  I    03:01     0:00.00 /bin/sh /usr/sbin/periodic LOCKED daily
+root  1590   0.0  0.1 13376  3004  -  I    03:01     0:00.00 /bin/sh /usr/sbin/periodic LOCKED daily
+root  1591   0.0  0.1 12820  2304  -  I    03:01     0:00.00 mail -E -s  daily run output root
+root  1747   0.0  0.1 13376  3004  -  I    03:01     0:00.00 /bin/sh /etc/periodic/daily/450.status-security
+root  1749   0.0  0.1 13376  3000  -  I    03:01     0:00.00 /bin/sh - /usr/sbin/periodic security
+root  1753   0.0  0.1 12712  2128  -  I    03:01     0:00.00 lockf -s -t 0 /var/run/periodic.security.lock /bin/sh /usr/sbin/periodic LOCKED security
+root  1754   0.0  0.1 13376  3000  -  I    03:01     0:00.00 /bin/sh /usr/sbin/periodic LOCKED security
+root  1763   0.0  0.1 13376  3008  -  I    03:01     0:00.00 /bin/sh /usr/sbin/periodic LOCKED security
+root  1764   0.0  0.1 12820  2288  -  I    03:01     0:00.00 mail -E -s  daily security run output root
+root  1895   0.0  0.1 13376  3032  -  I    03:01     0:00.00 /bin/sh -f /usr/local/etc/periodic/security/405.pkg-base-audit
+root  1914   0.0  0.1 12712  2128  -  IC   03:01     0:00.00 sleep 2909
+root  3292   0.0  0.5 32100 20396  -  Ss   03:29     0:00.01 ntfs-3g /dev/da1s1 /mnt/usb
+root   910   0.0  0.1 13388  2936 v0  Is   02:35     0:00.01 login [pam] (login)
+root   918   0.0  0.1 13376  3176 v0  S    02:35     0:00.08 -sh (sh)
+root  3296   0.0  0.1 13376  2960 v0  S+   03:30     0:00.00 /bin/sh ./collect_freebsd.sh
+root  3900   0.0  0.1 13452  3080 v0  R+   03:30     0:00.00 ps auxww
+root   911   0.0  0.1 12844  2280 v1  Is+  02:35     0:00.00 /usr/libexec/getty Pc ttyv1
+root   912   0.0  0.1 12844  2276 v2  Is+  02:35     0:00.00 /usr/libexec/getty Pc ttyv2
+root   913   0.0  0.1 12844  2280 v3  Is+  02:35     0:00.00 /usr/libexec/getty Pc ttyv3
+root   914   0.0  0.1 12844  2284 v4  Is+  02:35     0:00.00 /usr/libexec/getty Pc ttyv4
+root   915   0.0  0.1 12844  2276 v5  Is+  02:35     0:00.00 /usr/libexec/getty Pc ttyv5
+root   916   0.0  0.1 12844  2280 v6  Is+  02:35     0:00.00 /usr/libexec/getty Pc ttyv6
+root   917   0.0  0.1 12844  2276 v7  Is+  02:35     0:00.00 /usr/libexec/getty Pc ttyv7

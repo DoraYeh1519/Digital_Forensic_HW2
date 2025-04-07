@@ -1,0 +1,2 @@
+samba_server does not exist in /etc/rc.d or the local startup
+directories (/usr/local/etc/rc.d), or is not executable

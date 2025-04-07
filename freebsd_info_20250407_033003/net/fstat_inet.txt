@@ -1,0 +1,11 @@
+ntpd     ntpd         843   20* internet6 dgram udp fffff800119a9000
+ntpd     ntpd         843   21* internet dgram udp fffff80011ac8540
+ntpd     ntpd         843   22* internet dgram udp fffff80011ac81c0
+ntpd     ntpd         843   23* internet6 dgram udp fffff80011917a80
+ntpd     ntpd         843   24* internet6 dgram udp fffff8005b110e00
+ntpd     ntpd         843   25* internet dgram udp fffff8005b110a80
+root     syslogd      783    6* internet6 dgram udp fffff800119a9700
+root     syslogd      783    7* internet dgram udp fffff800119a9540
+root     dhclient     378    9* internet raw ip fffff80011a72380
+root     sshd         894    3* internet6 stream tcp
+root     sshd         894    4* internet stream tcp

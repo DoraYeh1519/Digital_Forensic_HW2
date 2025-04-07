@@ -1,0 +1,10 @@
+/usr/local/etc/periodic:
+Directory: /usr/local/etc/periodic/security
+405.pkg-base-audit
+410.pkg-audit
+460.pkg-checksum
+Directory: /usr/local/etc/periodic/daily
+411.pkg-backup
+490.status-pkg-changes
+Directory: /usr/local/etc/periodic/weekly
+400.status-pkg

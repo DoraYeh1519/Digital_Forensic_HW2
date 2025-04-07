@@ -1,0 +1,7 @@
+               Local time: 一 2025-04-07 03:55:16 CST
+           Universal time: 日 2025-04-06 19:55:16 UTC
+                 RTC time: 日 2025-04-06 19:55:15
+                Time zone: Asia/Taipei (CST, +0800)
+System clock synchronized: yes
+              NTP service: active
+          RTC in local TZ: no

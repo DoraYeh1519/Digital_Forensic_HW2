@@ -1,0 +1,2909 @@
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform at-spi-dbus-bus.desktop[2063]: dbus-daemon[2063]: Successfully activated service 'org.a11y.atspi.Registry'
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform at-spi-dbus-bus.desktop[2106]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform gnome-shell[2048]: Unset XDG_SESSION_ID, getCurrentSessionProxy() called outside a user session. Asking logind directly.
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform gnome-shell[2048]: Will monitor session 2
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating service name='org.gnome.Shell.Screencast' requested by ':1.31' (uid=1000 pid=2048 comm="/usr/bin/gnome-shell" label="unconfined")
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating service name='org.gnome.Shell.CalendarServer' requested by ':1.31' (uid=1000 pid=2048 comm="/usr/bin/gnome-shell" label="unconfined")
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating via systemd: service name='org.gnome.evolution.dataserver.Sources5' unit='evolution-source-registry.service' requested by ':1.36' (uid=1000 pid=2116 comm="/usr/libexec/gnome-shell-calendar-server" label="unconfined")
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform systemd[1812]: Starting evolution-source-registry.service - Evolution source registry...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating service name='org.gnome.Shell.Notifications' requested by ':1.31' (uid=1000 pid=2048 comm="/usr/bin/gnome-shell" label="unconfined")
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform systemd[1812]: Started org.gnome.Shell@wayland.service - GNOME Shell on Wayland.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform systemd[1812]: Reached target gnome-session-initialized.target - GNOME Session is initialized.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform systemd[1812]: gnome-session-x11-services.target - GNOME session X11 services is inactive.
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform systemd[1812]: Dependency failed for org.gnome.SettingsDaemon.XSettings.service - GNOME XSettings service.
+░░ Subject: 單位 UNIT 已失敗
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已失敗。
+░░ 
+░░ 結果為 dependency。
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform systemd[1812]: org.gnome.SettingsDaemon.XSettings.service: Job org.gnome.SettingsDaemon.XSettings.service/start failed with result 'dependency'.
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform systemd[1812]: gnome-session-x11-services-ready.target: Job gnome-session-x11-services-ready.target/verify-active failed with result 'dependency'.
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform systemd[1812]: Reached target gnome-session@ubuntu.target - GNOME Session (session: ubuntu).
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform systemd[1812]: Reached target org.gnome.SettingsDaemon.XSettings.target - GNOME XSettings target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform systemd[1812]: Starting gnome-session-signal-init.service - Signal initialization done to GNOME Session Manager...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform systemd[1812]: Starting org.freedesktop.IBus.session.GNOME.service - IBus Daemon for GNOME...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform systemd[1812]: Starting org.gnome.SettingsDaemon.A11ySettings.service - GNOME accessibility service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform systemd[1812]: Starting org.gnome.SettingsDaemon.Color.service - GNOME color management service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform systemd[1812]: Starting org.gnome.SettingsDaemon.Datetime.service - GNOME date & time service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform systemd[1812]: Starting org.gnome.SettingsDaemon.Housekeeping.service - GNOME maintenance of expirable data service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform systemd[1812]: Starting org.gnome.SettingsDaemon.Keyboard.service - GNOME keyboard configuration service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform systemd[1812]: Starting org.gnome.SettingsDaemon.MediaKeys.service - GNOME keyboard shortcuts service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform systemd[1812]: Starting org.gnome.SettingsDaemon.Power.service - GNOME power management service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform systemd[1812]: Starting org.gnome.SettingsDaemon.PrintNotifications.service - GNOME printer notifications service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform systemd[1812]: Starting org.gnome.SettingsDaemon.Rfkill.service - GNOME RFKill support service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform systemd[1812]: Starting org.gnome.SettingsDaemon.ScreensaverProxy.service - GNOME FreeDesktop screensaver service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform systemd[1812]: Starting org.gnome.SettingsDaemon.Sharing.service - GNOME file sharing service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:39 kali-VMware-Virtual-Platform systemd[1812]: Starting org.gnome.SettingsDaemon.Smartcard.service - GNOME smartcard service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Starting org.gnome.SettingsDaemon.Sound.service - GNOME sound sample caching service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Starting org.gnome.SettingsDaemon.Wacom.service - GNOME Wacom tablet support service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform spice-vdagent[2173]: vdagent virtio channel /dev/virtio-ports/com.redhat.spice.0 does not exist, exiting
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-shell[2048]: Gio.UnixInputStream has been moved to a separate platform-specific library. Please update your code to use GioUnix.InputStream instead.
+                                                                  0 inhibit() ["resource:///org/gnome/shell/misc/loginManager.js":209:8]
+                                                                  1 InterpretGeneratorResume() ["self-hosted":1461:33]
+                                                                  2 AsyncFunctionNext() ["self-hosted":852:26]
+                                                                  3 anonymous() ["resource:///org/gnome/shell/ui/init.js":21:19]
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating service name='org.gnome.OnlineAccounts' requested by ':1.37' (uid=1000 pid=2133 comm="/usr/libexec/evolution-source-registry" label="unconfined")
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-session-binary[2017]: Entering running state
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform at-spi2-registr[2106]: Failed to register client: GDBus.Error:org.gnome.SessionManager.AlreadyRegistered: Unable to register client
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform at-spi2-registr[2106]: Unable to register client with session manager
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.31' (uid=1000 pid=2048 comm="/usr/bin/gnome-shell" label="unconfined")
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Finished gnome-session-signal-init.service - Signal initialization done to GNOME Session Manager.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'org.gnome.evolution.dataserver.Sources5'
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-session[2017]: gnome-session-binary[2017]: GnomeDesktop-WARNING: Could not create transient scope for PID 2191: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-session-binary[2017]: GnomeDesktop-WARNING: Could not create transient scope for PID 2191: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-session[2017]: gnome-session-binary[2017]: GnomeDesktop-WARNING: Could not create transient scope for PID 2196: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-session-binary[2017]: GnomeDesktop-WARNING: Could not create transient scope for PID 2196: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-session[2017]: gnome-session-binary[2017]: GnomeDesktop-WARNING: Could not create transient scope for PID 2212: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-session-binary[2017]: GnomeDesktop-WARNING: Could not create transient scope for PID 2212: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Started org.gnome.SettingsDaemon.A11ySettings.service - GNOME accessibility service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Started org.gnome.SettingsDaemon.Smartcard.service - GNOME smartcard service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Started evolution-source-registry.service - Evolution source registry.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Started app-gnome-org.gnome.Evolution\x2dalarm\x2dnotify-2209.scope - Application launched by gnome-session-binary.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Started app-gnome-org.gnome.SettingsDaemon.DiskUtilityNotify-2194.scope - Application launched by gnome-session-binary.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: app-gnome-spice\x2dvdagent-2173.scope: PID 2173 vanished before we could move it to target cgroup '/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-spice\x2dvdagent-2173.scope', skipping: No such process
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: app-gnome-spice\x2dvdagent-2173.scope: No PIDs left to attach to the scope's control group, refusing.
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: app-gnome-spice\x2dvdagent-2173.scope: Failed with result 'resources'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit UNIT has entered the 'failed' state with result 'resources'.
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Failed to start app-gnome-spice\x2dvdagent-2173.scope - Application launched by gnome-session-binary.
+░░ Subject: 單位 UNIT 已失敗
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已失敗。
+░░ 
+░░ 結果為 failed。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Reached target org.gnome.SettingsDaemon.A11ySettings.target - GNOME accessibility target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Reached target org.gnome.SettingsDaemon.Smartcard.target - GNOME smartcard target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Starting gvfs-udisks2-volume-monitor.service - Virtual filesystem service - disk device monitor...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform goa-daemon[2236]: goa-daemon version 3.50.4 starting
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-session[2017]: gnome-session-binary[2017]: GnomeDesktop-WARNING: Could not create transient scope for PID 2222: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-session-binary[2017]: GnomeDesktop-WARNING: Could not create transient scope for PID 2222: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Started org.gnome.SettingsDaemon.Housekeeping.service - GNOME maintenance of expirable data service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Reached target org.gnome.SettingsDaemon.Housekeeping.target - GNOME maintenance of expirable data target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform kernel: rfkill: input handler disabled
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Started org.gnome.SettingsDaemon.Rfkill.service - GNOME RFKill support service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Reached target org.gnome.SettingsDaemon.Rfkill.target - GNOME RFKill support target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Started org.gnome.SettingsDaemon.Datetime.service - GNOME date & time service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Reached target org.gnome.SettingsDaemon.Datetime.target - GNOME date & time target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Started org.gnome.SettingsDaemon.Sharing.service - GNOME file sharing service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Reached target org.gnome.SettingsDaemon.Sharing.target - GNOME file sharing target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Started org.gnome.SettingsDaemon.ScreensaverProxy.service - GNOME FreeDesktop screensaver service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Reached target org.gnome.SettingsDaemon.ScreensaverProxy.target - GNOME FreeDesktop screensaver target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating service name='org.gnome.Identity' requested by ':1.53' (uid=1000 pid=2236 comm="/usr/libexec/goa-daemon" label="unconfined")
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'org.gnome.Shell.Notifications'
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'org.gnome.OnlineAccounts'
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Started org.gnome.SettingsDaemon.PrintNotifications.service - GNOME printer notifications service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Reached target org.gnome.SettingsDaemon.PrintNotifications.target - GNOME printer notifications target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating via systemd: service name='org.gnome.evolution.dataserver.Calendar8' unit='evolution-calendar-factory.service' requested by ':1.36' (uid=1000 pid=2116 comm="/usr/libexec/gnome-shell-calendar-server" label="unconfined")
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating service name='org.freedesktop.portal.IBus' requested by ':1.57' (uid=1000 pid=2160 comm="/usr/bin/ibus-daemon --panel disable" label="unconfined")
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Starting evolution-calendar-factory.service - Evolution calendar service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Started org.freedesktop.IBus.session.GNOME.service - IBus Daemon for GNOME.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Started gvfs-udisks2-volume-monitor.service - Virtual filesystem service - disk device monitor.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'org.gnome.Identity'
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'org.gnome.Shell.CalendarServer'
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Started org.gnome.SettingsDaemon.Sound.service - GNOME sound sample caching service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Reached target org.gnome.SettingsDaemon.Sound.target - GNOME sound sample caching target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.31' (uid=1000 pid=2048 comm="/usr/bin/gnome-shell" label="unconfined")
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'org.freedesktop.portal.IBus'
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Starting gvfs-mtp-volume-monitor.service - Virtual filesystem service - Media Transfer Protocol monitor...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Started gvfs-mtp-volume-monitor.service - Virtual filesystem service - Media Transfer Protocol monitor.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.31' (uid=1000 pid=2048 comm="/usr/bin/gnome-shell" label="unconfined")
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Starting gvfs-goa-volume-monitor.service - Virtual filesystem service - GNOME Online Accounts monitor...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'org.gnome.evolution.dataserver.Calendar8'
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Started evolution-calendar-factory.service - Evolution calendar service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Started gvfs-goa-volume-monitor.service - Virtual filesystem service - GNOME Online Accounts monitor.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.31' (uid=1000 pid=2048 comm="/usr/bin/gnome-shell" label="unconfined")
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating via systemd: service name='org.gnome.evolution.dataserver.AddressBook10' unit='evolution-addressbook-factory.service' requested by ':1.61' (uid=1000 pid=2373 comm="/usr/libexec/evolution-calendar-factory" label="unconfined")
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Starting gvfs-afc-volume-monitor.service - Virtual filesystem service - Apple File Conduit monitor...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Starting evolution-addressbook-factory.service - Evolution address book service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Started gvfs-afc-volume-monitor.service - Virtual filesystem service - Apple File Conduit monitor.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.31' (uid=1000 pid=2048 comm="/usr/bin/gnome-shell" label="unconfined")
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Starting gvfs-gphoto2-volume-monitor.service - Virtual filesystem service - digital camera monitor...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Started gvfs-gphoto2-volume-monitor.service - Virtual filesystem service - digital camera monitor.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'org.gnome.evolution.dataserver.AddressBook10'
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Started evolution-addressbook-factory.service - Evolution address book service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform polkitd[718]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_TW.UTF-8)
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-shell[2048]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform kernel: /dev/sr0: Can't open blockdev
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform kernel: /dev/sr1: Can't open blockdev
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform udisksd[754]: Mounted /dev/sr1 at /media/kali/Ubuntu 24.04.2 LTS amd64 on behalf of uid 1000
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform kernel: ISO 9660 Extensions: Microsoft Joliet Level 3
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform kernel: ISO 9660 Extensions: RRIP_1991A
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform udisksd[754]: Mounted /dev/sr0 at /media/kali/CDROM on behalf of uid 1000
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform NetworkManager[805]: <info>  [1743951940.7172] agent-manager: agent[d3664a0ad87bd463,:1.81/org.gnome.Shell.NetworkAgent/1000]: agent registered
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating via systemd: service name='ca.desrt.dconf' unit='dconf.service' requested by ':1.31' (uid=1000 pid=2048 comm="/usr/bin/gnome-shell" label="unconfined")
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Starting dconf.service - User preferences database...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'ca.desrt.dconf'
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Started dconf.service - User preferences database.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-shell[2048]: Failed to import DBusMenu, quicklists are not available: Error: Requiring Dbusmenu, version none: Typelib file for namespace 'Dbusmenu' (any version) not found
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-shell[2048]: Failed to import DBusMenu, quicklists are not available: Error: Requiring Dbusmenu, version none: Typelib file for namespace 'Dbusmenu' (any version) not found
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-shell[2048]: Failed to import DBusMenu, quicklists are not available: Error: Requiring Dbusmenu, version none: Typelib file for namespace 'Dbusmenu' (any version) not found
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating service name='org.freedesktop.FileManager1' requested by ':1.31' (uid=1000 pid=2048 comm="/usr/bin/gnome-shell" label="unconfined")
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.31' (uid=1000 pid=2048 comm="/usr/bin/gnome-shell" label="unconfined")
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Starting gvfs-metadata.service - Virtual filesystem metadata service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'org.gtk.vfs.Metadata'
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Started gvfs-metadata.service - Virtual filesystem metadata service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-shell[2048]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-shell[2048]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-shell[2048]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-shell[2048]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-shell[2048]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-shell[2048]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-shell[2048]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-shell[2048]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-shell[2048]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-shell[2048]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-shell[2048]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-shell[2048]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-shell[2048]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-shell[2048]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-shell[2048]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-shell[2048]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-shell[2048]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform gnome-shell[2048]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Started org.gnome.SettingsDaemon.Color.service - GNOME color management service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:40 kali-VMware-Virtual-Platform systemd[1812]: Reached target org.gnome.SettingsDaemon.Color.target - GNOME color management target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform systemd[1812]: Started org.gnome.SettingsDaemon.Keyboard.service - GNOME keyboard configuration service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform systemd[1812]: Reached target org.gnome.SettingsDaemon.Keyboard.target - GNOME keyboard configuration target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2512]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform systemd[1812]: Started org.gnome.SettingsDaemon.Power.service - GNOME power management service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform systemd[1812]: Reached target org.gnome.SettingsDaemon.Power.target - GNOME power management target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2512]: > Warning:          Could not resolve keysym XF86CameraAccessEnable
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2512]: > Warning:          Could not resolve keysym XF86CameraAccessDisable
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2512]: > Warning:          Could not resolve keysym XF86CameraAccessToggle
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2512]: > Warning:          Could not resolve keysym XF86NextElement
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2512]: > Warning:          Could not resolve keysym XF86PreviousElement
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2512]: > Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform nautilus[2495]: Connecting to org.freedesktop.Tracker3.Miner.Files
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2512]: > Warning:          Could not resolve keysym XF86MarkWaypoint
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2512]: > Warning:          Could not resolve keysym XF86Sos
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2512]: > Warning:          Could not resolve keysym XF86NavChart
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2512]: > Warning:          Could not resolve keysym XF86FishingChart
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2512]: > Warning:          Could not resolve keysym XF86SingleRangeRadar
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2512]: > Warning:          Could not resolve keysym XF86DualRangeRadar
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2512]: > Warning:          Could not resolve keysym XF86RadarOverlay
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2512]: > Warning:          Could not resolve keysym XF86TraditionalSonar
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2512]: > Warning:          Could not resolve keysym XF86ClearvuSonar
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2512]: > Warning:          Could not resolve keysym XF86SidevuSonar
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2512]: > Warning:          Could not resolve keysym XF86NavInfo
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2512]: Errors from xkbcomp are not fatal to the X server
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'org.freedesktop.FileManager1'
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform systemd[1812]: Started org.gnome.SettingsDaemon.MediaKeys.service - GNOME keyboard shortcuts service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform systemd[1812]: Reached target org.gnome.SettingsDaemon.MediaKeys.target - GNOME keyboard shortcuts target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform systemd[1812]: Started org.gnome.SettingsDaemon.Wacom.service - GNOME Wacom tablet support service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform systemd[1812]: Reached target org.gnome.SettingsDaemon.Wacom.target - GNOME Wacom tablet support target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform systemd[1812]: Reached target gnome-session.target - GNOME Session.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform systemd[1812]: Reached target gnome-session-wayland@ubuntu.target - GNOME Wayland Session (session: ubuntu).
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform systemd[1812]: Reached target graphical-session.target - Current graphical user session.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform systemd[1812]: gnome-initial-setup-first-login.service - GNOME Initial Setup was skipped because of an unmet condition check (ConditionPathExists=!/home/kali/.config/gnome-initial-setup-done).
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform systemd[1812]: Starting tracker-miner-fs-3.service - Tracker file system data miner...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2048]: GFileInfo created without standard::icon
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2048]: file ../../../gio/gfileinfo.c: line 1765 (g_file_info_get_icon): should not be reached
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2048]: GFileInfo created without standard::icon
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2048]: file ../../../gio/gfileinfo.c: line 1765 (g_file_info_get_icon): should not be reached
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gsd-media-keys[2170]: Failed to grab accelerator for keybinding settings:playback-repeat
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating service name='org.gnome.ScreenSaver' requested by ':1.52' (uid=1000 pid=2171 comm="/usr/libexec/gsd-power" label="unconfined")
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gsd-media-keys[2170]: Failed to grab accelerator for keybinding settings:hibernate
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform rtkit-daemon[1317]: Successfully made thread 2080 of process 2048 owned by '1000' high priority at nice level 0.
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform rtkit-daemon[1317]: Supervising 16 threads of 10 processes of 2 users.
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform rtkit-daemon[1317]: Supervising 15 threads of 9 processes of 2 users.
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform rtkit-daemon[1317]: Supervising 15 threads of 9 processes of 2 users.
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'org.gnome.ScreenSaver'
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform rtkit-daemon[1317]: Successfully made thread 2080 of process 2048 owned by '1000' RT at priority 20.
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform rtkit-daemon[1317]: Supervising 16 threads of 10 processes of 2 users.
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform systemd[1812]: Reached target gnome-session-x11-services.target - GNOME session X11 services.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform systemd[1812]: Starting org.gnome.SettingsDaemon.XSettings.service - GNOME XSettings service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2563]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2563]: > Warning:          Unsupported maximum keycode 708, clipping.
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2563]: >                   X11 cannot support keycodes above 255.
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2563]: > Warning:          Could not resolve keysym XF86CameraAccessEnable
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2563]: > Warning:          Could not resolve keysym XF86CameraAccessDisable
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2563]: > Warning:          Could not resolve keysym XF86CameraAccessToggle
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2563]: > Warning:          Could not resolve keysym XF86NextElement
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2563]: > Warning:          Could not resolve keysym XF86PreviousElement
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2563]: > Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2563]: > Warning:          Could not resolve keysym XF86MarkWaypoint
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2563]: > Warning:          Could not resolve keysym XF86Sos
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2563]: > Warning:          Could not resolve keysym XF86NavChart
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2563]: > Warning:          Could not resolve keysym XF86FishingChart
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2563]: > Warning:          Could not resolve keysym XF86SingleRangeRadar
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2563]: > Warning:          Could not resolve keysym XF86DualRangeRadar
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2563]: > Warning:          Could not resolve keysym XF86RadarOverlay
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2563]: > Warning:          Could not resolve keysym XF86TraditionalSonar
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2563]: > Warning:          Could not resolve keysym XF86ClearvuSonar
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2563]: > Warning:          Could not resolve keysym XF86SidevuSonar
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2563]: > Warning:          Could not resolve keysym XF86NavInfo
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2563]: Errors from xkbcomp are not fatal to the X server
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.75' (uid=1000 pid=2495 comm="/usr/bin/nautilus --gapplication-service" label="nautilus (unconfined)")
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform systemd[1812]: Starting xdg-desktop-portal.service - Portal service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gnome' unit='xdg-desktop-portal-gnome.service' requested by ':1.84' (uid=1000 pid=2564 comm="/usr/libexec/xdg-desktop-portal" label="unconfined")
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform systemd[1812]: Starting xdg-desktop-portal-gnome.service - Portal service (GNOME implementation)...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'org.freedesktop.impl.portal.desktop.gnome'
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform systemd[1812]: Started xdg-desktop-portal-gnome.service - Portal service (GNOME implementation).
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform systemd[1812]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Scheduled restart job, restart counter is at 1.
+░░ Subject: Automatic restarting of a unit has been scheduled
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ Automatic restarting of the unit UNIT has been scheduled, as the result for
+░░ the configured Restart= setting for the unit.
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform systemd[1812]: Started snap.snapd-desktop-integration.snapd-desktop-integration.service - Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform systemd[1812]: Started org.gnome.SettingsDaemon.XSettings.service - GNOME XSettings service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform systemd[1812]: Reached target gnome-session-x11-services-ready.target - GNOME session X11 services.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform tracker-miner-fs-3[2539]: Xlib:  extension "DRI2" missing on display ":0".
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform org.gnome.Shell.Screencast[2140]: Xlib:  extension "DRI2" missing on display ":0".
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform kernel: audit: type=1400 audit(1743951941.581:162): apparmor="DENIED" operation="capable" class="cap" profile="/usr/lib/snapd/snap-confine" pid=2601 comm="snap-confine" capability=12  capname="net_admin"
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform kernel: audit: type=1400 audit(1743951941.583:163): apparmor="DENIED" operation="capable" class="cap" profile="/usr/lib/snapd/snap-confine" pid=2601 comm="snap-confine" capability=38  capname="perfmon"
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform kernel: audit: type=1400 audit(1743951941.594:164): apparmor="DENIED" operation="open" class="file" profile="snap-update-ns.snapd-desktop-integration" name="/proc/2614/maps" pid=2614 comm="5" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2048]: GNOME Shell started at Sun Apr 06 2025 23:05:39 GMT+0800 (台北標準時間)
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2048]: Registering session with GDM
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[1361]: Connection to xwayland lost
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gsd-print-notif[1490]: Error releasing name org.gnome.SettingsDaemon.PrintNotifications: 這個連線已關閉
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gsd-sharing[1462]: Error releasing name org.gnome.SettingsDaemon.Sharing: 這個連線已關閉
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[1361]: Xwayland terminated, exiting since it was mandatory
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[1361]: JS ERROR: Gio.IOErrorEnum: Xwayland exited unexpectedly
+                                                                  @resource:///org/gnome/shell/ui/init.js:21:20
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[1361]: Execution of main.js threw exception: Module resource:///org/gnome/shell/ui/init.js threw an exception
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gsd-a11y-settin[1560]: Error releasing name org.gnome.SettingsDaemon.A11ySettings: 這個連線已關閉
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gsd-datetime[1525]: Error releasing name org.gnome.SettingsDaemon.Datetime: 這個連線已關閉
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gsd-screensaver[1538]: Error releasing name org.freedesktop.ScreenSaver: 這個連線已關閉
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gnome-shell[2048]: Launching DING process
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gdm-launch-environment][1237]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform systemd-logind[753]: Session c1 logged out. Waiting for processes to exit.
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform polkitd[718]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.44, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_TW.UTF-8) (disconnected from bus)
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform systemd[1]: session-c1.scope: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit session-c1.scope has successfully entered the 'dead' state.
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform systemd[1]: session-c1.scope: Consumed 2.304s CPU time.
+░░ Subject: Resources consumed by unit runtime
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit session-c1.scope completed and consumed the indicated resources.
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform systemd-logind[753]: Removed session c1.
+░░ Subject: 工作階段 c1 已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ Documentation: sd-login(3)
+░░ 
+░░ 一個工作階段，ID c1 已結束。
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gdm3[1229]: Gdm: Child process -1289 was already dead.
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform gdm3[1229]: Gdm: on_display_removed: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform rtkit-daemon[1317]: Supervising 15 threads of 9 processes of 2 users.
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform rtkit-daemon[1317]: Supervising 15 threads of 9 processes of 2 users.
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform rtkit-daemon[1317]: Supervising 15 threads of 9 processes of 2 users.
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.84' (uid=1000 pid=2564 comm="/usr/libexec/xdg-desktop-portal" label="unconfined")
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform systemd[1812]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform snapd-desktop-i[2675]: New theme: gtk=Yaru icon=Yaru cursor=Yaru, sound=Yaru
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform snapd-desktop-i[2675]: All available theme snaps installed
+ 4月 06 23:05:41 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'org.gnome.Shell.Screencast'
+ 4月 06 23:05:42 kali-VMware-Virtual-Platform systemd[1812]: Started tracker-miner-fs-3.service - Tracker file system data miner.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:42 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'org.freedesktop.impl.portal.desktop.gtk'
+ 4月 06 23:05:42 kali-VMware-Virtual-Platform systemd[1812]: Started xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:42 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'org.freedesktop.portal.Desktop'
+ 4月 06 23:05:42 kali-VMware-Virtual-Platform systemd[1812]: Started xdg-desktop-portal.service - Portal service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:42 kali-VMware-Virtual-Platform gnome-shell[2048]: DING: Detected async api for thumbnails
+ 4月 06 23:05:42 kali-VMware-Virtual-Platform gnome-shell[2048]: DING: (gjs:2671): Gjs-WARNING **: 23:05:42.340: GLib.unix_signal_add has been moved to a separate platform-specific library. Please update your code to use GLibUnix.signal_add instead.
+ 4月 06 23:05:42 kali-VMware-Virtual-Platform gnome-shell[2048]: DING: 0 DesktopManager() ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/desktopManager.js":264:12]
+ 4月 06 23:05:42 kali-VMware-Virtual-Platform gnome-shell[2048]: DING: 1 anonymous() ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js":180:25]
+ 4月 06 23:05:42 kali-VMware-Virtual-Platform gnome-shell[2048]: DING: 2 anonymous() ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js":197:20]
+ 4月 06 23:05:42 kali-VMware-Virtual-Platform gnome-shell[2048]: DING: 3 <TOP LEVEL> ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js":206:12]
+ 4月 06 23:05:42 kali-VMware-Virtual-Platform gnome-shell[2048]: DING: DBus interface for Switcheroo control (net.hadess.SwitcherooControl) is now available.
+ 4月 06 23:05:42 kali-VMware-Virtual-Platform gnome-shell[2048]: DING: DBus interface for Nautilus (org.gnome.Nautilus.FileOperations2) is now available.
+ 4月 06 23:05:42 kali-VMware-Virtual-Platform gnome-shell[2048]: DING: DBus interface for Nautilus (org.freedesktop.FileManager1) is now available.
+ 4月 06 23:05:42 kali-VMware-Virtual-Platform gnome-shell[2048]: DING: DBus interface for Gvfs daemon (org.gtk.vfs.Metadata) is now available.
+ 4月 06 23:05:42 kali-VMware-Virtual-Platform gnome-shell[2048]: DING: ** Message: 23:05:42.395: Connecting to org.freedesktop.Tracker3.Miner.Files
+ 4月 06 23:05:42 kali-VMware-Virtual-Platform gnome-shell[2048]: DING: GNOME nautilus 46.2
+ 4月 06 23:05:42 kali-VMware-Virtual-Platform gnome-shell[2048]: Received notification for window. 0 notifications remaining.
+ 4月 06 23:05:42 kali-VMware-Virtual-Platform systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1]: Stopping user@120.service - User Manager for UID 120...
+░░ Subject: 單位 user@120.service 已開始關閉
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 user@120.service 已開始關閉。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Activating special unit exit.target...
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Stopped target default.target - Main User Target.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Stopped target sound.target - Sound Card.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Stopping dbus.service - D-Bus User Message Bus...
+░░ Subject: 單位 UNIT 已開始關閉
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始關閉。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Stopping filter-chain.service - PipeWire filter chain daemon...
+░░ Subject: 單位 UNIT 已開始關閉
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始關閉。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+░░ Subject: 單位 UNIT 已開始關閉
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始關閉。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Stopping xdg-document-portal.service - flatpak document portal service...
+░░ Subject: 單位 UNIT 已開始關閉
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始關閉。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Stopping xdg-permission-store.service - sandboxed app permission store...
+░░ Subject: 單位 UNIT 已開始關閉
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始關閉。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Stopped filter-chain.service - PipeWire filter chain daemon.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Stopped dbus.service - D-Bus User Message Bus.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1]: run-user-120-doc.mount: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit run-user-120-doc.mount has successfully entered the 'dead' state.
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: xdg-permission-store.service: Main process exited, code=exited, status=1/FAILURE
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ An ExecStart= process belonging to unit UNIT has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 1.
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: xdg-permission-store.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit UNIT has entered the 'failed' state with result 'exit-code'.
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Stopped xdg-permission-store.service - sandboxed app permission store.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Stopping wireplumber.service - Multimedia Service Session Manager...
+░░ Subject: 單位 UNIT 已開始關閉
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始關閉。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform wireplumber[1286]: stopped by signal: 終止
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: xdg-document-portal.service: Main process exited, code=exited, status=20/n/a
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ An ExecStart= process belonging to unit UNIT has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 20.
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform wireplumber[1286]: disconnected from pipewire
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: xdg-document-portal.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit UNIT has entered the 'failed' state with result 'exit-code'.
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Stopped xdg-document-portal.service - flatpak document portal service.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Stopped wireplumber.service - Multimedia Service Session Manager.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Stopping pipewire.service - PipeWire Multimedia Service...
+░░ Subject: 單位 UNIT 已開始關閉
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始關閉。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Stopped pipewire.service - PipeWire Multimedia Service.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Removed slice session.slice - User Core Session Slice.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Stopped target basic.target - Basic System.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Stopped target paths.target - Paths.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Stopped ubuntu-report.path - Pending report trigger for Ubuntu Report.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Stopped target sockets.target - Sockets.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Stopped target timers.target - Timers.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Stopped launchpadlib-cache-clean.timer - Clean up old files in the Launchpadlib cache.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Stopped snap.firmware-updater.firmware-notifier.timer - Timer firmware-notifier for snap application firmware-updater.firmware-notifier.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Closed dbus.socket - D-Bus User Message Bus Socket.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Closed gnome-keyring-daemon.socket - GNOME Keyring daemon.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+░░ Subject: 單位 UNIT 已開始關閉
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始關閉。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Closed keyboxd.socket - GnuPG public key management service.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Closed pipewire-pulse.socket - PipeWire PulseAudio.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Closed pipewire.socket - PipeWire Multimedia System Sockets.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Closed pk-debconf-helper.socket - debconf communication socket.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Closed snapd.session-agent.socket - REST API socket for snapd user session agent.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Closed speech-dispatcher.socket - Speech Dispatcher Socket.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Removed slice app.slice - User Application Slice.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Reached target shutdown.target - Shutdown.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Finished systemd-exit.service - Exit the Session.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1245]: Reached target exit.target - Exit the Session.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1]: user@120.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit user@120.service has successfully entered the 'dead' state.
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1]: Stopped user@120.service - User Manager for UID 120.
+░░ Subject: 單位 user@120.service 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 user@120.service 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1]: Stopping user-runtime-dir@120.service - User Runtime Directory /run/user/120...
+░░ Subject: 單位 user-runtime-dir@120.service 已開始關閉
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 user-runtime-dir@120.service 已開始關閉。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1]: run-user-120.mount: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit run-user-120.mount has successfully entered the 'dead' state.
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1]: user-runtime-dir@120.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit user-runtime-dir@120.service has successfully entered the 'dead' state.
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1]: Stopped user-runtime-dir@120.service - User Runtime Directory /run/user/120.
+░░ Subject: 單位 user-runtime-dir@120.service 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 user-runtime-dir@120.service 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1]: Removed slice user-120.slice - User Slice of UID 120.
+░░ Subject: 單位 user-120.slice 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 user-120.slice 已關閉結束。
+ 4月 06 23:05:51 kali-VMware-Virtual-Platform systemd[1]: user-120.slice: Consumed 2.818s CPU time.
+░░ Subject: Resources consumed by unit runtime
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit user-120.slice completed and consumed the indicated resources.
+ 4月 06 23:05:57 kali-VMware-Virtual-Platform tracker-miner-fs-3[2797]: (tracker-extract-3:2797): GLib-GIO-WARNING **: 23:05:57.808: Error creating IO channel for /proc/self/mountinfo: 不適用的引數 (g-io-error-quark, 13)
+ 4月 06 23:06:03 kali-VMware-Virtual-Platform systemd-timesyncd[591]: Contacted time server 185.125.190.56:123 (ntp.ubuntu.com).
+ 4月 06 23:06:03 kali-VMware-Virtual-Platform systemd-timesyncd[591]: Initial clock synchronization to Sun 2025-04-06 23:06:03.242278 CST.
+░░ Subject: Initial clock synchronization
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ For the first time during the current boot an NTP synchronization has been
+░░ acquired and the local system clock adjustment has been initiated.
+ 4月 06 23:06:03 kali-VMware-Virtual-Platform systemd-resolved[586]: Clock change detected. Flushing caches.
+ 4月 06 23:06:05 kali-VMware-Virtual-Platform systemd[1]: systemd-timedated.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit systemd-timedated.service has successfully entered the 'dead' state.
+ 4月 06 23:06:06 kali-VMware-Virtual-Platform systemd[1]: fprintd.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit fprintd.service has successfully entered the 'dead' state.
+ 4月 06 23:06:07 kali-VMware-Virtual-Platform systemd[1812]: Started app-gnome-org.gnome.Settings-2817.scope - Application launched by gnome-shell.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:06:07 kali-VMware-Virtual-Platform gnome-shell[2048]: Invalid sequence for VSYNC frame info
+ 4月 06 23:06:11 kali-VMware-Virtual-Platform systemd[1]: systemd-localed.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit systemd-localed.service has successfully entered the 'dead' state.
+ 4月 06 23:06:15 kali-VMware-Virtual-Platform systemd[1812]: Starting gnome-remote-desktop.service - GNOME Remote Desktop...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:06:15 kali-VMware-Virtual-Platform systemd[1812]: Started gnome-remote-desktop.service - GNOME Remote Desktop.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:06:15 kali-VMware-Virtual-Platform gnome-remote-de[2862]: RDP server started
+ 4月 06 23:06:26 kali-VMware-Virtual-Platform systemd[1812]: Stopping gnome-remote-desktop.service - GNOME Remote Desktop...
+░░ Subject: 單位 UNIT 已開始關閉
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始關閉。
+ 4月 06 23:06:26 kali-VMware-Virtual-Platform gnome-remote-de[2862]: RDP server stopped
+ 4月 06 23:06:26 kali-VMware-Virtual-Platform systemd[1812]: Stopped gnome-remote-desktop.service - GNOME Remote Desktop.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 06 23:06:36 kali-VMware-Virtual-Platform geoclue[1683]: Service not used for 60 seconds. Shutting down..
+ 4月 06 23:06:36 kali-VMware-Virtual-Platform systemd[1]: geoclue.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit geoclue.service has successfully entered the 'dead' state.
+ 4月 06 23:06:37 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:41 kali-VMware-Virtual-Platform systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit systemd-hostnamed.service has successfully entered the 'dead' state.
+ 4月 06 23:06:41 kali-VMware-Virtual-Platform systemd[1812]: Started app-gnome-ubuntu\x2dadvantage\x2dnotification-2884.scope - Application launched by gnome-session-binary.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:06:41 kali-VMware-Virtual-Platform systemd[1812]: Started app-gnome-update\x2dnotifier-2887.scope - Application launched by gnome-session-binary.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform org.gnome.Settings.desktop[2817]: context mismatch in svga_surface_destroy
+ 4月 06 23:06:43 kali-VMware-Virtual-Platform systemd[1812]: app-gnome-org.gnome.Settings-2817.scope: Consumed 2.841s CPU time.
+░░ Subject: Resources consumed by unit runtime
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit UNIT completed and consumed the indicated resources.
+ 4月 06 23:06:45 kali-VMware-Virtual-Platform systemd[1812]: Started app-gnome-org.gnome.Terminal-2948.scope - Application launched by gnome-shell.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:06:46 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.109' (uid=1000 pid=2952 comm="/usr/bin/gnome-terminal.real" label="unconfined")
+ 4月 06 23:06:46 kali-VMware-Virtual-Platform systemd[1812]: Created slice app-org.gnome.Terminal.slice - Slice /app/org.gnome.Terminal.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:06:46 kali-VMware-Virtual-Platform systemd[1812]: Starting gnome-terminal-server.service - GNOME Terminal Server...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 06 23:06:46 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'org.gnome.Terminal'
+ 4月 06 23:06:46 kali-VMware-Virtual-Platform systemd[1812]: Started gnome-terminal-server.service - GNOME Terminal Server.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:06:46 kali-VMware-Virtual-Platform gnome-shell[2048]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+ 4月 06 23:06:46 kali-VMware-Virtual-Platform systemd[1812]: Started vte-spawn-cf57e29d-5efd-4e64-aabf-a959ee1b6c96.scope - VTE child process 2965 launched by gnome-terminal-server process 2958.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:07:24 kali-VMware-Virtual-Platform sudo[2981]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt install nfs-kernel-server
+ 4月 06 23:07:24 kali-VMware-Virtual-Platform sudo[2981]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:07:31 kali-VMware-Virtual-Platform adduser[3064]: The home dir /run/rpcbind you specified can't be accessed: No such file or directory
+ 4月 06 23:07:31 kali-VMware-Virtual-Platform adduser[3064]: Selecting UID from range 100 to 999 ...
+ 4月 06 23:07:31 kali-VMware-Virtual-Platform adduser[3064]: Adding system user `_rpc' (UID 122) ...
+ 4月 06 23:07:31 kali-VMware-Virtual-Platform adduser[3064]: Adding new user `_rpc' (UID 122) with group `nogroup' ...
+ 4月 06 23:07:31 kali-VMware-Virtual-Platform useradd[3069]: new user: name=_rpc, UID=122, GID=65534, home=/run/rpcbind, shell=/usr/sbin/nologin, from=/dev/pts/2
+ 4月 06 23:07:31 kali-VMware-Virtual-Platform adduser[3064]: Not creating home directory `/run/rpcbind'.
+ 4月 06 23:07:31 kali-VMware-Virtual-Platform systemd[1]: Reloading requested from client PID 3080 ('systemctl') (unit user@1000.service)...
+ 4月 06 23:07:31 kali-VMware-Virtual-Platform systemd[1]: Reloading...
+ 4月 06 23:07:31 kali-VMware-Virtual-Platform systemd[1]: Reloading finished in 179 ms.
+ 4月 06 23:07:31 kali-VMware-Virtual-Platform systemd[1]: Reloading requested from client PID 3222 ('systemctl') (unit user@1000.service)...
+ 4月 06 23:07:31 kali-VMware-Virtual-Platform systemd[1]: Reloading...
+ 4月 06 23:07:31 kali-VMware-Virtual-Platform systemd[1]: Reloading finished in 175 ms.
+ 4月 06 23:07:31 kali-VMware-Virtual-Platform systemd[1]: Listening on rpcbind.socket - RPCbind Server Activation Socket.
+░░ Subject: 單位 rpcbind.socket 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 rpcbind.socket 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:07:31 kali-VMware-Virtual-Platform systemd[1]: Starting rpcbind.service - RPC bind portmap service...
+░░ Subject: 單位 rpcbind.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 rpcbind.service 已開始啟動。
+ 4月 06 23:07:31 kali-VMware-Virtual-Platform systemd[1]: Started rpcbind.service - RPC bind portmap service.
+░░ Subject: 單位 rpcbind.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 rpcbind.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:07:31 kali-VMware-Virtual-Platform systemd[1]: Reached target remote-fs-pre.target - Preparation for Remote File Systems.
+░░ Subject: 單位 remote-fs-pre.target 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 remote-fs-pre.target 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:07:31 kali-VMware-Virtual-Platform systemd[1]: Reached target rpcbind.target - RPC Port Mapper.
+░░ Subject: 單位 rpcbind.target 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 rpcbind.target 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:07:32 kali-VMware-Virtual-Platform adduser[3632]: Selecting UID from range 100 to 999 ...
+ 4月 06 23:07:32 kali-VMware-Virtual-Platform adduser[3632]: Adding system user `statd' (UID 123) ...
+ 4月 06 23:07:32 kali-VMware-Virtual-Platform adduser[3632]: Adding new user `statd' (UID 123) with group `nogroup' ...
+ 4月 06 23:07:32 kali-VMware-Virtual-Platform useradd[3636]: new user: name=statd, UID=123, GID=65534, home=/var/lib/nfs, shell=/usr/sbin/nologin, from=/dev/pts/2
+ 4月 06 23:07:32 kali-VMware-Virtual-Platform adduser[3632]: Not creating home directory `/var/lib/nfs'.
+ 4月 06 23:07:32 kali-VMware-Virtual-Platform systemd[1]: Reloading requested from client PID 3647 ('systemctl') (unit user@1000.service)...
+ 4月 06 23:07:32 kali-VMware-Virtual-Platform systemd[1]: Reloading...
+ 4月 06 23:07:32 kali-VMware-Virtual-Platform systemd[1]: Reloading finished in 176 ms.
+ 4月 06 23:07:32 kali-VMware-Virtual-Platform systemd[1]: Reloading requested from client PID 3786 ('systemctl') (unit user@1000.service)...
+ 4月 06 23:07:32 kali-VMware-Virtual-Platform systemd[1]: Reloading...
+ 4月 06 23:07:32 kali-VMware-Virtual-Platform systemd[1]: Reloading finished in 178 ms.
+ 4月 06 23:07:32 kali-VMware-Virtual-Platform systemd[1]: Mounting run-rpc_pipefs.mount - RPC Pipe File System...
+░░ Subject: 單位 run-rpc_pipefs.mount 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 run-rpc_pipefs.mount 已開始啟動。
+ 4月 06 23:07:32 kali-VMware-Virtual-Platform systemd[1]: auth-rpcgss-module.service - Kernel Module supporting RPCSEC_GSS was skipped because of an unmet condition check (ConditionPathExists=/etc/krb5.keytab).
+░░ Subject: 單位 auth-rpcgss-module.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 auth-rpcgss-module.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:07:32 kali-VMware-Virtual-Platform systemd[1]: Starting rpc-statd-notify.service - Notify NFS peers of a restart...
+░░ Subject: 單位 rpc-statd-notify.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 rpc-statd-notify.service 已開始啟動。
+ 4月 06 23:07:32 kali-VMware-Virtual-Platform sm-notify[3947]: Version 2.6.4 starting
+ 4月 06 23:07:32 kali-VMware-Virtual-Platform systemd[1]: Started rpc-statd-notify.service - Notify NFS peers of a restart.
+░░ Subject: 單位 rpc-statd-notify.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 rpc-statd-notify.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:07:32 kali-VMware-Virtual-Platform kernel: RPC: Registered named UNIX socket transport module.
+ 4月 06 23:07:32 kali-VMware-Virtual-Platform kernel: RPC: Registered udp transport module.
+ 4月 06 23:07:32 kali-VMware-Virtual-Platform kernel: RPC: Registered tcp transport module.
+ 4月 06 23:07:32 kali-VMware-Virtual-Platform kernel: RPC: Registered tcp-with-tls transport module.
+ 4月 06 23:07:32 kali-VMware-Virtual-Platform kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+ 4月 06 23:07:32 kali-VMware-Virtual-Platform systemd[1]: Mounted run-rpc_pipefs.mount - RPC Pipe File System.
+░░ Subject: 單位 run-rpc_pipefs.mount 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 run-rpc_pipefs.mount 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:07:32 kali-VMware-Virtual-Platform systemd[1]: Reached target rpc_pipefs.target.
+░░ Subject: 單位 rpc_pipefs.target 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 rpc_pipefs.target 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:07:32 kali-VMware-Virtual-Platform systemd[1]: rpc-gssd.service - RPC security service for NFS client and server was skipped because of an unmet condition check (ConditionPathExists=/etc/krb5.keytab).
+░░ Subject: 單位 rpc-gssd.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 rpc-gssd.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:07:32 kali-VMware-Virtual-Platform systemd[1]: Reached target nfs-client.target - NFS client services.
+░░ Subject: 單位 nfs-client.target 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-client.target 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform systemd[1]: Reloading requested from client PID 3968 ('systemctl') (unit user@1000.service)...
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform systemd[1]: Reloading...
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform systemd[1]: Reloading finished in 182 ms.
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform systemd[1]: Started fsidd.service - NFS FSID Daemon.
+░░ Subject: 單位 fsidd.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 fsidd.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform systemd[1]: Starting nfs-blkmap.service - pNFS block layout mapping daemon...
+░░ Subject: 單位 nfs-blkmap.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-blkmap.service 已開始啟動。
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform systemd[1]: Mounting proc-fs-nfsd.mount - NFSD configuration filesystem...
+░░ Subject: 單位 proc-fs-nfsd.mount 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 proc-fs-nfsd.mount 已開始啟動。
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform systemd[1]: auth-rpcgss-module.service - Kernel Module supporting RPCSEC_GSS was skipped because of an unmet condition check (ConditionPathExists=/etc/krb5.keytab).
+░░ Subject: 單位 auth-rpcgss-module.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 auth-rpcgss-module.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform blkmapd[4120]: open pipe file /run/rpc_pipefs/nfs/blocklayout failed: No such file or directory
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform systemd[1]: Starting nfs-idmapd.service - NFSv4 ID-name mapping service...
+░░ Subject: 單位 nfs-idmapd.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-idmapd.service 已開始啟動。
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform systemd[1]: rpc-gssd.service - RPC security service for NFS client and server was skipped because of an unmet condition check (ConditionPathExists=/etc/krb5.keytab).
+░░ Subject: 單位 rpc-gssd.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 rpc-gssd.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform systemd[1]: Starting rpc-statd.service - NFS status monitor for NFSv2/3 locking....
+░░ Subject: 單位 rpc-statd.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 rpc-statd.service 已開始啟動。
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform systemd[1]: rpc-svcgssd.service - RPC security service for NFS server was skipped because of an unmet condition check (ConditionPathExists=/etc/krb5.keytab).
+░░ Subject: 單位 rpc-svcgssd.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 rpc-svcgssd.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform systemd[1]: Started nfs-blkmap.service - pNFS block layout mapping daemon.
+░░ Subject: 單位 nfs-blkmap.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-blkmap.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform rpc.idmapd[4124]: Setting log level to 0
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform rpc.idmapd[4124]: libnfsidmap: Unable to determine the NFSv4 domain; Using 'localdomain' as the NFSv4 domain which means UIDs will be mapped to the 'Nobody-User' user defined in /etc/idmapd.conf
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform systemd[1]: Started nfs-idmapd.service - NFSv4 ID-name mapping service.
+░░ Subject: 單位 nfs-idmapd.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-idmapd.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform rpc.statd[4129]: Version 2.6.4 starting
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform rpc.statd[4129]: Flags: TI-RPC
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform rpc.statd[4129]: Failed to read /var/lib/nfs/state: No such file or directory
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform rpc.statd[4129]: Initializing NSM state
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform systemd[1]: Started rpc-statd.service - NFS status monitor for NFSv2/3 locking..
+░░ Subject: 單位 rpc-statd.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 rpc-statd.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform systemd[1]: Mounted proc-fs-nfsd.mount - NFSD configuration filesystem.
+░░ Subject: 單位 proc-fs-nfsd.mount 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 proc-fs-nfsd.mount 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform systemd[1]: Starting nfs-mountd.service - NFS Mount Daemon...
+░░ Subject: 單位 nfs-mountd.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-mountd.service 已開始啟動。
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform systemd[1]: Starting nfsdcld.service - NFSv4 Client Tracking Daemon...
+░░ Subject: 單位 nfsdcld.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfsdcld.service 已開始啟動。
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform systemd[1]: Started nfsdcld.service - NFSv4 Client Tracking Daemon.
+░░ Subject: 單位 nfsdcld.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfsdcld.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform rpc.mountd[4136]: Version 2.6.4 starting
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform systemd[1]: Started nfs-mountd.service - NFS Mount Daemon.
+░░ Subject: 單位 nfs-mountd.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-mountd.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform systemd[1]: Starting nfs-server.service - NFS server and services...
+░░ Subject: 單位 nfs-server.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-server.service 已開始啟動。
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform exportfs[4138]: exportfs: can't open /etc/exports for reading
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform kernel: NFSD: Using nfsdcld client tracking operations.
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform kernel: NFSD: no clients to reclaim, skipping NFSv4 grace period (net f0000000)
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform systemd[1]: Finished nfs-server.service - NFS server and services.
+░░ Subject: 單位 nfs-server.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-server.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform systemd[1]: Reloading requested from client PID 4326 ('systemctl') (unit user@1000.service)...
+ 4月 06 23:07:33 kali-VMware-Virtual-Platform systemd[1]: Reloading...
+ 4月 06 23:07:34 kali-VMware-Virtual-Platform systemd[1]: Reloading finished in 188 ms.
+ 4月 06 23:07:34 kali-VMware-Virtual-Platform systemd[1]: auth-rpcgss-module.service - Kernel Module supporting RPCSEC_GSS was skipped because of an unmet condition check (ConditionPathExists=/etc/krb5.keytab).
+░░ Subject: 單位 auth-rpcgss-module.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 auth-rpcgss-module.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:07:34 kali-VMware-Virtual-Platform systemd[1]: rpc-gssd.service - RPC security service for NFS client and server was skipped because of an unmet condition check (ConditionPathExists=/etc/krb5.keytab).
+░░ Subject: 單位 rpc-gssd.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 rpc-gssd.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:07:34 kali-VMware-Virtual-Platform systemd[1]: rpc-svcgssd.service - RPC security service for NFS server was skipped because of an unmet condition check (ConditionPathExists=/etc/krb5.keytab).
+░░ Subject: 單位 rpc-svcgssd.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 rpc-svcgssd.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:07:35 kali-VMware-Virtual-Platform sudo[2981]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:08:29 kali-VMware-Virtual-Platform sudo[4515]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/mkdir -p /srv/nfs/shared
+ 4月 06 23:08:29 kali-VMware-Virtual-Platform sudo[4515]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:08:29 kali-VMware-Virtual-Platform sudo[4515]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:08:46 kali-VMware-Virtual-Platform sudo[4525]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/chown nobody:nogroup /srv/nfs/shared/
+ 4月 06 23:08:46 kali-VMware-Virtual-Platform sudo[4525]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:08:46 kali-VMware-Virtual-Platform sudo[4525]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:09:02 kali-VMware-Virtual-Platform sudo[4538]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/chmod 755 /srv/nfs/shared/
+ 4月 06 23:09:02 kali-VMware-Virtual-Platform sudo[4538]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:09:02 kali-VMware-Virtual-Platform sudo[4538]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:09:58 kali-VMware-Virtual-Platform sudo[4550]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/nano /etc/exports
+ 4月 06 23:09:58 kali-VMware-Virtual-Platform sudo[4550]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:10:06 kali-VMware-Virtual-Platform systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+░░ Subject: 單位 sysstat-collect.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 sysstat-collect.service 已開始啟動。
+ 4月 06 23:10:06 kali-VMware-Virtual-Platform systemd[1]: sysstat-collect.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit sysstat-collect.service has successfully entered the 'dead' state.
+ 4月 06 23:10:06 kali-VMware-Virtual-Platform systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+░░ Subject: 單位 sysstat-collect.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 sysstat-collect.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:10:33 kali-VMware-Virtual-Platform systemd[1]: Starting update-notifier-download.service - Download data for packages that failed at package install time...
+░░ Subject: 單位 update-notifier-download.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 update-notifier-download.service 已開始啟動。
+ 4月 06 23:10:33 kali-VMware-Virtual-Platform systemd[1]: update-notifier-download.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit update-notifier-download.service has successfully entered the 'dead' state.
+ 4月 06 23:10:33 kali-VMware-Virtual-Platform systemd[1]: Finished update-notifier-download.service - Download data for packages that failed at package install time.
+░░ Subject: 單位 update-notifier-download.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 update-notifier-download.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:10:35 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.17' (uid=0 pid=731 comm="/usr/lib/snapd/snapd" label="unconfined")
+ 4月 06 23:10:35 kali-VMware-Virtual-Platform systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+░░ Subject: 單位 systemd-timedated.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 systemd-timedated.service 已開始啟動。
+ 4月 06 23:10:35 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Successfully activated service 'org.freedesktop.timedate1'
+ 4月 06 23:10:35 kali-VMware-Virtual-Platform systemd[1]: Started systemd-timedated.service - Time & Date Service.
+░░ Subject: 單位 systemd-timedated.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 systemd-timedated.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:11:05 kali-VMware-Virtual-Platform systemd[1]: systemd-timedated.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit systemd-timedated.service has successfully entered the 'dead' state.
+ 4月 06 23:11:06 kali-VMware-Virtual-Platform sudo[4550]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:11:06 kali-VMware-Virtual-Platform systemd[1812]: launchpadlib-cache-clean.service - Clean up old files in the Launchpadlib cache was skipped because of an unmet condition check (ConditionPathExists=/home/kali/.launchpadlib/api.launchpad.net/cache).
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:12:41 kali-VMware-Virtual-Platform PackageKit[1454]: daemon quit
+ 4月 06 23:12:41 kali-VMware-Virtual-Platform systemd[1]: packagekit.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit packagekit.service has successfully entered the 'dead' state.
+ 4月 06 23:13:09 kali-VMware-Virtual-Platform systemd[1812]: Started app-gnome-org.gnome.TextEditor-4578.scope - Application launched by gnome-shell.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:13:47 kali-VMware-Virtual-Platform sudo[4606]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/nano /etc/exports
+ 4月 06 23:13:47 kali-VMware-Virtual-Platform sudo[4606]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:15:01 kali-VMware-Virtual-Platform CRON[4613]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+ 4月 06 23:15:01 kali-VMware-Virtual-Platform CRON[4614]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+ 4月 06 23:15:01 kali-VMware-Virtual-Platform CRON[4613]: pam_unix(cron:session): session closed for user root
+ 4月 06 23:15:31 kali-VMware-Virtual-Platform sudo[4606]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:15:39 kali-VMware-Virtual-Platform sudo[4619]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/nano /etc/exports
+ 4月 06 23:15:39 kali-VMware-Virtual-Platform sudo[4619]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:16:06 kali-VMware-Virtual-Platform sudo[4619]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:16:20 kali-VMware-Virtual-Platform sudo[4635]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/sbin/exportfs -ra
+ 4月 06 23:16:20 kali-VMware-Virtual-Platform sudo[4635]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:16:20 kali-VMware-Virtual-Platform sudo[4635]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform sudo[4638]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl restart nfs-server
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform sudo[4638]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform systemd[1]: auth-rpcgss-module.service - Kernel Module supporting RPCSEC_GSS was skipped because of an unmet condition check (ConditionPathExists=/etc/krb5.keytab).
+░░ Subject: 單位 auth-rpcgss-module.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 auth-rpcgss-module.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform systemd[1]: Stopping nfs-server.service - NFS server and services...
+░░ Subject: 單位 nfs-server.service 已開始關閉
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-server.service 已開始關閉。
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform systemd[1]: nfs-server.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit nfs-server.service has successfully entered the 'dead' state.
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform systemd[1]: Stopped nfs-server.service - NFS server and services.
+░░ Subject: 單位 nfs-server.service 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-server.service 已關閉結束。
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform rpc.idmapd[4124]: exiting on signal 15
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform systemd[1]: Stopping nfs-idmapd.service - NFSv4 ID-name mapping service...
+░░ Subject: 單位 nfs-idmapd.service 已開始關閉
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-idmapd.service 已開始關閉。
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform systemd[1]: Stopping nfs-mountd.service - NFS Mount Daemon...
+░░ Subject: 單位 nfs-mountd.service 已開始關閉
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-mountd.service 已開始關閉。
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform systemd[1]: rpc-gssd.service - RPC security service for NFS client and server was skipped because of an unmet condition check (ConditionPathExists=/etc/krb5.keytab).
+░░ Subject: 單位 rpc-gssd.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 rpc-gssd.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform systemd[1]: rpc-svcgssd.service - RPC security service for NFS server was skipped because of an unmet condition check (ConditionPathExists=/etc/krb5.keytab).
+░░ Subject: 單位 rpc-svcgssd.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 rpc-svcgssd.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform systemd[1]: nfs-idmapd.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit nfs-idmapd.service has successfully entered the 'dead' state.
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform rpc.mountd[4136]: Caught signal 15, un-registering and exiting.
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform systemd[1]: Stopped nfs-idmapd.service - NFSv4 ID-name mapping service.
+░░ Subject: 單位 nfs-idmapd.service 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-idmapd.service 已關閉結束。
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform systemd[1]: Starting nfs-idmapd.service - NFSv4 ID-name mapping service...
+░░ Subject: 單位 nfs-idmapd.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-idmapd.service 已開始啟動。
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform systemd[1]: nfs-mountd.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit nfs-mountd.service has successfully entered the 'dead' state.
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform systemd[1]: Stopped nfs-mountd.service - NFS Mount Daemon.
+░░ Subject: 單位 nfs-mountd.service 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-mountd.service 已關閉結束。
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform systemd[1]: Starting nfs-mountd.service - NFS Mount Daemon...
+░░ Subject: 單位 nfs-mountd.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-mountd.service 已開始啟動。
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform rpc.idmapd[4656]: Setting log level to 0
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform rpc.idmapd[4656]: libnfsidmap: Unable to determine the NFSv4 domain; Using 'localdomain' as the NFSv4 domain which means UIDs will be mapped to the 'Nobody-User' user defined in /etc/idmapd.conf
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform systemd[1]: Started nfs-idmapd.service - NFSv4 ID-name mapping service.
+░░ Subject: 單位 nfs-idmapd.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-idmapd.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform rpc.mountd[4658]: Version 2.6.4 starting
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform systemd[1]: Started nfs-mountd.service - NFS Mount Daemon.
+░░ Subject: 單位 nfs-mountd.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-mountd.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform systemd[1]: Starting nfs-server.service - NFS server and services...
+░░ Subject: 單位 nfs-server.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-server.service 已開始啟動。
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform kernel: NFSD: Using nfsdcld client tracking operations.
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform kernel: NFSD: no clients to reclaim, skipping NFSv4 grace period (net f0000000)
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform systemd[1]: Finished nfs-server.service - NFS server and services.
+░░ Subject: 單位 nfs-server.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-server.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:16:39 kali-VMware-Virtual-Platform sudo[4638]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:16:58 kali-VMware-Virtual-Platform sudo[4673]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl status nfs-server
+ 4月 06 23:16:58 kali-VMware-Virtual-Platform sudo[4673]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:17:01 kali-VMware-Virtual-Platform CRON[4677]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+ 4月 06 23:17:01 kali-VMware-Virtual-Platform CRON[4678]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+ 4月 06 23:17:01 kali-VMware-Virtual-Platform CRON[4677]: pam_unix(cron:session): session closed for user root
+ 4月 06 23:17:29 kali-VMware-Virtual-Platform sudo[4673]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:17:55 kali-VMware-Virtual-Platform sudo[4681]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/sbin/exportfs -v
+ 4月 06 23:17:55 kali-VMware-Virtual-Platform sudo[4681]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:17:55 kali-VMware-Virtual-Platform sudo[4681]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:18:07 kali-VMware-Virtual-Platform systemd[1812]: Started vte-spawn-2ef99619-9523-44ae-9aab-28e8c10a7d8a.scope - VTE child process 4685 launched by gnome-terminal-server process 2958.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:18:26 kali-VMware-Virtual-Platform sudo[4692]:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt install nfs-common
+ 4月 06 23:18:26 kali-VMware-Virtual-Platform sudo[4692]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:18:26 kali-VMware-Virtual-Platform sudo[4692]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:18:42 kali-VMware-Virtual-Platform sudo[4723]:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/mkdir /mnt/testnfs
+ 4月 06 23:18:42 kali-VMware-Virtual-Platform sudo[4723]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:18:42 kali-VMware-Virtual-Platform sudo[4723]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:19:10 kali-VMware-Virtual-Platform sudo[4726]:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/mount -t nfs localhost:/srv/nfs/shared /mnt/testnfs
+ 4月 06 23:19:10 kali-VMware-Virtual-Platform sudo[4726]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:19:10 kali-VMware-Virtual-Platform kernel: netfs: FS-Cache loaded
+ 4月 06 23:19:10 kali-VMware-Virtual-Platform kernel: NFS: Registering the id_resolver key type
+ 4月 06 23:19:10 kali-VMware-Virtual-Platform kernel: Key type id_resolver registered
+ 4月 06 23:19:10 kali-VMware-Virtual-Platform kernel: Key type id_legacy registered
+ 4月 06 23:19:11 kali-VMware-Virtual-Platform rpc.mountd[4658]: refused mount request from 127.0.0.1 for /srv/nfs/shared (/srv/nfs/shared): unmatched host
+ 4月 06 23:19:11 kali-VMware-Virtual-Platform sudo[4726]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:19:44 kali-VMware-Virtual-Platform sudo[4744]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl status nfs-server
+ 4月 06 23:19:44 kali-VMware-Virtual-Platform sudo[4744]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:20:04 kali-VMware-Virtual-Platform sudo[4744]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:20:04 kali-VMware-Virtual-Platform systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+░░ Subject: 單位 sysstat-collect.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 sysstat-collect.service 已開始啟動。
+ 4月 06 23:20:04 kali-VMware-Virtual-Platform systemd[1]: sysstat-collect.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit sysstat-collect.service has successfully entered the 'dead' state.
+ 4月 06 23:20:04 kali-VMware-Virtual-Platform systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+░░ Subject: 單位 sysstat-collect.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 sysstat-collect.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:20:33 kali-VMware-Virtual-Platform systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+░░ Subject: 單位 systemd-tmpfiles-clean.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 systemd-tmpfiles-clean.service 已開始啟動。
+ 4月 06 23:20:33 kali-VMware-Virtual-Platform systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit systemd-tmpfiles-clean.service has successfully entered the 'dead' state.
+ 4月 06 23:20:33 kali-VMware-Virtual-Platform systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+░░ Subject: 單位 systemd-tmpfiles-clean.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 systemd-tmpfiles-clean.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:20:34 kali-VMware-Virtual-Platform NetworkManager[805]: <info>  [1743952834.2335] dhcp4 (ens33): state changed new lease, address=192.168.110.130
+ 4月 06 23:20:34 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=805 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+ 4月 06 23:20:34 kali-VMware-Virtual-Platform systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+░░ Subject: 單位 NetworkManager-dispatcher.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 NetworkManager-dispatcher.service 已開始啟動。
+ 4月 06 23:20:34 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+ 4月 06 23:20:34 kali-VMware-Virtual-Platform systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+░░ Subject: 單位 NetworkManager-dispatcher.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 NetworkManager-dispatcher.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:20:43 kali-VMware-Virtual-Platform sudo[4763]:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/mount -t nfs localhost:/srv/nfs/shared /mnt/testnfs
+ 4月 06 23:20:43 kali-VMware-Virtual-Platform sudo[4763]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:20:43 kali-VMware-Virtual-Platform rpc.mountd[4658]: refused mount request from 127.0.0.1 for /srv/nfs/shared (/srv/nfs/shared): unmatched host
+ 4月 06 23:20:43 kali-VMware-Virtual-Platform sudo[4763]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:20:44 kali-VMware-Virtual-Platform systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+ 4月 06 23:21:48 kali-VMware-Virtual-Platform sudo[4776]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/nano /etc/exports
+ 4月 06 23:21:48 kali-VMware-Virtual-Platform sudo[4776]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:22:44 kali-VMware-Virtual-Platform sudo[4776]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:22:55 kali-VMware-Virtual-Platform sudo[4779]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/nano /etc/exports
+ 4月 06 23:22:55 kali-VMware-Virtual-Platform sudo[4779]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:23:01 kali-VMware-Virtual-Platform sudo[4779]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:23:18 kali-VMware-Virtual-Platform sudo[4783]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/sbin/exportfs -ra
+ 4月 06 23:23:18 kali-VMware-Virtual-Platform sudo[4783]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:23:18 kali-VMware-Virtual-Platform sudo[4783]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:23:29 kali-VMware-Virtual-Platform sudo[4786]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl restart nfs-server
+ 4月 06 23:23:29 kali-VMware-Virtual-Platform sudo[4786]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:23:29 kali-VMware-Virtual-Platform systemd[1]: auth-rpcgss-module.service - Kernel Module supporting RPCSEC_GSS was skipped because of an unmet condition check (ConditionPathExists=/etc/krb5.keytab).
+░░ Subject: 單位 auth-rpcgss-module.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 auth-rpcgss-module.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:23:29 kali-VMware-Virtual-Platform systemd[1]: Stopping nfs-server.service - NFS server and services...
+░░ Subject: 單位 nfs-server.service 已開始關閉
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-server.service 已開始關閉。
+ 4月 06 23:23:29 kali-VMware-Virtual-Platform systemd[1]: nfs-server.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit nfs-server.service has successfully entered the 'dead' state.
+ 4月 06 23:23:29 kali-VMware-Virtual-Platform systemd[1]: Stopped nfs-server.service - NFS server and services.
+░░ Subject: 單位 nfs-server.service 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-server.service 已關閉結束。
+ 4月 06 23:23:29 kali-VMware-Virtual-Platform rpc.idmapd[4656]: exiting on signal 15
+ 4月 06 23:23:29 kali-VMware-Virtual-Platform systemd[1]: Stopping nfs-idmapd.service - NFSv4 ID-name mapping service...
+░░ Subject: 單位 nfs-idmapd.service 已開始關閉
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-idmapd.service 已開始關閉。
+ 4月 06 23:23:29 kali-VMware-Virtual-Platform systemd[1]: Stopping nfs-mountd.service - NFS Mount Daemon...
+░░ Subject: 單位 nfs-mountd.service 已開始關閉
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-mountd.service 已開始關閉。
+ 4月 06 23:23:29 kali-VMware-Virtual-Platform systemd[1]: rpc-gssd.service - RPC security service for NFS client and server was skipped because of an unmet condition check (ConditionPathExists=/etc/krb5.keytab).
+░░ Subject: 單位 rpc-gssd.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 rpc-gssd.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:23:29 kali-VMware-Virtual-Platform systemd[1]: rpc-svcgssd.service - RPC security service for NFS server was skipped because of an unmet condition check (ConditionPathExists=/etc/krb5.keytab).
+░░ Subject: 單位 rpc-svcgssd.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 rpc-svcgssd.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:23:29 kali-VMware-Virtual-Platform rpc.mountd[4658]: Caught signal 15, un-registering and exiting.
+ 4月 06 23:23:29 kali-VMware-Virtual-Platform systemd[1]: nfs-idmapd.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit nfs-idmapd.service has successfully entered the 'dead' state.
+ 4月 06 23:23:29 kali-VMware-Virtual-Platform systemd[1]: Stopped nfs-idmapd.service - NFSv4 ID-name mapping service.
+░░ Subject: 單位 nfs-idmapd.service 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-idmapd.service 已關閉結束。
+ 4月 06 23:23:29 kali-VMware-Virtual-Platform systemd[1]: Starting nfs-idmapd.service - NFSv4 ID-name mapping service...
+░░ Subject: 單位 nfs-idmapd.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-idmapd.service 已開始啟動。
+ 4月 06 23:23:29 kali-VMware-Virtual-Platform systemd[1]: nfs-mountd.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit nfs-mountd.service has successfully entered the 'dead' state.
+ 4月 06 23:23:29 kali-VMware-Virtual-Platform systemd[1]: Stopped nfs-mountd.service - NFS Mount Daemon.
+░░ Subject: 單位 nfs-mountd.service 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-mountd.service 已關閉結束。
+ 4月 06 23:23:29 kali-VMware-Virtual-Platform rpc.idmapd[4804]: Setting log level to 0
+ 4月 06 23:23:29 kali-VMware-Virtual-Platform rpc.idmapd[4804]: libnfsidmap: Unable to determine the NFSv4 domain; Using 'localdomain' as the NFSv4 domain which means UIDs will be mapped to the 'Nobody-User' user defined in /etc/idmapd.conf
+ 4月 06 23:23:29 kali-VMware-Virtual-Platform systemd[1]: Starting nfs-mountd.service - NFS Mount Daemon...
+░░ Subject: 單位 nfs-mountd.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-mountd.service 已開始啟動。
+ 4月 06 23:23:29 kali-VMware-Virtual-Platform systemd[1]: Started nfs-idmapd.service - NFSv4 ID-name mapping service.
+░░ Subject: 單位 nfs-idmapd.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-idmapd.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:23:29 kali-VMware-Virtual-Platform rpc.mountd[4806]: Version 2.6.4 starting
+ 4月 06 23:23:29 kali-VMware-Virtual-Platform systemd[1]: Started nfs-mountd.service - NFS Mount Daemon.
+░░ Subject: 單位 nfs-mountd.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-mountd.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:23:29 kali-VMware-Virtual-Platform systemd[1]: Starting nfs-server.service - NFS server and services...
+░░ Subject: 單位 nfs-server.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-server.service 已開始啟動。
+ 4月 06 23:23:30 kali-VMware-Virtual-Platform kernel: NFSD: Using nfsdcld client tracking operations.
+ 4月 06 23:23:30 kali-VMware-Virtual-Platform kernel: NFSD: no clients to reclaim, skipping NFSv4 grace period (net f0000000)
+ 4月 06 23:23:30 kali-VMware-Virtual-Platform systemd[1]: Finished nfs-server.service - NFS server and services.
+░░ Subject: 單位 nfs-server.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 nfs-server.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:23:30 kali-VMware-Virtual-Platform sudo[4786]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:23:55 kali-VMware-Virtual-Platform sudo[4823]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl status nfs-server
+ 4月 06 23:23:55 kali-VMware-Virtual-Platform sudo[4823]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:23:57 kali-VMware-Virtual-Platform sudo[4823]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:24:04 kali-VMware-Virtual-Platform systemd[1]: Starting fwupd-refresh.service - Refresh fwupd metadata and update motd...
+░░ Subject: 單位 fwupd-refresh.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 fwupd-refresh.service 已開始啟動。
+ 4月 06 23:24:04 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.117' (uid=989 pid=4828 comm="/usr/bin/fwupdmgr refresh" label="unconfined")
+ 4月 06 23:24:04 kali-VMware-Virtual-Platform systemd[1]: Starting fwupd.service - Firmware update daemon...
+░░ Subject: 單位 fwupd.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 fwupd.service 已開始啟動。
+ 4月 06 23:24:04 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.118' (uid=0 pid=4834 comm="/usr/libexec/fwupd/fwupd" label="unconfined")
+ 4月 06 23:24:04 kali-VMware-Virtual-Platform systemd[1]: bluetooth.service - Bluetooth service was skipped because of an unmet condition check (ConditionPathIsDirectory=/sys/class/bluetooth).
+░░ Subject: 單位 bluetooth.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 bluetooth.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:24:05 kali-VMware-Virtual-Platform sudo[4841]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/sbin/exportfs -v
+ 4月 06 23:24:05 kali-VMware-Virtual-Platform sudo[4841]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:24:05 kali-VMware-Virtual-Platform sudo[4841]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:24:06 kali-VMware-Virtual-Platform fwupd[4834]: 15:24:06.126 FuMain               Daemon ready for requests (locale zh_TW.UTF-8)
+ 4月 06 23:24:06 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Successfully activated service 'org.freedesktop.fwupd'
+ 4月 06 23:24:06 kali-VMware-Virtual-Platform systemd[1]: Started fwupd.service - Firmware update daemon.
+░░ Subject: 單位 fwupd.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 fwupd.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:24:06 kali-VMware-Virtual-Platform systemd[1]: fwupd-refresh.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit fwupd-refresh.service has successfully entered the 'dead' state.
+ 4月 06 23:24:06 kali-VMware-Virtual-Platform systemd[1]: Finished fwupd-refresh.service - Refresh fwupd metadata and update motd.
+░░ Subject: 單位 fwupd-refresh.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 fwupd-refresh.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:24:29 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ 4月 06 23:24:54 kali-VMware-Virtual-Platform sudo[4853]:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/mount -t nfs localhost:/srv/nfs/shared /mnt/testnfs
+ 4月 06 23:24:54 kali-VMware-Virtual-Platform sudo[4853]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:24:54 kali-VMware-Virtual-Platform nfsrahead[4867]: setting /mnt/testnfs readahead to 128
+ 4月 06 23:24:54 kali-VMware-Virtual-Platform sudo[4853]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:25:01 kali-VMware-Virtual-Platform CRON[4869]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+ 4月 06 23:25:01 kali-VMware-Virtual-Platform CRON[4870]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+ 4月 06 23:25:01 kali-VMware-Virtual-Platform CRON[4869]: pam_unix(cron:session): session closed for user root
+ 4月 06 23:25:09 kali-VMware-Virtual-Platform systemd[1812]: Started vte-spawn-e16c500b-a921-4342-a1d1-7c920112ed2b.scope - VTE child process 4872 launched by gnome-terminal-server process 2958.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:28:59 kali-VMware-Virtual-Platform sudo[4888]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl restart smbd
+ 4月 06 23:28:59 kali-VMware-Virtual-Platform sudo[4888]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:28:59 kali-VMware-Virtual-Platform systemd[1]: Stopping smbd.service - Samba SMB Daemon...
+░░ Subject: 單位 smbd.service 已開始關閉
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 smbd.service 已開始關閉。
+ 4月 06 23:28:59 kali-VMware-Virtual-Platform systemd[1]: smbd.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit smbd.service has successfully entered the 'dead' state.
+ 4月 06 23:28:59 kali-VMware-Virtual-Platform systemd[1]: Stopped smbd.service - Samba SMB Daemon.
+░░ Subject: 單位 smbd.service 已關閉結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 smbd.service 已關閉結束。
+ 4月 06 23:28:59 kali-VMware-Virtual-Platform systemd[1]: Starting smbd.service - Samba SMB Daemon...
+░░ Subject: 單位 smbd.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 smbd.service 已開始啟動。
+ 4月 06 23:28:59 kali-VMware-Virtual-Platform (smbd)[4897]: smbd.service: Referenced but unset environment variable evaluates to an empty string: SMBDOPTIONS
+ 4月 06 23:28:59 kali-VMware-Virtual-Platform systemd[1]: Started smbd.service - Samba SMB Daemon.
+░░ Subject: 單位 smbd.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 smbd.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:28:59 kali-VMware-Virtual-Platform sudo[4888]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:29:08 kali-VMware-Virtual-Platform sudo[4902]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl enable smbd
+ 4月 06 23:29:08 kali-VMware-Virtual-Platform sudo[4902]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:29:08 kali-VMware-Virtual-Platform systemd[1]: Reloading requested from client PID 4908 ('systemctl') (unit user@1000.service)...
+ 4月 06 23:29:08 kali-VMware-Virtual-Platform systemd[1]: Reloading...
+ 4月 06 23:29:09 kali-VMware-Virtual-Platform systemd[1]: Reloading finished in 196 ms.
+ 4月 06 23:29:09 kali-VMware-Virtual-Platform systemd[1]: Reloading requested from client PID 5042 ('systemctl') (unit user@1000.service)...
+ 4月 06 23:29:09 kali-VMware-Virtual-Platform systemd[1]: Reloading...
+ 4月 06 23:29:09 kali-VMware-Virtual-Platform systemd[1]: Reloading finished in 195 ms.
+ 4月 06 23:29:09 kali-VMware-Virtual-Platform systemd[1]: Reloading requested from client PID 4904 ('systemctl') (unit user@1000.service)...
+ 4月 06 23:29:09 kali-VMware-Virtual-Platform systemd[1]: Reloading...
+ 4月 06 23:29:09 kali-VMware-Virtual-Platform systemd[1]: Reloading finished in 190 ms.
+ 4月 06 23:29:09 kali-VMware-Virtual-Platform sudo[4902]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:30:01 kali-VMware-Virtual-Platform CRON[5310]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+ 4月 06 23:30:01 kali-VMware-Virtual-Platform CRON[5311]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+ 4月 06 23:30:01 kali-VMware-Virtual-Platform CRON[5310]: pam_unix(cron:session): session closed for user root
+ 4月 06 23:30:06 kali-VMware-Virtual-Platform systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+░░ Subject: 單位 sysstat-collect.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 sysstat-collect.service 已開始啟動。
+ 4月 06 23:30:06 kali-VMware-Virtual-Platform systemd[1]: sysstat-collect.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit sysstat-collect.service has successfully entered the 'dead' state.
+ 4月 06 23:30:06 kali-VMware-Virtual-Platform systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+░░ Subject: 單位 sysstat-collect.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 sysstat-collect.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:31:30 kali-VMware-Virtual-Platform sudo[5322]:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/mount -t cifs //localhost/Shared /mnt/smbtest
+ 4月 06 23:31:30 kali-VMware-Virtual-Platform sudo[5322]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:31:39 kali-VMware-Virtual-Platform kernel: Key type cifs.spnego registered
+ 4月 06 23:31:39 kali-VMware-Virtual-Platform kernel: Key type cifs.idmap registered
+ 4月 06 23:31:39 kali-VMware-Virtual-Platform kernel: CIFS: No dialect specified on mount. Default has changed to a more secure dialect, SMB2.1 or later (e.g. SMB3.1.1), from CIFS (SMB1). To use the less secure SMB1 dialect to access old servers which do not support SMB3.1.1 (or even SMB3 or SMB2.1) specify vers=1.0 on mount.
+ 4月 06 23:31:39 kali-VMware-Virtual-Platform kernel: CIFS: Attempting to mount //localhost/Shared
+ 4月 06 23:31:39 kali-VMware-Virtual-Platform sudo[5322]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:32:02 kali-VMware-Virtual-Platform kernel: usb 4-1: new SuperSpeed USB device number 2 using xhci_hcd
+ 4月 06 23:32:02 kali-VMware-Virtual-Platform kernel: usb 4-1: New USB device found, idVendor=8564, idProduct=7000, bcdDevice=21.01
+ 4月 06 23:32:02 kali-VMware-Virtual-Platform kernel: usb 4-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+ 4月 06 23:32:02 kali-VMware-Virtual-Platform kernel: usb 4-1: Product: StoreJet Transcend
+ 4月 06 23:32:02 kali-VMware-Virtual-Platform kernel: usb 4-1: Manufacturer: StoreJet Transcend
+ 4月 06 23:32:02 kali-VMware-Virtual-Platform kernel: usb 4-1: SerialNumber: WD-WX22A74MD9XP
+ 4月 06 23:32:02 kali-VMware-Virtual-Platform mtp-probe[5358]: checking bus 4, device 2: "/sys/devices/pci0000:00/0000:00:15.0/0000:03:00.0/usb4/4-1"
+ 4月 06 23:32:02 kali-VMware-Virtual-Platform mtp-probe[5358]: bus: 4, device: 2 was not an MTP device
+ 4月 06 23:32:02 kali-VMware-Virtual-Platform kernel: usb-storage 4-1:1.0: USB Mass Storage device detected
+ 4月 06 23:32:02 kali-VMware-Virtual-Platform kernel: scsi host33: usb-storage 4-1:1.0
+ 4月 06 23:32:02 kali-VMware-Virtual-Platform kernel: usbcore: registered new interface driver usb-storage
+ 4月 06 23:32:02 kali-VMware-Virtual-Platform kernel: usbcore: registered new interface driver uas
+ 4月 06 23:32:02 kali-VMware-Virtual-Platform mtp-probe[5368]: checking bus 4, device 2: "/sys/devices/pci0000:00/0000:00:15.0/0000:03:00.0/usb4/4-1"
+ 4月 06 23:32:02 kali-VMware-Virtual-Platform mtp-probe[5368]: bus: 4, device: 2 was not an MTP device
+ 4月 06 23:32:03 kali-VMware-Virtual-Platform kernel: scsi 33:0:0:0: Direct-Access     StoreJet Transcend        2101 PQ: 0 ANSI: 6
+ 4月 06 23:32:05 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: Attached scsi generic sg3 type 0
+ 4月 06 23:32:05 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] 1953525168 512-byte logical blocks: (1.00 TB/932 GiB)
+ 4月 06 23:32:05 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] Write Protect is off
+ 4月 06 23:32:05 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] Mode Sense: 47 00 00 08
+ 4月 06 23:32:05 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+ 4月 06 23:32:05 kali-VMware-Virtual-Platform kernel:  sdb: sdb1
+ 4月 06 23:32:05 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] Attached SCSI disk
+ 4月 06 23:32:05 kali-VMware-Virtual-Platform (udev-worker)[5385]: sdb: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sdb' failed with exit code 1.
+ 4月 06 23:32:05 kali-VMware-Virtual-Platform (udev-worker)[5385]: sdb1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sdb1' failed with exit code 1.
+ 4月 06 23:32:05 kali-VMware-Virtual-Platform kernel: ntfs3: Enabled Linux POSIX ACLs support
+ 4月 06 23:32:05 kali-VMware-Virtual-Platform kernel: ntfs3: Read-only LZX/Xpress compression included
+ 4月 06 23:32:06 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: volume is dirty and "force" flag is not set!
+ 4月 06 23:32:06 kali-VMware-Virtual-Platform gnome-shell[2048]: Unable to mount volume Transcend: Gio.IOErrorEnum: Error mounting /dev/sdb1 at /media/kali/Transcend: wrong fs type, bad option, bad superblock on /dev/sdb1, missing codepage or helper program, or other error
+ 4月 06 23:32:07 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: It is recommened to use chkdsk.
+ 4月 06 23:32:07 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: volume is dirty and "force" flag is not set!
+ 4月 06 23:32:07 kali-VMware-Virtual-Platform gnome-shell[2048]: error: Failed to mount “Transcend”: Error mounting /dev/sdb1 at /media/kali/Transcend: wrong fs type, bad option, bad superblock on /dev/sdb1, missing codepage or helper program, or other error
+ 4月 06 23:32:07 kali-VMware-Virtual-Platform gnome-shell[2048]: Impossible to mount removable Transcend: Gio.IOErrorEnum: Error mounting /dev/sdb1 at /media/kali/Transcend: wrong fs type, bad option, bad superblock on /dev/sdb1, missing codepage or helper program, or other error
+                                                                  
+                                                                  Stack trace:
+                                                                    _promisify/proto[asyncFunc]/</<@resource:///org/gnome/gjs/modules/core/overrides/Gio.js:453:45
+                                                                    @resource:///org/gnome/shell/ui/init.js:21:20
+                                                                    ### Promise created here: ###
+                                                                    launchAction@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:632:35
+                                                                    mountAndLaunch@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:580:24
+                                                                    vfunc_launch@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:546:14
+                                                                    makeLocationApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1064:26
+                                                                    _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37
+                                                                    wrapWindowsBackedApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1005:22
+                                                                    _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37
+                                                                    wrapWindowsBackedApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1020:34
+                                                                    _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37
+                                                                    launchNewWindow@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/appIcons.js:745:26
+                                                                    activate@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/appIcons.js:685:18
+                                                                    vfunc_clicked@resource:///org/gnome/shell/ui/appDisplay.js:3077:14
+                                                                    @resource:///org/gnome/shell/ui/init.js:21:20
+                                                                    
+ 4月 06 23:32:07 kali-VMware-Virtual-Platform gnome-shell[2048]: Mount and launch mountable-volume:12F21721F217089D: Error: No mounted location to open for mountable-volume:12F21721F217089D
+                                                                  
+                                                                  Stack trace:
+                                                                    mountAndLaunch@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:582:23
+                                                                    async*vfunc_launch@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:546:14
+                                                                    makeLocationApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1064:26
+                                                                    _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37
+                                                                    wrapWindowsBackedApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1005:22
+                                                                    _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37
+                                                                    wrapWindowsBackedApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1020:34
+                                                                    _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37
+                                                                    launchNewWindow@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/appIcons.js:745:26
+                                                                    activate@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/appIcons.js:685:18
+                                                                    vfunc_clicked@resource:///org/gnome/shell/ui/appDisplay.js:3077:14
+                                                                    @resource:///org/gnome/shell/ui/init.js:21:20
+                                                                    
+ 4月 06 23:32:15 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating service name='org.gnome.Nautilus' requested by ':1.31' (uid=1000 pid=2048 comm="/usr/bin/gnome-shell" label="unconfined")
+ 4月 06 23:32:15 kali-VMware-Virtual-Platform nautilus[5404]: Connecting to org.freedesktop.Tracker3.Miner.Files
+ 4月 06 23:32:15 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'org.gnome.Nautilus'
+ 4月 06 23:32:15 kali-VMware-Virtual-Platform gnome-shell[2048]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+ 4月 06 23:32:15 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.129' (uid=1000 pid=5404 comm="/usr/bin/nautilus --gapplication-service" label="nautilus (unconfined)")
+ 4月 06 23:32:15 kali-VMware-Virtual-Platform systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+░░ Subject: 單位 systemd-hostnamed.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 systemd-hostnamed.service 已開始啟動。
+ 4月 06 23:32:15 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Successfully activated service 'org.freedesktop.hostname1'
+ 4月 06 23:32:15 kali-VMware-Virtual-Platform systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+░░ Subject: 單位 systemd-hostnamed.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 systemd-hostnamed.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:32:16 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: It is recommened to use chkdsk.
+ 4月 06 23:32:16 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: volume is dirty and "force" flag is not set!
+ 4月 06 23:32:16 kali-VMware-Virtual-Platform gnome-shell[2048]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+ 4月 06 23:32:27 kali-VMware-Virtual-Platform kernel: usb 4-1: USB disconnect, device number 2
+ 4月 06 23:32:34 kali-VMware-Virtual-Platform kernel: usb 4-1: new SuperSpeed USB device number 3 using xhci_hcd
+ 4月 06 23:32:34 kali-VMware-Virtual-Platform kernel: usb 4-1: New USB device found, idVendor=8564, idProduct=7000, bcdDevice=21.01
+ 4月 06 23:32:34 kali-VMware-Virtual-Platform kernel: usb 4-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+ 4月 06 23:32:34 kali-VMware-Virtual-Platform kernel: usb 4-1: Product: StoreJet Transcend
+ 4月 06 23:32:34 kali-VMware-Virtual-Platform kernel: usb 4-1: Manufacturer: StoreJet Transcend
+ 4月 06 23:32:34 kali-VMware-Virtual-Platform kernel: usb 4-1: SerialNumber: WD-WX22A74MD9XP
+ 4月 06 23:32:34 kali-VMware-Virtual-Platform kernel: usb-storage 4-1:1.0: USB Mass Storage device detected
+ 4月 06 23:32:34 kali-VMware-Virtual-Platform kernel: scsi host33: usb-storage 4-1:1.0
+ 4月 06 23:32:34 kali-VMware-Virtual-Platform mtp-probe[5460]: checking bus 4, device 3: "/sys/devices/pci0000:00/0000:00:15.0/0000:03:00.0/usb4/4-1"
+ 4月 06 23:32:34 kali-VMware-Virtual-Platform mtp-probe[5460]: bus: 4, device: 3 was not an MTP device
+ 4月 06 23:32:34 kali-VMware-Virtual-Platform mtp-probe[5465]: checking bus 4, device 3: "/sys/devices/pci0000:00/0000:00:15.0/0000:03:00.0/usb4/4-1"
+ 4月 06 23:32:34 kali-VMware-Virtual-Platform mtp-probe[5465]: bus: 4, device: 3 was not an MTP device
+ 4月 06 23:32:35 kali-VMware-Virtual-Platform kernel: scsi 33:0:0:0: Direct-Access     StoreJet Transcend        2101 PQ: 0 ANSI: 6
+ 4月 06 23:32:35 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: Attached scsi generic sg3 type 0
+ 4月 06 23:32:35 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] 1953525168 512-byte logical blocks: (1.00 TB/932 GiB)
+ 4月 06 23:32:35 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] Write Protect is off
+ 4月 06 23:32:35 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] Mode Sense: 47 00 00 08
+ 4月 06 23:32:35 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+ 4月 06 23:32:35 kali-VMware-Virtual-Platform kernel:  sdb: sdb1
+ 4月 06 23:32:35 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] Attached SCSI disk
+ 4月 06 23:32:35 kali-VMware-Virtual-Platform (udev-worker)[5479]: sdb: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sdb' failed with exit code 1.
+ 4月 06 23:32:35 kali-VMware-Virtual-Platform (udev-worker)[5455]: sdb1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sdb1' failed with exit code 1.
+ 4月 06 23:32:35 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: It is recommened to use chkdsk.
+ 4月 06 23:32:36 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: volume is dirty and "force" flag is not set!
+ 4月 06 23:32:36 kali-VMware-Virtual-Platform gnome-shell[2048]: Unable to mount volume Transcend: Gio.IOErrorEnum: Error mounting /dev/sdb1 at /media/kali/Transcend: wrong fs type, bad option, bad superblock on /dev/sdb1, missing codepage or helper program, or other error
+ 4月 06 23:32:38 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: It is recommened to use chkdsk.
+ 4月 06 23:32:38 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: volume is dirty and "force" flag is not set!
+ 4月 06 23:32:38 kali-VMware-Virtual-Platform gnome-shell[2048]: error: Failed to mount “Transcend”: Error mounting /dev/sdb1 at /media/kali/Transcend: wrong fs type, bad option, bad superblock on /dev/sdb1, missing codepage or helper program, or other error
+ 4月 06 23:32:38 kali-VMware-Virtual-Platform gnome-shell[2048]: Impossible to mount removable Transcend: Gio.IOErrorEnum: Error mounting /dev/sdb1 at /media/kali/Transcend: wrong fs type, bad option, bad superblock on /dev/sdb1, missing codepage or helper program, or other error
+                                                                  
+                                                                  Stack trace:
+                                                                    _promisify/proto[asyncFunc]/</<@resource:///org/gnome/gjs/modules/core/overrides/Gio.js:453:45
+                                                                    @resource:///org/gnome/shell/ui/init.js:21:20
+                                                                    ### Promise created here: ###
+                                                                    launchAction@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:632:35
+                                                                    mountAndLaunch@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:580:24
+                                                                    vfunc_launch@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:546:14
+                                                                    makeLocationApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1064:26
+                                                                    _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37
+                                                                    wrapWindowsBackedApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1005:22
+                                                                    _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37
+                                                                    wrapWindowsBackedApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1020:34
+                                                                    _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37
+                                                                    launchNewWindow@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/appIcons.js:745:26
+                                                                    activate@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/appIcons.js:685:18
+                                                                    vfunc_clicked@resource:///org/gnome/shell/ui/appDisplay.js:3077:14
+                                                                    @resource:///org/gnome/shell/ui/init.js:21:20
+                                                                    
+ 4月 06 23:32:38 kali-VMware-Virtual-Platform gnome-shell[2048]: Mount and launch mountable-volume:12F21721F217089D: Error: No mounted location to open for mountable-volume:12F21721F217089D
+                                                                  
+                                                                  Stack trace:
+                                                                    mountAndLaunch@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:582:23
+                                                                    async*vfunc_launch@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:546:14
+                                                                    makeLocationApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1064:26
+                                                                    _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37
+                                                                    wrapWindowsBackedApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1005:22
+                                                                    _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37
+                                                                    wrapWindowsBackedApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1020:34
+                                                                    _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37
+                                                                    launchNewWindow@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/appIcons.js:745:26
+                                                                    activate@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/appIcons.js:685:18
+                                                                    vfunc_clicked@resource:///org/gnome/shell/ui/appDisplay.js:3077:14
+                                                                    @resource:///org/gnome/shell/ui/init.js:21:20
+                                                                    
+ 4月 06 23:32:44 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating service name='org.gnome.Nautilus' requested by ':1.31' (uid=1000 pid=2048 comm="/usr/bin/gnome-shell" label="unconfined")
+ 4月 06 23:32:44 kali-VMware-Virtual-Platform nautilus[5510]: Connecting to org.freedesktop.Tracker3.Miner.Files
+ 4月 06 23:32:44 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'org.gnome.Nautilus'
+ 4月 06 23:32:44 kali-VMware-Virtual-Platform gnome-shell[2048]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+ 4月 06 23:32:46 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: It is recommened to use chkdsk.
+ 4月 06 23:32:46 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: volume is dirty and "force" flag is not set!
+ 4月 06 23:32:46 kali-VMware-Virtual-Platform gnome-shell[2048]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+ 4月 06 23:33:11 kali-VMware-Virtual-Platform udisksd[754]: Successfully sent SCSI command SYNCHRONIZE CACHE to /dev/sdb
+ 4月 06 23:33:11 kali-VMware-Virtual-Platform udisksd[754]: Successfully sent SCSI command START STOP UNIT to /dev/sdb
+ 4月 06 23:33:11 kali-VMware-Virtual-Platform udisksd[754]: Powered off /dev/sdb - successfully wrote to sysfs path /sys/devices/pci0000:00/0000:00:15.0/0000:03:00.0/usb4/4-1/remove
+ 4月 06 23:33:11 kali-VMware-Virtual-Platform kernel: usb 4-1: USB disconnect, device number 3
+ 4月 06 23:33:14 kali-VMware-Virtual-Platform systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit systemd-hostnamed.service has successfully entered the 'dead' state.
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:33:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:34:04 kali-VMware-Virtual-Platform systemd[1]: Started anacron.service - Run anacron jobs.
+░░ Subject: 單位 anacron.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 anacron.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:34:04 kali-VMware-Virtual-Platform systemd[1]: anacron.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit anacron.service has successfully entered the 'dead' state.
+ 4月 06 23:34:04 kali-VMware-Virtual-Platform anacron[5570]: Anacron 2.3 started on 2025-04-06
+ 4月 06 23:34:04 kali-VMware-Virtual-Platform anacron[5570]: Normal exit (0 jobs run)
+ 4月 06 23:34:10 kali-VMware-Virtual-Platform kernel: usb 4-1: new SuperSpeed USB device number 4 using xhci_hcd
+ 4月 06 23:34:10 kali-VMware-Virtual-Platform kernel: usb 4-1: New USB device found, idVendor=8564, idProduct=7000, bcdDevice=21.01
+ 4月 06 23:34:10 kali-VMware-Virtual-Platform kernel: usb 4-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+ 4月 06 23:34:10 kali-VMware-Virtual-Platform kernel: usb 4-1: Product: StoreJet Transcend
+ 4月 06 23:34:10 kali-VMware-Virtual-Platform kernel: usb 4-1: Manufacturer: StoreJet Transcend
+ 4月 06 23:34:10 kali-VMware-Virtual-Platform kernel: usb 4-1: SerialNumber: WD-WX22A74MD9XP
+ 4月 06 23:34:10 kali-VMware-Virtual-Platform kernel: usb-storage 4-1:1.0: USB Mass Storage device detected
+ 4月 06 23:34:10 kali-VMware-Virtual-Platform kernel: scsi host33: usb-storage 4-1:1.0
+ 4月 06 23:34:10 kali-VMware-Virtual-Platform mtp-probe[5577]: checking bus 4, device 4: "/sys/devices/pci0000:00/0000:00:15.0/0000:03:00.0/usb4/4-1"
+ 4月 06 23:34:10 kali-VMware-Virtual-Platform mtp-probe[5577]: bus: 4, device: 4 was not an MTP device
+ 4月 06 23:34:10 kali-VMware-Virtual-Platform mtp-probe[5580]: checking bus 4, device 4: "/sys/devices/pci0000:00/0000:00:15.0/0000:03:00.0/usb4/4-1"
+ 4月 06 23:34:10 kali-VMware-Virtual-Platform mtp-probe[5580]: bus: 4, device: 4 was not an MTP device
+ 4月 06 23:34:11 kali-VMware-Virtual-Platform kernel: scsi 33:0:0:0: Direct-Access     StoreJet Transcend        2101 PQ: 0 ANSI: 6
+ 4月 06 23:34:13 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: Attached scsi generic sg3 type 0
+ 4月 06 23:34:13 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] 1953525168 512-byte logical blocks: (1.00 TB/932 GiB)
+ 4月 06 23:34:13 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] Write Protect is off
+ 4月 06 23:34:13 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] Mode Sense: 47 00 00 08
+ 4月 06 23:34:13 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+ 4月 06 23:34:13 kali-VMware-Virtual-Platform kernel:  sdb: sdb1
+ 4月 06 23:34:13 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] Attached SCSI disk
+ 4月 06 23:34:13 kali-VMware-Virtual-Platform (udev-worker)[5599]: sdb: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sdb' failed with exit code 1.
+ 4月 06 23:34:13 kali-VMware-Virtual-Platform (udev-worker)[5572]: sdb1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sdb1' failed with exit code 1.
+ 4月 06 23:34:13 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: It is recommened to use chkdsk.
+ 4月 06 23:34:14 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: volume is dirty and "force" flag is not set!
+ 4月 06 23:34:14 kali-VMware-Virtual-Platform gnome-shell[2048]: Unable to mount volume Transcend: Gio.IOErrorEnum: Error mounting /dev/sdb1 at /media/kali/Transcend: wrong fs type, bad option, bad superblock on /dev/sdb1, missing codepage or helper program, or other error
+ 4月 06 23:34:15 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: It is recommened to use chkdsk.
+ 4月 06 23:34:15 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: volume is dirty and "force" flag is not set!
+ 4月 06 23:34:15 kali-VMware-Virtual-Platform gnome-shell[2048]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+ 4月 06 23:34:18 kali-VMware-Virtual-Platform gnome-shell[2048]: clutter_actor_set_allocation_internal: assertion '!isnan (box->x1) && !isnan (box->x2) && !isnan (box->y1) && !isnan (box->y2)' failed
+ 4月 06 23:34:18 kali-VMware-Virtual-Platform gnome-shell[2048]: ../clutter/clutter/clutter-actor.c:8692: Actor 'unnamed [StDrawingArea]' tried to allocate a size of -2147483648.00 x -2147483648.00
+ 4月 06 23:34:18 kali-VMware-Virtual-Platform gnome-shell[2048]: ../clutter/clutter/clutter-actor.c:8692: Actor 'unnamed [StBin]' tried to allocate a size of -2147483648.00 x -2147483648.00
+ 4月 06 23:34:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:34:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:34:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:34:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:34:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:34:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:34:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:34:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:34:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:34:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:34:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:34:19 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:34:37 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:34:37 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:34:37 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:34:37 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:34:55 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: It is recommened to use chkdsk.
+ 4月 06 23:34:55 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: volume is dirty and "force" flag is not set!
+ 4月 06 23:34:55 kali-VMware-Virtual-Platform gnome-shell[2048]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+ 4月 06 23:35:01 kali-VMware-Virtual-Platform CRON[5629]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+ 4月 06 23:35:01 kali-VMware-Virtual-Platform CRON[5630]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+ 4月 06 23:35:01 kali-VMware-Virtual-Platform CRON[5629]: pam_unix(cron:session): session closed for user root
+ 4月 06 23:35:17 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: It is recommened to use chkdsk.
+ 4月 06 23:35:17 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: volume is dirty and "force" flag is not set!
+ 4月 06 23:35:17 kali-VMware-Virtual-Platform gnome-shell[2048]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+ 4月 06 23:35:32 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:35:34 kali-VMware-Virtual-Platform NetworkManager[805]: <info>  [1743953734.2350] dhcp4 (ens33): state changed new lease, address=192.168.110.130
+ 4月 06 23:35:34 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=805 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+ 4月 06 23:35:34 kali-VMware-Virtual-Platform systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+░░ Subject: 單位 NetworkManager-dispatcher.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 NetworkManager-dispatcher.service 已開始啟動。
+ 4月 06 23:35:34 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+ 4月 06 23:35:34 kali-VMware-Virtual-Platform systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+░░ Subject: 單位 NetworkManager-dispatcher.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 NetworkManager-dispatcher.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:35:44 kali-VMware-Virtual-Platform systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+ 4月 06 23:36:14 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:36:14 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:36:14 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:36:14 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:36:14 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:36:14 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+ 4月 06 23:36:19 kali-VMware-Virtual-Platform systemd[1812]: Started vte-spawn-2ecf0cdc-f27c-493a-b05b-21e7fdba4c95.scope - VTE child process 5651 launched by gnome-terminal-server process 2958.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:36:34 kali-VMware-Virtual-Platform sudo[5664]:     kali : TTY=pts/3 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt isntall ntfs-3g
+ 4月 06 23:36:34 kali-VMware-Virtual-Platform sudo[5664]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:36:34 kali-VMware-Virtual-Platform sudo[5664]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:36:42 kali-VMware-Virtual-Platform sudo[5667]:     kali : TTY=pts/3 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt install ntfs-3g
+ 4月 06 23:36:42 kali-VMware-Virtual-Platform sudo[5667]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:36:42 kali-VMware-Virtual-Platform sudo[5667]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:37:04 kali-VMware-Virtual-Platform sudo[5698]:     kali : TTY=pts/3 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/mount -t ntfs-3g /dev/sdb1 /mnt
+ 4月 06 23:37:04 kali-VMware-Virtual-Platform sudo[5698]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:37:04 kali-VMware-Virtual-Platform ntfs-3g[5702]: Version 2022.10.3 integrated FUSE 28
+ 4月 06 23:37:04 kali-VMware-Virtual-Platform ntfs-3g[5702]: Mounted /dev/sdb1 (Read-Write, label "Transcend", NTFS 3.1)
+ 4月 06 23:37:04 kali-VMware-Virtual-Platform ntfs-3g[5702]: Cmdline options: rw
+ 4月 06 23:37:04 kali-VMware-Virtual-Platform ntfs-3g[5702]: Mount options: allow_other,nonempty,relatime,rw,fsname=/dev/sdb1,blkdev,blksize=4096
+ 4月 06 23:37:04 kali-VMware-Virtual-Platform ntfs-3g[5702]: Ownership and permissions disabled, configuration type 7
+ 4月 06 23:37:04 kali-VMware-Virtual-Platform sudo[5698]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:37:08 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating service name='org.gnome.Nautilus' requested by ':1.31' (uid=1000 pid=2048 comm="/usr/bin/gnome-shell" label="unconfined")
+ 4月 06 23:37:08 kali-VMware-Virtual-Platform nautilus[5708]: Connecting to org.freedesktop.Tracker3.Miner.Files
+ 4月 06 23:37:08 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'org.gnome.Nautilus'
+ 4月 06 23:37:08 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.157' (uid=1000 pid=5708 comm="/usr/bin/nautilus --gapplication-service" label="nautilus (unconfined)")
+ 4月 06 23:37:08 kali-VMware-Virtual-Platform gnome-shell[2048]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+ 4月 06 23:37:08 kali-VMware-Virtual-Platform systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+░░ Subject: 單位 systemd-hostnamed.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 systemd-hostnamed.service 已開始啟動。
+ 4月 06 23:37:08 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Successfully activated service 'org.freedesktop.hostname1'
+ 4月 06 23:37:08 kali-VMware-Virtual-Platform systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+░░ Subject: 單位 systemd-hostnamed.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 systemd-hostnamed.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:37:39 kali-VMware-Virtual-Platform systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit systemd-hostnamed.service has successfully entered the 'dead' state.
+ 4月 06 23:38:09 kali-VMware-Virtual-Platform sudo[5752]:     kali : TTY=pts/2 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/smbstatus
+ 4月 06 23:38:09 kali-VMware-Virtual-Platform sudo[5752]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:38:09 kali-VMware-Virtual-Platform sudo[5752]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:38:59 kali-VMware-Virtual-Platform sudo[5767]:     kali : TTY=pts/3 ; PWD=/mnt/Digital Forensics/HW2 ; USER=root ; COMMAND=./auto_collect.sh
+ 4月 06 23:38:59 kali-VMware-Virtual-Platform sudo[5767]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:39:01 kali-VMware-Virtual-Platform crontab[5828]: (root) LIST (root)
+ 4月 06 23:39:08 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.159' (uid=0 pid=5999 comm="timedatectl" label="unconfined")
+ 4月 06 23:39:08 kali-VMware-Virtual-Platform systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+░░ Subject: 單位 systemd-timedated.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 systemd-timedated.service 已開始啟動。
+ 4月 06 23:39:08 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Successfully activated service 'org.freedesktop.timedate1'
+ 4月 06 23:39:08 kali-VMware-Virtual-Platform systemd[1]: Started systemd-timedated.service - Time & Date Service.
+░░ Subject: 單位 systemd-timedated.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 systemd-timedated.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:39:08 kali-VMware-Virtual-Platform sudo[5767]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:39:38 kali-VMware-Virtual-Platform systemd[1]: systemd-timedated.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit systemd-timedated.service has successfully entered the 'dead' state.
+ 4月 06 23:40:06 kali-VMware-Virtual-Platform systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+░░ Subject: 單位 sysstat-collect.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 sysstat-collect.service 已開始啟動。
+ 4月 06 23:40:06 kali-VMware-Virtual-Platform systemd[1]: sysstat-collect.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit sysstat-collect.service has successfully entered the 'dead' state.
+ 4月 06 23:40:06 kali-VMware-Virtual-Platform systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+░░ Subject: 單位 sysstat-collect.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 sysstat-collect.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:40:08 kali-VMware-Virtual-Platform gnome-shell[2048]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+ 4月 06 23:40:09 kali-VMware-Virtual-Platform org.gnome.TextEditor.desktop[4578]: context mismatch in svga_surface_destroy
+ 4月 06 23:40:09 kali-VMware-Virtual-Platform systemd[1812]: app-gnome-org.gnome.TextEditor-4578.scope: Consumed 1.595s CPU time.
+░░ Subject: Resources consumed by unit runtime
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit UNIT completed and consumed the indicated resources.
+ 4月 06 23:40:10 kali-VMware-Virtual-Platform gnome-shell[2048]: JS ERROR: TypeError: this.actor is null
+                                                                  _syncEnabled@resource:///org/gnome/shell/ui/windowManager.js:145:25
+                                                                  onStopped@resource:///org/gnome/shell/ui/windowManager.js:157:35
+                                                                  _makeEaseCallback/<@resource:///org/gnome/shell/ui/environment.js:65:22
+                                                                  _easeActorProperty/<@resource:///org/gnome/shell/ui/environment.js:247:60
+                                                                  _destroyWindowDone@resource:///org/gnome/shell/ui/windowManager.js:1607:21
+                                                                  onStopped@resource:///org/gnome/shell/ui/windowManager.js:1575:39
+                                                                  _makeEaseCallback/<@resource:///org/gnome/shell/ui/environment.js:65:22
+                                                                  _easeActor/<@resource:///org/gnome/shell/ui/environment.js:160:64
+                                                                  @resource:///org/gnome/shell/ui/init.js:21:20
+ 4月 06 23:40:11 kali-VMware-Virtual-Platform systemd[1812]: Started app-gnome-code-6039.scope - Application launched by gnome-shell.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:40:12 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.162' (uid=1000 pid=6039 comm="/usr/share/code/code" label="vscode (unconfined)")
+ 4月 06 23:40:12 kali-VMware-Virtual-Platform systemd[1]: bluetooth.service - Bluetooth service was skipped because of an unmet condition check (ConditionPathIsDirectory=/sys/class/bluetooth).
+░░ Subject: 單位 bluetooth.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 bluetooth.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:40:12 kali-VMware-Virtual-Platform code.desktop[6039]: [main 2025-04-06T15:40:12.945Z] Invalid path provided: /media/kali/Transcend/Digital Forensics/HW2, ENOENT: no such file or directory, stat '/media/kali/Transcend/Digital Forensics/HW2'
+ 4月 06 23:40:13 kali-VMware-Virtual-Platform code.desktop[6039]: [main 2025-04-06T15:40:13.081Z] update#setState idle
+ 4月 06 23:40:13 kali-VMware-Virtual-Platform code.desktop[6110]: [6110:0406/234013.325243:ERROR:command_buffer_proxy_impl.cc(131)] ContextResult::kTransientFailure: Failed to send GpuControl.CreateCommandBuffer.
+ 4月 06 23:40:15 kali-VMware-Virtual-Platform gnome-keyring-daemon[1853]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+ 4月 06 23:40:15 kali-VMware-Virtual-Platform gnome-keyring-d[1853]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+ 4月 06 23:40:15 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.163' (uid=1000 pid=6039 comm="/usr/share/code/code" label="vscode (unconfined)")
+ 4月 06 23:40:15 kali-VMware-Virtual-Platform systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+░░ Subject: 單位 systemd-hostnamed.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 systemd-hostnamed.service 已開始啟動。
+ 4月 06 23:40:16 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Successfully activated service 'org.freedesktop.hostname1'
+ 4月 06 23:40:16 kali-VMware-Virtual-Platform systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+░░ Subject: 單位 systemd-hostnamed.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 systemd-hostnamed.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:40:16 kali-VMware-Virtual-Platform gvfsd[6227]: smbXcli_negprot_smb1_done: No compatible protocol selected by server.
+ 4月 06 23:40:16 kali-VMware-Virtual-Platform gvfsd[6227]: smbXcli_negprot_smb1_done: No compatible protocol selected by server.
+ 4月 06 23:40:16 kali-VMware-Virtual-Platform gvfsd-wsdd[6244]: Failed to spawn the wsdd daemon: 無法執行副程序「wsdd」(沒有此一檔案或目錄)
+ 4月 06 23:40:16 kali-VMware-Virtual-Platform gvfsd-network[6220]: Couldn't create directory monitor on wsdd:///. Error: 自動掛載失敗：無法產生底層 wsdd 常駐程式。
+ 4月 06 23:40:16 kali-VMware-Virtual-Platform gvfsd-network[6220]: Couldn't create directory monitor on wsdd:///. Error: 自動掛載失敗：org.gtk.vfs.mountpoint_wsdd 的掛載點已在使用中
+ 4月 06 23:40:16 kali-VMware-Virtual-Platform gvfsd-network[6220]: GFileInfo created without standard::content-type
+ 4月 06 23:40:16 kali-VMware-Virtual-Platform gvfsd-network[6220]: file ../../../gio/gfileinfo.c: line 1821 (g_file_info_get_content_type): should not be reached
+ 4月 06 23:40:16 kali-VMware-Virtual-Platform gvfsd-network[6220]: g_ref_string_new_intern: assertion 'str != NULL' failed
+ 4月 06 23:40:16 kali-VMware-Virtual-Platform gvfsd-network[6220]: Couldn't create directory monitor on wsdd:///. Error: 自動掛載失敗：org.gtk.vfs.mountpoint_wsdd 的掛載點已在使用中
+ 4月 06 23:40:16 kali-VMware-Virtual-Platform gvfsd-network[6220]: GFileInfo created without standard::content-type
+ 4月 06 23:40:16 kali-VMware-Virtual-Platform gvfsd-network[6220]: file ../../../gio/gfileinfo.c: line 1821 (g_file_info_get_content_type): should not be reached
+ 4月 06 23:40:16 kali-VMware-Virtual-Platform gvfsd-network[6220]: g_ref_string_new_intern: assertion 'str != NULL' failed
+ 4月 06 23:40:16 kali-VMware-Virtual-Platform gvfsd-network[6220]: Couldn't create directory monitor on wsdd:///. Error: 自動掛載失敗：org.gtk.vfs.mountpoint_wsdd 的掛載點已在使用中
+ 4月 06 23:40:16 kali-VMware-Virtual-Platform gvfsd-network[6220]: g_ref_string_release: assertion 'str != NULL' failed
+ 4月 06 23:40:16 kali-VMware-Virtual-Platform gvfsd-network[6220]: g_file_info_set_content_type: assertion 'content_type != NULL' failed
+ 4月 06 23:40:33 kali-VMware-Virtual-Platform code.desktop[6039]: [main 2025-04-06T15:40:33.260Z] Extension host with pid 6144 exited with code: 0, signal: unknown.
+ 4月 06 23:40:37 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ 4月 06 23:40:43 kali-VMware-Virtual-Platform code.desktop[6039]: [main 2025-04-06T15:40:43.084Z] update#setState checking for updates
+ 4月 06 23:40:43 kali-VMware-Virtual-Platform code.desktop[6039]: [main 2025-04-06T15:40:43.154Z] update#setState idle
+ 4月 06 23:40:46 kali-VMware-Virtual-Platform systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit systemd-hostnamed.service has successfully entered the 'dead' state.
+ 4月 06 23:41:36 kali-VMware-Virtual-Platform code.desktop[6039]: [6039:0406/234136.636505:ERROR:browser_main_loop.cc(278)] GLib-GObject: ../../../gobject/gsignal.c:2685: instance '0x9440162d310' has no handler with id '13080'
+ 4月 06 23:41:36 kali-VMware-Virtual-Platform code.desktop[6336]: gio: file:///mnt/Digital%20Forensics/HW2/debian_ubuntu_info_20250406_233859: 不支援在系統內部掛載點使用垃圾桶
+ 4月 06 23:41:38 kali-VMware-Virtual-Platform code.desktop[6039]: [6039:0406/234138.526474:ERROR:browser_main_loop.cc(278)] GLib-GObject: ../../../gobject/gsignal.c:2685: instance '0x9440162d310' has no handler with id '13576'
+ 4月 06 23:41:42 kali-VMware-Virtual-Platform code.desktop[6039]: [main 2025-04-06T15:41:42.029Z] Extension host with pid 6295 exited with code: 0, signal: unknown.
+ 4月 06 23:41:42 kali-VMware-Virtual-Platform systemd[1812]: app-gnome-code-6039.scope: Consumed 18.878s CPU time.
+░░ Subject: Resources consumed by unit runtime
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit UNIT completed and consumed the indicated resources.
+ 4月 06 23:42:03 kali-VMware-Virtual-Platform sudo[6366]:     kali : TTY=pts/3 ; PWD=/mnt/Digital Forensics/HW2 ; USER=root ; COMMAND=./auto_collect.sh
+ 4月 06 23:42:03 kali-VMware-Virtual-Platform sudo[6366]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:42:03 kali-VMware-Virtual-Platform sudo[6366]: pam_unix(sudo:session): session closed for user root
+ 4月 06 23:42:13 kali-VMware-Virtual-Platform systemd[1812]: Started app-gnome-code-6370.scope - Application launched by gnome-shell.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:42:13 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.166' (uid=1000 pid=6370 comm="/usr/share/code/code" label="vscode (unconfined)")
+ 4月 06 23:42:13 kali-VMware-Virtual-Platform systemd[1]: bluetooth.service - Bluetooth service was skipped because of an unmet condition check (ConditionPathIsDirectory=/sys/class/bluetooth).
+░░ Subject: 單位 bluetooth.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 bluetooth.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 06 23:42:13 kali-VMware-Virtual-Platform code.desktop[6370]: [main 2025-04-06T15:42:13.529Z] update#setState idle
+ 4月 06 23:42:13 kali-VMware-Virtual-Platform code.desktop[6443]: [6443:0406/234213.591052:ERROR:command_buffer_proxy_impl.cc(131)] ContextResult::kTransientFailure: Failed to send GpuControl.CreateCommandBuffer.
+ 4月 06 23:42:15 kali-VMware-Virtual-Platform gnome-keyring-daemon[1853]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+ 4月 06 23:42:15 kali-VMware-Virtual-Platform gnome-keyring-d[1853]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+ 4月 06 23:42:38 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ 4月 06 23:42:40 kali-VMware-Virtual-Platform code.desktop[6370]: [main 2025-04-06T15:42:40.986Z] Extension host with pid 6474 exited with code: 0, signal: unknown.
+ 4月 06 23:42:41 kali-VMware-Virtual-Platform code.desktop[6370]: [main 2025-04-06T15:42:41.042Z] [UtilityProcess id: 1, type: fileWatcher, pid: 6481]: crashed with code 15 and reason 'killed'
+ 4月 06 23:42:41 kali-VMware-Virtual-Platform systemd[1812]: app-gnome-code-6370.scope: Consumed 7.905s CPU time.
+░░ Subject: Resources consumed by unit runtime
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit UNIT completed and consumed the indicated resources.
+ 4月 06 23:42:47 kali-VMware-Virtual-Platform sudo[6580]:     kali : TTY=pts/3 ; PWD=/mnt/Digital Forensics/HW2 ; USER=root ; COMMAND=./auto_collect.sh
+ 4月 06 23:42:47 kali-VMware-Virtual-Platform sudo[6580]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+ 4月 06 23:42:49 kali-VMware-Virtual-Platform crontab[6629]: (root) LIST (root)
+ 4月 06 23:42:51 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.168' (uid=0 pid=6797 comm="timedatectl" label="unconfined")
+ 4月 06 23:42:51 kali-VMware-Virtual-Platform systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+░░ Subject: 單位 systemd-timedated.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 systemd-timedated.service 已開始啟動。
+ 4月 06 23:42:51 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Successfully activated service 'org.freedesktop.timedate1'
+ 4月 06 23:42:51 kali-VMware-Virtual-Platform systemd[1]: Started systemd-timedated.service - Time & Date Service.
+░░ Subject: 單位 systemd-timedated.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ 單位 systemd-timedated.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。

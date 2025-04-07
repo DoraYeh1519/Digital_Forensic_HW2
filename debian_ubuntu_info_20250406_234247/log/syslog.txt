@@ -1,0 +1,200 @@
+2025-04-06T23:32:05.483816+08:00 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+2025-04-06T23:32:05.497891+08:00 kali-VMware-Virtual-Platform kernel:  sdb: sdb1
+2025-04-06T23:32:05.497926+08:00 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] Attached SCSI disk
+2025-04-06T23:32:05.585116+08:00 kali-VMware-Virtual-Platform (udev-worker)[5385]: sdb: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sdb' failed with exit code 1.
+2025-04-06T23:32:05.823604+08:00 kali-VMware-Virtual-Platform (udev-worker)[5385]: sdb1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sdb1' failed with exit code 1.
+2025-04-06T23:32:05.933817+08:00 kali-VMware-Virtual-Platform kernel: ntfs3: Enabled Linux POSIX ACLs support
+2025-04-06T23:32:05.933839+08:00 kali-VMware-Virtual-Platform kernel: ntfs3: Read-only LZX/Xpress compression included
+2025-04-06T23:32:06.615371+08:00 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: volume is dirty and "force" flag is not set!
+2025-04-06T23:32:06.616148+08:00 kali-VMware-Virtual-Platform gnome-shell[2048]: Unable to mount volume Transcend: Gio.IOErrorEnum: Error mounting /dev/sdb1 at /media/kali/Transcend: wrong fs type, bad option, bad superblock on /dev/sdb1, missing codepage or helper program, or other error
+2025-04-06T23:32:07.446755+08:00 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: It is recommened to use chkdsk.
+2025-04-06T23:32:07.590396+08:00 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: volume is dirty and "force" flag is not set!
+2025-04-06T23:32:07.592017+08:00 kali-VMware-Virtual-Platform gnome-shell[2048]: error: Failed to mount “Transcend”: Error mounting /dev/sdb1 at /media/kali/Transcend: wrong fs type, bad option, bad superblock on /dev/sdb1, missing codepage or helper program, or other error
+2025-04-06T23:32:07.603466+08:00 kali-VMware-Virtual-Platform gnome-shell[2048]: Impossible to mount removable Transcend: Gio.IOErrorEnum: Error mounting /dev/sdb1 at /media/kali/Transcend: wrong fs type, bad option, bad superblock on /dev/sdb1, missing codepage or helper program, or other error#012#012Stack trace:#012  _promisify/proto[asyncFunc]/</<@resource:///org/gnome/gjs/modules/core/overrides/Gio.js:453:45#012  @resource:///org/gnome/shell/ui/init.js:21:20#012  ### Promise created here: ####012  launchAction@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:632:35#012  mountAndLaunch@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:580:24#012  vfunc_launch@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:546:14#012  makeLocationApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1064:26#012  _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37#012  wrapWindowsBackedApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1005:22#012  _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37#012  wrapWindowsBackedApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1020:34#012  _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37#012  launchNewWindow@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/appIcons.js:745:26#012  activate@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/appIcons.js:685:18#012  vfunc_clicked@resource:///org/gnome/shell/ui/appDisplay.js:3077:14#012  @resource:///org/gnome/shell/ui/init.js:21:20#012  
+2025-04-06T23:32:07.603821+08:00 kali-VMware-Virtual-Platform gnome-shell[2048]: Mount and launch mountable-volume:12F21721F217089D: Error: No mounted location to open for mountable-volume:12F21721F217089D#012#012Stack trace:#012  mountAndLaunch@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:582:23#012  async*vfunc_launch@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:546:14#012  makeLocationApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1064:26#012  _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37#012  wrapWindowsBackedApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1005:22#012  _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37#012  wrapWindowsBackedApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1020:34#012  _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37#012  launchNewWindow@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/appIcons.js:745:26#012  activate@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/appIcons.js:685:18#012  vfunc_clicked@resource:///org/gnome/shell/ui/appDisplay.js:3077:14#012  @resource:///org/gnome/shell/ui/init.js:21:20#012  
+2025-04-06T23:32:15.239652+08:00 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating service name='org.gnome.Nautilus' requested by ':1.31' (uid=1000 pid=2048 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-04-06T23:32:15.270549+08:00 kali-VMware-Virtual-Platform nautilus[5404]: Connecting to org.freedesktop.Tracker3.Miner.Files
+2025-04-06T23:32:15.271954+08:00 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'org.gnome.Nautilus'
+2025-04-06T23:32:15.478450+08:00 kali-VMware-Virtual-Platform gnome-shell[2048]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+2025-04-06T23:32:15.479228+08:00 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.129' (uid=1000 pid=5404 comm="/usr/bin/nautilus --gapplication-service" label="nautilus (unconfined)")
+2025-04-06T23:32:15.490408+08:00 kali-VMware-Virtual-Platform systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+2025-04-06T23:32:15.537805+08:00 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Successfully activated service 'org.freedesktop.hostname1'
+2025-04-06T23:32:15.538289+08:00 kali-VMware-Virtual-Platform systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+2025-04-06T23:32:16.530843+08:00 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: It is recommened to use chkdsk.
+2025-04-06T23:32:16.846512+08:00 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: volume is dirty and "force" flag is not set!
+2025-04-06T23:32:16.851557+08:00 kali-VMware-Virtual-Platform gnome-shell[2048]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+2025-04-06T23:32:27.099010+08:00 kali-VMware-Virtual-Platform kernel: usb 4-1: USB disconnect, device number 2
+2025-04-06T23:32:34.259049+08:00 kali-VMware-Virtual-Platform kernel: usb 4-1: new SuperSpeed USB device number 3 using xhci_hcd
+2025-04-06T23:32:34.272813+08:00 kali-VMware-Virtual-Platform kernel: usb 4-1: New USB device found, idVendor=8564, idProduct=7000, bcdDevice=21.01
+2025-04-06T23:32:34.272822+08:00 kali-VMware-Virtual-Platform kernel: usb 4-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+2025-04-06T23:32:34.272823+08:00 kali-VMware-Virtual-Platform kernel: usb 4-1: Product: StoreJet Transcend
+2025-04-06T23:32:34.272823+08:00 kali-VMware-Virtual-Platform kernel: usb 4-1: Manufacturer: StoreJet Transcend
+2025-04-06T23:32:34.272824+08:00 kali-VMware-Virtual-Platform kernel: usb 4-1: SerialNumber: WD-WX22A74MD9XP
+2025-04-06T23:32:34.278205+08:00 kali-VMware-Virtual-Platform kernel: usb-storage 4-1:1.0: USB Mass Storage device detected
+2025-04-06T23:32:34.278215+08:00 kali-VMware-Virtual-Platform kernel: scsi host33: usb-storage 4-1:1.0
+2025-04-06T23:32:34.281377+08:00 kali-VMware-Virtual-Platform mtp-probe: checking bus 4, device 3: "/sys/devices/pci0000:00/0000:00:15.0/0000:03:00.0/usb4/4-1"
+2025-04-06T23:32:34.281565+08:00 kali-VMware-Virtual-Platform mtp-probe: bus: 4, device: 3 was not an MTP device
+2025-04-06T23:32:34.291210+08:00 kali-VMware-Virtual-Platform mtp-probe: checking bus 4, device 3: "/sys/devices/pci0000:00/0000:00:15.0/0000:03:00.0/usb4/4-1"
+2025-04-06T23:32:34.291258+08:00 kali-VMware-Virtual-Platform mtp-probe: bus: 4, device: 3 was not an MTP device
+2025-04-06T23:32:35.307912+08:00 kali-VMware-Virtual-Platform kernel: scsi 33:0:0:0: Direct-Access     StoreJet Transcend        2101 PQ: 0 ANSI: 6
+2025-04-06T23:32:35.308079+08:00 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: Attached scsi generic sg3 type 0
+2025-04-06T23:32:35.308813+08:00 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] 1953525168 512-byte logical blocks: (1.00 TB/932 GiB)
+2025-04-06T23:32:35.312180+08:00 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] Write Protect is off
+2025-04-06T23:32:35.312186+08:00 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] Mode Sense: 47 00 00 08
+2025-04-06T23:32:35.312186+08:00 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+2025-04-06T23:32:35.322540+08:00 kali-VMware-Virtual-Platform kernel:  sdb: sdb1
+2025-04-06T23:32:35.322597+08:00 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] Attached SCSI disk
+2025-04-06T23:32:35.346864+08:00 kali-VMware-Virtual-Platform (udev-worker)[5479]: sdb: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sdb' failed with exit code 1.
+2025-04-06T23:32:35.571939+08:00 kali-VMware-Virtual-Platform (udev-worker)[5455]: sdb1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sdb1' failed with exit code 1.
+2025-04-06T23:32:35.698818+08:00 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: It is recommened to use chkdsk.
+2025-04-06T23:32:36.196822+08:00 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: volume is dirty and "force" flag is not set!
+2025-04-06T23:32:36.198437+08:00 kali-VMware-Virtual-Platform gnome-shell[2048]: Unable to mount volume Transcend: Gio.IOErrorEnum: Error mounting /dev/sdb1 at /media/kali/Transcend: wrong fs type, bad option, bad superblock on /dev/sdb1, missing codepage or helper program, or other error
+2025-04-06T23:32:38.345726+08:00 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: It is recommened to use chkdsk.
+2025-04-06T23:32:38.405023+08:00 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: volume is dirty and "force" flag is not set!
+2025-04-06T23:32:38.406945+08:00 kali-VMware-Virtual-Platform gnome-shell[2048]: error: Failed to mount “Transcend”: Error mounting /dev/sdb1 at /media/kali/Transcend: wrong fs type, bad option, bad superblock on /dev/sdb1, missing codepage or helper program, or other error
+2025-04-06T23:32:38.411025+08:00 kali-VMware-Virtual-Platform gnome-shell[2048]: Impossible to mount removable Transcend: Gio.IOErrorEnum: Error mounting /dev/sdb1 at /media/kali/Transcend: wrong fs type, bad option, bad superblock on /dev/sdb1, missing codepage or helper program, or other error#012#012Stack trace:#012  _promisify/proto[asyncFunc]/</<@resource:///org/gnome/gjs/modules/core/overrides/Gio.js:453:45#012  @resource:///org/gnome/shell/ui/init.js:21:20#012  ### Promise created here: ####012  launchAction@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:632:35#012  mountAndLaunch@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:580:24#012  vfunc_launch@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:546:14#012  makeLocationApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1064:26#012  _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37#012  wrapWindowsBackedApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1005:22#012  _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37#012  wrapWindowsBackedApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1020:34#012  _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37#012  launchNewWindow@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/appIcons.js:745:26#012  activate@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/appIcons.js:685:18#012  vfunc_clicked@resource:///org/gnome/shell/ui/appDisplay.js:3077:14#012  @resource:///org/gnome/shell/ui/init.js:21:20#012  
+2025-04-06T23:32:38.411349+08:00 kali-VMware-Virtual-Platform gnome-shell[2048]: Mount and launch mountable-volume:12F21721F217089D: Error: No mounted location to open for mountable-volume:12F21721F217089D#012#012Stack trace:#012  mountAndLaunch@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:582:23#012  async*vfunc_launch@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:546:14#012  makeLocationApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1064:26#012  _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37#012  wrapWindowsBackedApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1005:22#012  _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37#012  wrapWindowsBackedApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1020:34#012  _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37#012  launchNewWindow@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/appIcons.js:745:26#012  activate@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/appIcons.js:685:18#012  vfunc_clicked@resource:///org/gnome/shell/ui/appDisplay.js:3077:14#012  @resource:///org/gnome/shell/ui/init.js:21:20#012  
+2025-04-06T23:32:44.760865+08:00 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating service name='org.gnome.Nautilus' requested by ':1.31' (uid=1000 pid=2048 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-04-06T23:32:44.792975+08:00 kali-VMware-Virtual-Platform nautilus[5510]: Connecting to org.freedesktop.Tracker3.Miner.Files
+2025-04-06T23:32:44.793487+08:00 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'org.gnome.Nautilus'
+2025-04-06T23:32:44.953437+08:00 kali-VMware-Virtual-Platform gnome-shell[2048]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+2025-04-06T23:32:46.413754+08:00 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: It is recommened to use chkdsk.
+2025-04-06T23:32:46.537860+08:00 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: volume is dirty and "force" flag is not set!
+2025-04-06T23:32:46.544947+08:00 kali-VMware-Virtual-Platform gnome-shell[2048]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+2025-04-06T23:33:11.407083+08:00 kali-VMware-Virtual-Platform udisksd[754]: Successfully sent SCSI command SYNCHRONIZE CACHE to /dev/sdb
+2025-04-06T23:33:11.965393+08:00 kali-VMware-Virtual-Platform udisksd[754]: Successfully sent SCSI command START STOP UNIT to /dev/sdb
+2025-04-06T23:33:11.992798+08:00 kali-VMware-Virtual-Platform kernel: usb 4-1: USB disconnect, device number 3
+2025-04-06T23:33:11.992364+08:00 kali-VMware-Virtual-Platform udisksd[754]: Powered off /dev/sdb - successfully wrote to sysfs path /sys/devices/pci0000:00/0000:00:15.0/0000:03:00.0/usb4/4-1/remove
+2025-04-06T23:33:14.988050+08:00 kali-VMware-Virtual-Platform systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+2025-04-06T23:33:19.156318+08:00 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+2025-04-06T23:33:19.156783+08:00 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: message repeated 32 times: [ context mismatch in svga_surface_destroy]
+2025-04-06T23:34:04.446179+08:00 kali-VMware-Virtual-Platform systemd[1]: Started anacron.service - Run anacron jobs.
+2025-04-06T23:34:04.448424+08:00 kali-VMware-Virtual-Platform systemd[1]: anacron.service: Deactivated successfully.
+2025-04-06T23:34:04.448536+08:00 kali-VMware-Virtual-Platform anacron[5570]: Anacron 2.3 started on 2025-04-06
+2025-04-06T23:34:04.448610+08:00 kali-VMware-Virtual-Platform anacron[5570]: Normal exit (0 jobs run)
+2025-04-06T23:34:10.178793+08:00 kali-VMware-Virtual-Platform kernel: usb 4-1: new SuperSpeed USB device number 4 using xhci_hcd
+2025-04-06T23:34:10.193269+08:00 kali-VMware-Virtual-Platform kernel: usb 4-1: New USB device found, idVendor=8564, idProduct=7000, bcdDevice=21.01
+2025-04-06T23:34:10.193277+08:00 kali-VMware-Virtual-Platform kernel: usb 4-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+2025-04-06T23:34:10.193278+08:00 kali-VMware-Virtual-Platform kernel: usb 4-1: Product: StoreJet Transcend
+2025-04-06T23:34:10.193278+08:00 kali-VMware-Virtual-Platform kernel: usb 4-1: Manufacturer: StoreJet Transcend
+2025-04-06T23:34:10.193278+08:00 kali-VMware-Virtual-Platform kernel: usb 4-1: SerialNumber: WD-WX22A74MD9XP
+2025-04-06T23:34:10.197746+08:00 kali-VMware-Virtual-Platform kernel: usb-storage 4-1:1.0: USB Mass Storage device detected
+2025-04-06T23:34:10.199494+08:00 kali-VMware-Virtual-Platform kernel: scsi host33: usb-storage 4-1:1.0
+2025-04-06T23:34:10.201858+08:00 kali-VMware-Virtual-Platform mtp-probe: checking bus 4, device 4: "/sys/devices/pci0000:00/0000:00:15.0/0000:03:00.0/usb4/4-1"
+2025-04-06T23:34:10.201982+08:00 kali-VMware-Virtual-Platform mtp-probe: bus: 4, device: 4 was not an MTP device
+2025-04-06T23:34:10.210501+08:00 kali-VMware-Virtual-Platform mtp-probe: checking bus 4, device 4: "/sys/devices/pci0000:00/0000:00:15.0/0000:03:00.0/usb4/4-1"
+2025-04-06T23:34:10.210583+08:00 kali-VMware-Virtual-Platform mtp-probe: bus: 4, device: 4 was not an MTP device
+2025-04-06T23:34:11.242754+08:00 kali-VMware-Virtual-Platform kernel: scsi 33:0:0:0: Direct-Access     StoreJet Transcend        2101 PQ: 0 ANSI: 6
+2025-04-06T23:34:11.242770+08:00 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: Attached scsi generic sg3 type 0
+2025-04-06T23:34:13.479769+08:00 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] 1953525168 512-byte logical blocks: (1.00 TB/932 GiB)
+2025-04-06T23:34:13.480812+08:00 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] Write Protect is off
+2025-04-06T23:34:13.480828+08:00 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] Mode Sense: 47 00 00 08
+2025-04-06T23:34:13.481769+08:00 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+2025-04-06T23:34:13.497901+08:00 kali-VMware-Virtual-Platform kernel:  sdb: sdb1
+2025-04-06T23:34:13.497908+08:00 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] Attached SCSI disk
+2025-04-06T23:34:13.571567+08:00 kali-VMware-Virtual-Platform (udev-worker)[5599]: sdb: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sdb' failed with exit code 1.
+2025-04-06T23:34:13.848806+08:00 kali-VMware-Virtual-Platform (udev-worker)[5572]: sdb1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sdb1' failed with exit code 1.
+2025-04-06T23:34:13.899499+08:00 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: It is recommened to use chkdsk.
+2025-04-06T23:34:14.427173+08:00 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: volume is dirty and "force" flag is not set!
+2025-04-06T23:34:14.428274+08:00 kali-VMware-Virtual-Platform gnome-shell[2048]: Unable to mount volume Transcend: Gio.IOErrorEnum: Error mounting /dev/sdb1 at /media/kali/Transcend: wrong fs type, bad option, bad superblock on /dev/sdb1, missing codepage or helper program, or other error
+2025-04-06T23:34:15.557492+08:00 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: It is recommened to use chkdsk.
+2025-04-06T23:34:15.612000+08:00 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: volume is dirty and "force" flag is not set!
+2025-04-06T23:34:15.619034+08:00 kali-VMware-Virtual-Platform gnome-shell[2048]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+2025-04-06T23:34:18.747909+08:00 kali-VMware-Virtual-Platform gnome-shell[2048]: clutter_actor_set_allocation_internal: assertion '!isnan (box->x1) && !isnan (box->x2) && !isnan (box->y1) && !isnan (box->y2)' failed
+2025-04-06T23:34:18.748070+08:00 kali-VMware-Virtual-Platform gnome-shell[2048]: ../clutter/clutter/clutter-actor.c:8692: Actor 'unnamed [StDrawingArea]' tried to allocate a size of -2147483648.00 x -2147483648.00
+2025-04-06T23:34:18.748101+08:00 kali-VMware-Virtual-Platform gnome-shell[2048]: ../clutter/clutter/clutter-actor.c:8692: Actor 'unnamed [StBin]' tried to allocate a size of -2147483648.00 x -2147483648.00
+2025-04-06T23:34:19.155742+08:00 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+2025-04-06T23:34:55.085827+08:00 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: It is recommened to use chkdsk.
+2025-04-06T23:34:55.423423+08:00 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: volume is dirty and "force" flag is not set!
+2025-04-06T23:34:37.169141+08:00 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: message repeated 15 times: [ context mismatch in svga_surface_destroy]
+2025-04-06T23:34:55.429832+08:00 kali-VMware-Virtual-Platform gnome-shell[2048]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+2025-04-06T23:35:01.382248+08:00 kali-VMware-Virtual-Platform CRON[5630]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+2025-04-06T23:35:17.954869+08:00 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: It is recommened to use chkdsk.
+2025-04-06T23:35:17.961863+08:00 kali-VMware-Virtual-Platform kernel: ntfs3: sdb1: volume is dirty and "force" flag is not set!
+2025-04-06T23:35:17.968565+08:00 kali-VMware-Virtual-Platform gnome-shell[2048]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+2025-04-06T23:35:32.169423+08:00 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+2025-04-06T23:35:34.236147+08:00 kali-VMware-Virtual-Platform NetworkManager[805]: <info>  [1743953734.2350] dhcp4 (ens33): state changed new lease, address=192.168.110.130
+2025-04-06T23:35:34.236367+08:00 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=805 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+2025-04-06T23:35:34.242218+08:00 kali-VMware-Virtual-Platform systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+2025-04-06T23:35:34.247594+08:00 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+2025-04-06T23:35:34.247658+08:00 kali-VMware-Virtual-Platform systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+2025-04-06T23:35:44.260151+08:00 kali-VMware-Virtual-Platform systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+2025-04-06T23:36:14.925092+08:00 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: context mismatch in svga_surface_destroy
+2025-04-06T23:36:14.925376+08:00 kali-VMware-Virtual-Platform org.gnome.Nautilus[5510]: message repeated 5 times: [ context mismatch in svga_surface_destroy]
+2025-04-06T23:36:19.027437+08:00 kali-VMware-Virtual-Platform systemd[1812]: Started vte-spawn-2ecf0cdc-f27c-493a-b05b-21e7fdba4c95.scope - VTE child process 5651 launched by gnome-terminal-server process 2958.
+2025-04-06T23:37:04.960518+08:00 kali-VMware-Virtual-Platform ntfs-3g[5702]: Version 2022.10.3 integrated FUSE 28
+2025-04-06T23:37:04.961633+08:00 kali-VMware-Virtual-Platform ntfs-3g[5702]: Mounted /dev/sdb1 (Read-Write, label "Transcend", NTFS 3.1)
+2025-04-06T23:37:04.961679+08:00 kali-VMware-Virtual-Platform ntfs-3g[5702]: Cmdline options: rw
+2025-04-06T23:37:04.961727+08:00 kali-VMware-Virtual-Platform ntfs-3g[5702]: Mount options: allow_other,nonempty,relatime,rw,fsname=/dev/sdb1,blkdev,blksize=4096
+2025-04-06T23:37:04.961756+08:00 kali-VMware-Virtual-Platform ntfs-3g[5702]: Ownership and permissions disabled, configuration type 7
+2025-04-06T23:37:08.697880+08:00 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Activating service name='org.gnome.Nautilus' requested by ':1.31' (uid=1000 pid=2048 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-04-06T23:37:08.730964+08:00 kali-VMware-Virtual-Platform nautilus[5708]: Connecting to org.freedesktop.Tracker3.Miner.Files
+2025-04-06T23:37:08.732026+08:00 kali-VMware-Virtual-Platform dbus-daemon[1852]: [session uid=1000 pid=1852] Successfully activated service 'org.gnome.Nautilus'
+2025-04-06T23:37:08.927950+08:00 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.157' (uid=1000 pid=5708 comm="/usr/bin/nautilus --gapplication-service" label="nautilus (unconfined)")
+2025-04-06T23:37:08.938073+08:00 kali-VMware-Virtual-Platform gnome-shell[2048]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+2025-04-06T23:37:08.940061+08:00 kali-VMware-Virtual-Platform systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+2025-04-06T23:37:08.991123+08:00 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Successfully activated service 'org.freedesktop.hostname1'
+2025-04-06T23:37:08.991527+08:00 kali-VMware-Virtual-Platform systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+2025-04-06T23:37:39.234795+08:00 kali-VMware-Virtual-Platform systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+2025-04-06T23:39:01.963300+08:00 kali-VMware-Virtual-Platform crontab[5828]: (root) LIST (root)
+2025-04-06T23:39:08.042119+08:00 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.159' (uid=0 pid=5999 comm="timedatectl" label="unconfined")
+2025-04-06T23:39:08.051635+08:00 kali-VMware-Virtual-Platform systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+2025-04-06T23:39:08.082367+08:00 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Successfully activated service 'org.freedesktop.timedate1'
+2025-04-06T23:39:08.083187+08:00 kali-VMware-Virtual-Platform systemd[1]: Started systemd-timedated.service - Time & Date Service.
+2025-04-06T23:39:38.092427+08:00 kali-VMware-Virtual-Platform systemd[1]: systemd-timedated.service: Deactivated successfully.
+2025-04-06T23:40:06.185342+08:00 kali-VMware-Virtual-Platform systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2025-04-06T23:40:06.188492+08:00 kali-VMware-Virtual-Platform systemd[1]: sysstat-collect.service: Deactivated successfully.
+2025-04-06T23:40:06.188642+08:00 kali-VMware-Virtual-Platform systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2025-04-06T23:40:08.515516+08:00 kali-VMware-Virtual-Platform gnome-shell[2048]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+2025-04-06T23:40:09.889567+08:00 kali-VMware-Virtual-Platform org.gnome.TextEditor.desktop[4578]: context mismatch in svga_surface_destroy
+2025-04-06T23:40:09.925926+08:00 kali-VMware-Virtual-Platform systemd[1812]: app-gnome-org.gnome.TextEditor-4578.scope: Consumed 1.595s CPU time.
+2025-04-06T23:40:10.053663+08:00 kali-VMware-Virtual-Platform gnome-shell[2048]: JS ERROR: TypeError: this.actor is null#012_syncEnabled@resource:///org/gnome/shell/ui/windowManager.js:145:25#012onStopped@resource:///org/gnome/shell/ui/windowManager.js:157:35#012_makeEaseCallback/<@resource:///org/gnome/shell/ui/environment.js:65:22#012_easeActorProperty/<@resource:///org/gnome/shell/ui/environment.js:247:60#012_destroyWindowDone@resource:///org/gnome/shell/ui/windowManager.js:1607:21#012onStopped@resource:///org/gnome/shell/ui/windowManager.js:1575:39#012_makeEaseCallback/<@resource:///org/gnome/shell/ui/environment.js:65:22#012_easeActor/<@resource:///org/gnome/shell/ui/environment.js:160:64#012@resource:///org/gnome/shell/ui/init.js:21:20
+2025-04-06T23:40:11.976093+08:00 kali-VMware-Virtual-Platform systemd[1812]: Started app-gnome-code-6039.scope - Application launched by gnome-shell.
+2025-04-06T23:40:12.711563+08:00 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.162' (uid=1000 pid=6039 comm="/usr/share/code/code" label="vscode (unconfined)")
+2025-04-06T23:40:12.711744+08:00 kali-VMware-Virtual-Platform systemd[1]: bluetooth.service - Bluetooth service was skipped because of an unmet condition check (ConditionPathIsDirectory=/sys/class/bluetooth).
+2025-04-06T23:40:12.949083+08:00 kali-VMware-Virtual-Platform code.desktop[6039]: #033[91m[main 2025-04-06T15:40:12.945Z]#033[0m Invalid path provided: /media/kali/Transcend/Digital Forensics/HW2, ENOENT: no such file or directory, stat '/media/kali/Transcend/Digital Forensics/HW2'
+2025-04-06T23:40:13.081831+08:00 kali-VMware-Virtual-Platform code.desktop[6039]: #033[90m[main 2025-04-06T15:40:13.081Z]#033[0m update#setState idle
+2025-04-06T23:40:13.325841+08:00 kali-VMware-Virtual-Platform code.desktop[6110]: [6110:0406/234013.325243:ERROR:command_buffer_proxy_impl.cc(131)] ContextResult::kTransientFailure: Failed to send GpuControl.CreateCommandBuffer.
+2025-04-06T23:40:15.545583+08:00 kali-VMware-Virtual-Platform gnome-keyring-d[1853]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2025-04-06T23:40:15.929013+08:00 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.163' (uid=1000 pid=6039 comm="/usr/share/code/code" label="vscode (unconfined)")
+2025-04-06T23:40:15.941780+08:00 kali-VMware-Virtual-Platform systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+2025-04-06T23:40:16.002220+08:00 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Successfully activated service 'org.freedesktop.hostname1'
+2025-04-06T23:40:16.002750+08:00 kali-VMware-Virtual-Platform systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+2025-04-06T23:40:16.344758+08:00 kali-VMware-Virtual-Platform gvfsd[6227]: smbXcli_negprot_smb1_done: No compatible protocol selected by server.
+2025-04-06T23:40:16.356176+08:00 kali-VMware-Virtual-Platform gvfsd[6227]: smbXcli_negprot_smb1_done: No compatible protocol selected by server.
+2025-04-06T23:40:16.430953+08:00 kali-VMware-Virtual-Platform gvfsd-wsdd[6244]: Failed to spawn the wsdd daemon: 無法執行副程序「wsdd」(沒有此一檔案或目錄)
+2025-04-06T23:40:16.431742+08:00 kali-VMware-Virtual-Platform gvfsd-network[6220]: Couldn't create directory monitor on wsdd:///. Error: 自動掛載失敗：無法產生底層 wsdd 常駐程式。
+2025-04-06T23:40:16.473808+08:00 kali-VMware-Virtual-Platform gvfsd-network[6220]: Couldn't create directory monitor on wsdd:///. Error: 自動掛載失敗：org.gtk.vfs.mountpoint_wsdd 的掛載點已在使用中
+2025-04-06T23:40:16.575110+08:00 kali-VMware-Virtual-Platform gvfsd-network[6220]: GFileInfo created without standard::content-type
+2025-04-06T23:40:16.575236+08:00 kali-VMware-Virtual-Platform gvfsd-network[6220]: file ../../../gio/gfileinfo.c: line 1821 (g_file_info_get_content_type): should not be reached
+2025-04-06T23:40:16.575270+08:00 kali-VMware-Virtual-Platform gvfsd-network[6220]: g_ref_string_new_intern: assertion 'str != NULL' failed
+2025-04-06T23:40:16.582956+08:00 kali-VMware-Virtual-Platform gvfsd-network[6220]: Couldn't create directory monitor on wsdd:///. Error: 自動掛載失敗：org.gtk.vfs.mountpoint_wsdd 的掛載點已在使用中
+2025-04-06T23:40:16.592897+08:00 kali-VMware-Virtual-Platform gvfsd-network[6220]: GFileInfo created without standard::content-type
+2025-04-06T23:40:16.592951+08:00 kali-VMware-Virtual-Platform gvfsd-network[6220]: file ../../../gio/gfileinfo.c: line 1821 (g_file_info_get_content_type): should not be reached
+2025-04-06T23:40:16.593008+08:00 kali-VMware-Virtual-Platform gvfsd-network[6220]: g_ref_string_new_intern: assertion 'str != NULL' failed
+2025-04-06T23:40:16.599150+08:00 kali-VMware-Virtual-Platform gvfsd-network[6220]: Couldn't create directory monitor on wsdd:///. Error: 自動掛載失敗：org.gtk.vfs.mountpoint_wsdd 的掛載點已在使用中
+2025-04-06T23:40:16.605870+08:00 kali-VMware-Virtual-Platform gvfsd-network[6220]: g_ref_string_release: assertion 'str != NULL' failed
+2025-04-06T23:40:16.605945+08:00 kali-VMware-Virtual-Platform gvfsd-network[6220]: g_file_info_set_content_type: assertion 'content_type != NULL' failed
+2025-04-06T23:40:33.260848+08:00 kali-VMware-Virtual-Platform code.desktop[6039]: #033[90m[main 2025-04-06T15:40:33.260Z]#033[0m Extension host with pid 6144 exited with code: 0, signal: unknown.
+2025-04-06T23:40:43.085177+08:00 kali-VMware-Virtual-Platform code.desktop[6039]: #033[90m[main 2025-04-06T15:40:43.084Z]#033[0m update#setState checking for updates
+2025-04-06T23:40:43.154734+08:00 kali-VMware-Virtual-Platform code.desktop[6039]: #033[90m[main 2025-04-06T15:40:43.154Z]#033[0m update#setState idle
+2025-04-06T23:40:46.107922+08:00 kali-VMware-Virtual-Platform systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+2025-04-06T23:41:36.636804+08:00 kali-VMware-Virtual-Platform code.desktop[6039]: [6039:0406/234136.636505:ERROR:browser_main_loop.cc(278)] GLib-GObject: ../../../gobject/gsignal.c:2685: instance '0x9440162d310' has no handler with id '13080'
+2025-04-06T23:41:36.688306+08:00 kali-VMware-Virtual-Platform code.desktop[6336]: gio: file:///mnt/Digital%20Forensics/HW2/debian_ubuntu_info_20250406_233859: 不支援在系統內部掛載點使用垃圾桶
+2025-04-06T23:41:38.527076+08:00 kali-VMware-Virtual-Platform code.desktop[6039]: [6039:0406/234138.526474:ERROR:browser_main_loop.cc(278)] GLib-GObject: ../../../gobject/gsignal.c:2685: instance '0x9440162d310' has no handler with id '13576'
+2025-04-06T23:41:42.029309+08:00 kali-VMware-Virtual-Platform code.desktop[6039]: #033[90m[main 2025-04-06T15:41:42.029Z]#033[0m Extension host with pid 6295 exited with code: 0, signal: unknown.
+2025-04-06T23:41:42.213018+08:00 kali-VMware-Virtual-Platform systemd[1812]: app-gnome-code-6039.scope: Consumed 18.878s CPU time.
+2025-04-06T23:42:13.066171+08:00 kali-VMware-Virtual-Platform systemd[1812]: Started app-gnome-code-6370.scope - Application launched by gnome-shell.
+2025-04-06T23:42:13.320707+08:00 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.166' (uid=1000 pid=6370 comm="/usr/share/code/code" label="vscode (unconfined)")
+2025-04-06T23:42:13.321945+08:00 kali-VMware-Virtual-Platform systemd[1]: bluetooth.service - Bluetooth service was skipped because of an unmet condition check (ConditionPathIsDirectory=/sys/class/bluetooth).
+2025-04-06T23:42:13.530005+08:00 kali-VMware-Virtual-Platform code.desktop[6370]: #033[90m[main 2025-04-06T15:42:13.529Z]#033[0m update#setState idle
+2025-04-06T23:42:13.591487+08:00 kali-VMware-Virtual-Platform code.desktop[6443]: [6443:0406/234213.591052:ERROR:command_buffer_proxy_impl.cc(131)] ContextResult::kTransientFailure: Failed to send GpuControl.CreateCommandBuffer.
+2025-04-06T23:42:15.698036+08:00 kali-VMware-Virtual-Platform gnome-keyring-d[1853]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2025-04-06T23:42:40.986284+08:00 kali-VMware-Virtual-Platform code.desktop[6370]: #033[90m[main 2025-04-06T15:42:40.986Z]#033[0m Extension host with pid 6474 exited with code: 0, signal: unknown.
+2025-04-06T23:42:41.043050+08:00 kali-VMware-Virtual-Platform code.desktop[6370]: #033[91m[main 2025-04-06T15:42:41.042Z]#033[0m [UtilityProcess id: 1, type: fileWatcher, pid: 6481]: crashed with code 15 and reason 'killed'
+2025-04-06T23:42:41.134956+08:00 kali-VMware-Virtual-Platform systemd[1812]: app-gnome-code-6370.scope: Consumed 7.905s CPU time.
+2025-04-06T23:42:49.671002+08:00 kali-VMware-Virtual-Platform crontab[6629]: (root) LIST (root)
+2025-04-06T23:42:51.108259+08:00 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.168' (uid=0 pid=6797 comm="timedatectl" label="unconfined")
+2025-04-06T23:42:51.116092+08:00 kali-VMware-Virtual-Platform systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+2025-04-06T23:42:51.146812+08:00 kali-VMware-Virtual-Platform dbus-daemon[702]: [system] Successfully activated service 'org.freedesktop.timedate1'
+2025-04-06T23:42:51.147388+08:00 kali-VMware-Virtual-Platform systemd[1]: Started systemd-timedated.service - Time & Date Service.

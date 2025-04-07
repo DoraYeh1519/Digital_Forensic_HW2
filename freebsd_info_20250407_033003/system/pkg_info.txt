@@ -1,0 +1,5 @@
+e2fsprogs-libuuid-1.47.1       UUID library from e2fsprogs package
+fusefs-libs-2.9.9_2            FUSE allows filesystem implementation in userspace
+fusefs-ntfs-2022.10.3_1        Mount NTFS partitions (read/write) and disk images
+libublio-20070103_3            User space caching library
+pkg-1.21.3                     Package manager

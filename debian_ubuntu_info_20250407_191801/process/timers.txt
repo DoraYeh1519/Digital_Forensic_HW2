@@ -1,0 +1,19 @@
+NEXT                            LEFT LAST                        PASSED UNIT                           ACTIVATES
+Mon 2025-04-07 19:18:36 CST      33s Sun 2025-04-06 23:34:04 CST      - anacron.timer                  anacron.service
+Mon 2025-04-07 19:18:50 CST      47s Sun 2025-04-06 21:14:28 CST      - apt-daily-upgrade.timer        apt-daily-upgrade.service
+Mon 2025-04-07 19:20:00 CST 1min 56s -                                - sysstat-collect.timer          sysstat-collect.service
+Mon 2025-04-07 19:21:13 CST 3min 10s -                                - update-notifier-download.timer update-notifier-download.service
+Mon 2025-04-07 19:31:09 CST    13min -                                - systemd-tmpfiles-clean.timer   systemd-tmpfiles-clean.service
+Mon 2025-04-07 20:12:15 CST    54min Mon 2025-04-07 02:25:20 CST      - fwupd-refresh.timer            fwupd-refresh.service
+Mon 2025-04-07 20:39:38 CST 1h 21min Sat 2025-04-05 20:00:25 CST      - apt-daily.timer                apt-daily.service
+Mon 2025-04-07 22:59:12 CST 3h 41min Sat 2025-04-05 20:00:25 CST      - motd-news.timer                motd-news.service
+Mon 2025-04-07 23:04:22 CST 3h 46min Sun 2025-04-06 22:19:11 CST      - man-db.timer                   man-db.service
+Tue 2025-04-08 00:00:00 CST 4h 41min Mon 2025-04-07 00:00:06 CST      - dpkg-db-backup.timer           dpkg-db-backup.service
+Tue 2025-04-08 00:00:00 CST 4h 41min Mon 2025-04-07 00:00:06 CST      - logrotate.timer                logrotate.service
+Tue 2025-04-08 00:07:00 CST 4h 48min -                                - sysstat-summary.timer          sysstat-summary.service
+Fri 2025-04-11 21:11:31 CST   4 days Sat 2025-04-05 20:00:31 CST      - update-notifier-motd.timer     update-notifier-motd.service
+Sun 2025-04-13 03:10:37 CST   5 days Sun 2025-04-06 21:12:18 CST      - e2scrub_all.timer              e2scrub_all.service
+Mon 2025-04-14 00:04:58 CST   6 days Mon 2025-04-07 01:32:44 CST      - fstrim.timer                   fstrim.service
+
+15 timers listed.
+Pass --all to see loaded but inactive timers, too.

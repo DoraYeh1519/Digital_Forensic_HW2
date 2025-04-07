@@ -1,0 +1,2 @@
+Linux localhost.localdomain 6.12.0-66.el10.x86_64 #1 SMP PREEMPT_DYNAMIC Thu Mar 20 13:49:55 UTC 2025 x86_64 GNU/Linux
+CentOS Stream release 10 (Coughlan)

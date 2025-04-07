@@ -1,0 +1,2 @@
+TARGET       SOURCE                    FSTYPE OPTIONS
+/mnt/testnfs localhost:/srv/nfs/shared nfs4   rw,relatime,vers=4.2,rsize=524288,wsize=524288,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,clientaddr=127.0.0.1,local_lock=none,addr=127.0.0.1

@@ -1,0 +1,7 @@
+Netid State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess                                
+udp   UNCONN 0      0            0.0.0.0:5353       0.0.0.0:*    users:(("avahi-daemon",pid=837,fd=12))
+udp   UNCONN 0      0            0.0.0.0:52588      0.0.0.0:*    users:(("avahi-daemon",pid=837,fd=14))
+udp   UNCONN 0      0               [::]:45052         [::]:*    users:(("avahi-daemon",pid=837,fd=15))
+udp   UNCONN 0      0               [::]:5353          [::]:*    users:(("avahi-daemon",pid=837,fd=13))
+tcp   LISTEN 0      128        127.0.0.1:631        0.0.0.0:*    users:(("cupsd",pid=896,fd=7))        
+tcp   LISTEN 0      128            [::1]:631           [::]:*    users:(("cupsd",pid=896,fd=6))        

@@ -1,0 +1,14 @@
+/etc/cron.deny
+/etc/crontab
+
+/etc/cron.d:
+0hourly
+
+/etc/cron.daily:
+
+/etc/cron.hourly:
+0anacron
+
+/etc/cron.monthly:
+
+/etc/cron.weekly:

@@ -1,0 +1,47 @@
+COMMAND    PID            USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
+systemd      1            root  198u  IPv4   7977      0t0  TCP *:sunrpc (LISTEN)
+systemd      1            root  199u  IPv4   7978      0t0  UDP *:sunrpc 
+systemd      1            root  200u  IPv6   7979      0t0  TCP *:sunrpc (LISTEN)
+systemd      1            root  201u  IPv6   7980      0t0  UDP *:sunrpc 
+rpcbind    524            _rpc    4u  IPv4   7977      0t0  TCP *:sunrpc (LISTEN)
+rpcbind    524            _rpc    5u  IPv4   7978      0t0  UDP *:sunrpc 
+rpcbind    524            _rpc    6u  IPv6   7979      0t0  TCP *:sunrpc (LISTEN)
+rpcbind    524            _rpc    7u  IPv6   7980      0t0  UDP *:sunrpc 
+systemd-r  535 systemd-resolve   14u  IPv4  17132      0t0  UDP _localdnsstub:domain 
+systemd-r  535 systemd-resolve   15u  IPv4  17133      0t0  TCP _localdnsstub:domain (LISTEN)
+systemd-r  535 systemd-resolve   16u  IPv4  17134      0t0  UDP _localdnsproxy:domain 
+systemd-r  535 systemd-resolve   17u  IPv4  17135      0t0  TCP _localdnsproxy:domain (LISTEN)
+avahi-dae  715           avahi   12u  IPv4  19522      0t0  UDP *:mdns 
+avahi-dae  715           avahi   13u  IPv6  19523      0t0  UDP *:mdns 
+avahi-dae  715           avahi   14u  IPv4  19524      0t0  UDP *:44664 
+avahi-dae  715           avahi   15u  IPv6  19525      0t0  UDP *:58126 
+NetworkMa  783            root   26u  IPv4  20860      0t0  UDP kali-VMware-Virtual-Platform:bootpc->192.168.110.254:bootps 
+cupsd     1010            root    6u  IPv6  20632      0t0  TCP ip6-localhost:ipp (LISTEN)
+cupsd     1010            root    7u  IPv4  20633      0t0  TCP localhost:ipp (LISTEN)
+rpc.mount 1061            root    4u  IPv4  21587      0t0  UDP *:56053 
+rpc.mount 1061            root    5u  IPv4  21592      0t0  TCP *:46085 (LISTEN)
+rpc.mount 1061            root    6u  IPv6  21600      0t0  UDP *:52008 
+rpc.mount 1061            root    7u  IPv6  21605      0t0  TCP *:49229 (LISTEN)
+rpc.mount 1061            root    8u  IPv4  21610      0t0  UDP *:38835 
+rpc.mount 1061            root    9u  IPv4  21615      0t0  TCP *:46609 (LISTEN)
+rpc.mount 1061            root   10u  IPv6  21620      0t0  UDP *:57538 
+rpc.mount 1061            root   11u  IPv6  21625      0t0  TCP *:48857 (LISTEN)
+rpc.mount 1061            root   12u  IPv4  21630      0t0  UDP *:57529 
+rpc.mount 1061            root   13u  IPv4  21638      0t0  TCP *:52877 (LISTEN)
+rpc.mount 1061            root   14u  IPv6  21643      0t0  UDP *:40847 
+rpc.mount 1061            root   15u  IPv6  21648      0t0  TCP *:37409 (LISTEN)
+rpc.statd 1067           statd    5u  IPv4  22650      0t0  UDP localhost:819 
+rpc.statd 1067           statd    8u  IPv4  22666      0t0  UDP *:53833 
+rpc.statd 1067           statd    9u  IPv4  22670      0t0  TCP *:40031 (LISTEN)
+rpc.statd 1067           statd   10u  IPv6  22674      0t0  UDP *:50291 
+rpc.statd 1067           statd   11u  IPv6  22678      0t0  TCP *:35919 (LISTEN)
+nmbd      1136            root   13u  IPv4  22891      0t0  UDP *:netbios-ns 
+nmbd      1136            root   14u  IPv4  22892      0t0  UDP *:netbios-dgm 
+nmbd      1136            root   15u  IPv4  22903      0t0  UDP kali-VMware-Virtual-Platform:netbios-ns 
+nmbd      1136            root   16u  IPv4  22904      0t0  UDP 192.168.110.255:netbios-ns 
+nmbd      1136            root   17u  IPv4  22905      0t0  UDP kali-VMware-Virtual-Platform:netbios-dgm 
+nmbd      1136            root   18u  IPv4  22906      0t0  UDP 192.168.110.255:netbios-dgm 
+smbd      1198            root   28u  IPv6  22138      0t0  TCP *:microsoft-ds (LISTEN)
+smbd      1198            root   29u  IPv6  22139      0t0  TCP *:netbios-ssn (LISTEN)
+smbd      1198            root   30u  IPv4  22140      0t0  TCP *:microsoft-ds (LISTEN)
+smbd      1198            root   31u  IPv4  22141      0t0  TCP *:netbios-ssn (LISTEN)

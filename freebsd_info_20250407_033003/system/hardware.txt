@@ -1,0 +1,3 @@
+hw.model: AMD Ryzen 5 7500F 6-Core Processor             
+hw.ncpu: 2
+hw.physmem: 4250390528

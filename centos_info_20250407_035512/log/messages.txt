@@ -1,0 +1,200 @@
+Apr  7 03:34:08 localhost systemd[1163]: Reached target shutdown.target - Shutdown.
+Apr  7 03:34:08 localhost systemd[1163]: Finished systemd-exit.service - Exit the Session.
+Apr  7 03:34:08 localhost systemd[1163]: Reached target exit.target - Exit the Session.
+Apr  7 03:34:08 localhost systemd-logind[924]: Removed session 1.
+Apr  7 03:34:08 localhost systemd[1]: user@42.service: Deactivated successfully.
+Apr  7 03:34:08 localhost systemd[1]: Stopped user@42.service - User Manager for UID 42.
+Apr  7 03:34:08 localhost systemd[1]: Stopping user-runtime-dir@42.service - User Runtime Directory /run/user/42...
+Apr  7 03:34:08 localhost systemd[1]: run-user-42.mount: Deactivated successfully.
+Apr  7 03:34:08 localhost systemd[1]: user-runtime-dir@42.service: Deactivated successfully.
+Apr  7 03:34:08 localhost systemd[1]: Stopped user-runtime-dir@42.service - User Runtime Directory /run/user/42.
+Apr  7 03:34:08 localhost systemd[1]: Removed slice user-42.slice - User Slice of UID 42.
+Apr  7 03:34:08 localhost systemd[1]: user-42.slice: Consumed 3.625s CPU time, 474.2M memory peak.
+Apr  7 03:34:16 localhost NetworkManager[1051]: <info>  [1743968056.2148] policy: set-hostname: set hostname to 'localhost.localdomain' (no hostname found)
+Apr  7 03:34:16 localhost systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+Apr  7 03:34:16 localhost systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+Apr  7 03:34:19 localhost su[3324]: FAILED SU (to root) kali on pts/0
+Apr  7 03:34:20 localhost systemd[1]: fprintd.service: Deactivated successfully.
+Apr  7 03:34:23 localhost systemd[1]: Starting fprintd.service - Fingerprint Authentication Daemon...
+Apr  7 03:34:23 localhost systemd[1]: Started fprintd.service - Fingerprint Authentication Daemon.
+Apr  7 03:34:26 localhost systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Apr  7 03:34:26 localhost su[3331]: FAILED SU (to root) kali on pts/0
+Apr  7 03:34:27 localhost systemd[1]: systemd-localed.service: Deactivated successfully.
+Apr  7 03:34:34 localhost su[3349]: (to root) kali on pts/0
+Apr  7 03:34:34 localhost systemd-logind[924]: Existing logind session ID 3 used by new audit session, ignoring.
+Apr  7 03:34:34 localhost systemd-logind[924]: New session c2 of user root.
+Apr  7 03:34:34 localhost systemd[1]: Created slice user-0.slice - User Slice of UID 0.
+Apr  7 03:34:34 localhost systemd[1]: Starting user-runtime-dir@0.service - User Runtime Directory /run/user/0...
+Apr  7 03:34:34 localhost systemd[1]: Finished user-runtime-dir@0.service - User Runtime Directory /run/user/0.
+Apr  7 03:34:34 localhost systemd[1]: Starting user@0.service - User Manager for UID 0...
+Apr  7 03:34:34 localhost systemd-logind[924]: New session 4 of user root.
+Apr  7 03:34:34 localhost systemd[3355]: Queued start job for default target default.target.
+Apr  7 03:34:34 localhost systemd[3355]: Created slice app.slice - User Application Slice.
+Apr  7 03:34:34 localhost systemd[3355]: grub-boot-success.timer - Mark boot as successful after the user session has run 2 minutes was skipped because of an unmet condition check (ConditionUser=!@system).
+Apr  7 03:34:34 localhost systemd[3355]: Started systemd-tmpfiles-clean.timer - Daily Cleanup of User's Temporary Directories.
+Apr  7 03:34:34 localhost systemd[3355]: Reached target paths.target - Paths.
+Apr  7 03:34:34 localhost systemd[3355]: Reached target timers.target - Timers.
+Apr  7 03:34:34 localhost systemd[3355]: Starting dbus.socket - D-Bus User Message Bus Socket...
+Apr  7 03:34:34 localhost systemd[3355]: pipewire-pulse.socket - PipeWire PulseAudio was skipped because of an unmet condition check (ConditionUser=!root).
+Apr  7 03:34:34 localhost systemd[3355]: Listening on pipewire.socket - PipeWire Multimedia System Sockets.
+Apr  7 03:34:34 localhost systemd[3355]: Starting systemd-tmpfiles-setup.service - Create User Files and Directories...
+Apr  7 03:34:34 localhost systemd[3355]: Finished systemd-tmpfiles-setup.service - Create User Files and Directories.
+Apr  7 03:34:34 localhost systemd[3355]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+Apr  7 03:34:34 localhost systemd[3355]: Reached target sockets.target - Sockets.
+Apr  7 03:34:34 localhost systemd[3355]: Reached target basic.target - Basic System.
+Apr  7 03:34:34 localhost systemd[1]: Started user@0.service - User Manager for UID 0.
+Apr  7 03:34:34 localhost systemd[3355]: gnome-initial-setup-copy-worker.service - GNOME Initial Setup Copy Worker was skipped because of an unmet condition check (ConditionUser=!@system).
+Apr  7 03:34:34 localhost systemd[3355]: Reached target default.target - Main User Target.
+Apr  7 03:34:34 localhost systemd[3355]: Startup finished in 134ms.
+Apr  7 03:34:34 localhost systemd[1]: Started session-c2.scope - Session c2 of User root.
+Apr  7 03:34:46 localhost NetworkManager[1051]: <info>  [1743968086.1533] policy: set-hostname: set hostname to 'localhost.localdomain' (no hostname found)
+Apr  7 03:34:46 localhost systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+Apr  7 03:34:46 localhost systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+Apr  7 03:34:49 localhost geoclue[1846]: Service not used for 60 seconds. Shutting down..
+Apr  7 03:34:49 localhost systemd[1]: geoclue.service: Deactivated successfully.
+Apr  7 03:34:51 localhost systemd[1]: realmd.service: Deactivated successfully.
+Apr  7 03:34:53 localhost systemd[1]: fprintd.service: Deactivated successfully.
+Apr  7 03:34:56 localhost systemd[2272]: Starting gvfs-metadata.service - Virtual filesystem metadata service...
+Apr  7 03:34:56 localhost systemd[2272]: Started gvfs-metadata.service - Virtual filesystem metadata service.
+Apr  7 03:34:56 localhost systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Apr  7 03:34:59 localhost chronyd[937]: Selected source 103.147.22.149 (2.centos.pool.ntp.org)
+Apr  7 03:35:16 localhost systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Apr  7 03:35:50 localhost systemd[1]: Starting logrotate.service - Rotate log files...
+Apr  7 03:35:50 localhost systemd[1]: logrotate.service: Deactivated successfully.
+Apr  7 03:35:50 localhost systemd[1]: Finished logrotate.service - Rotate log files.
+Apr  7 03:36:04 localhost chronyd[937]: Selected source 59.126.154.159 (2.centos.pool.ntp.org)
+Apr  7 03:36:29 localhost systemd[2272]: Starting grub-boot-success.service - Mark boot as successful...
+Apr  7 03:36:29 localhost systemd[2272]: Finished grub-boot-success.service - Mark boot as successful.
+Apr  7 03:36:29 localhost systemd[2272]: Created slice app-dbus\x2d:1.2\x2dorg.gnome.Loupe.slice - Slice /app/dbus-:1.2-org.gnome.Loupe.
+Apr  7 03:36:29 localhost systemd[2272]: Started dbus-:1.2-org.gnome.Loupe@0.service.
+Apr  7 03:36:38 localhost systemd[2272]: dbus-:1.2-org.gnome.Loupe@0.service: Consumed 1.512s CPU time, 189.2M memory peak.
+Apr  7 03:39:08 localhost systemd[1]: packagekit.service: Deactivated successfully.
+Apr  7 03:39:08 localhost systemd[1]: packagekit.service: Consumed 1.209s CPU time, 260.3M memory peak.
+Apr  7 03:39:29 localhost systemd[2272]: Created slice background.slice - User Background Tasks Slice.
+Apr  7 03:39:29 localhost systemd[2272]: Starting systemd-tmpfiles-clean.service - Cleanup of User's Temporary Files and Directories...
+Apr  7 03:39:29 localhost systemd[2272]: Finished systemd-tmpfiles-clean.service - Cleanup of User's Temporary Files and Directories.
+Apr  7 03:40:29 localhost systemd[3355]: Created slice background.slice - User Background Tasks Slice.
+Apr  7 03:40:29 localhost systemd[3355]: Starting systemd-tmpfiles-clean.service - Cleanup of User's Temporary Files and Directories...
+Apr  7 03:40:29 localhost systemd[3355]: Finished systemd-tmpfiles-clean.service - Cleanup of User's Temporary Files and Directories.
+Apr  7 03:43:28 localhost systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 3586 (find)
+Apr  7 03:43:28 localhost systemd[1]: Mounting proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System...
+Apr  7 03:43:28 localhost systemd[1]: Mounted proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System.
+Apr  7 03:45:05 localhost systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+Apr  7 03:45:05 localhost systemd[1]: Started systemd-timedated.service - Time & Date Service.
+Apr  7 03:45:35 localhost systemd[1]: systemd-timedated.service: Deactivated successfully.
+Apr  7 03:48:47 localhost NetworkManager[1051]: <info>  [1743968927.5001] dhcp4 (ens33): state changed new lease, address=192.168.110.133
+Apr  7 03:48:47 localhost systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+Apr  7 03:48:47 localhost systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+Apr  7 03:48:47 localhost systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+Apr  7 03:48:47 localhost systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Apr  7 03:48:47 localhost systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+Apr  7 03:48:57 localhost systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Apr  7 03:49:00 localhost chronyd[937]: Selected source 118.163.81.63 (2.centos.pool.ntp.org)
+Apr  7 03:50:29 localhost systemd[1]: Starting fwupd-refresh.service - Refresh fwupd metadata and update motd...
+Apr  7 03:50:29 localhost systemd[1]: fwupd-refresh.service: Deactivated successfully.
+Apr  7 03:50:29 localhost systemd[1]: Finished fwupd-refresh.service - Refresh fwupd metadata and update motd.
+Apr  7 03:51:31 localhost systemd[2272]: Starting dconf.service - User preferences database...
+Apr  7 03:51:31 localhost systemd[2272]: Started dconf.service - User preferences database.
+Apr  7 03:54:10 localhost systemd[2272]: dbus-:1.2-org.gnome.Ptyxis@0.service: Consumed 15.454s CPU time, 300.3M memory peak.
+Apr  7 03:54:10 localhost systemd[1]: session-c2.scope: Deactivated successfully.
+Apr  7 03:54:10 localhost systemd[1]: session-c2.scope: Consumed 3.289s CPU time, 185.5M memory peak.
+Apr  7 03:54:10 localhost systemd-logind[924]: Session c2 logged out. Waiting for processes to exit.
+Apr  7 03:54:10 localhost systemd-logind[924]: Removed session c2.
+Apr  7 03:54:15 localhost systemd[2272]: Created slice app-dbus\x2d:1.2\x2dorg.gnome.Nautilus.slice - Slice /app/dbus-:1.2-org.gnome.Nautilus.
+Apr  7 03:54:15 localhost systemd[2272]: Started dbus-:1.2-org.gnome.Nautilus@0.service.
+Apr  7 03:54:15 localhost nautilus[3733]: Connecting to org.freedesktop.Tracker3.Miner.Files
+Apr  7 03:54:15 localhost systemd[2272]: Starting tracker-miner-fs-3.service - Tracker file system data miner...
+Apr  7 03:54:15 localhost systemd[2272]: Started tracker-miner-fs-3.service - Tracker file system data miner.
+Apr  7 03:54:15 localhost systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+Apr  7 03:54:15 localhost systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+Apr  7 03:54:15 localhost gvfsd[3811]: 2025-04-07 03:54:15,850:wsdd WARNING(pid 3811): no interface given, using all interfaces
+Apr  7 03:54:20 localhost systemd[1]: Stopping user@0.service - User Manager for UID 0...
+Apr  7 03:54:20 localhost systemd[3355]: Activating special unit exit.target...
+Apr  7 03:54:20 localhost systemd[3355]: Removed slice background.slice - User Background Tasks Slice.
+Apr  7 03:54:20 localhost systemd[3355]: Stopped target default.target - Main User Target.
+Apr  7 03:54:20 localhost systemd[3355]: Stopped target basic.target - Basic System.
+Apr  7 03:54:20 localhost systemd[3355]: Stopped target paths.target - Paths.
+Apr  7 03:54:20 localhost systemd[3355]: Stopped target sockets.target - Sockets.
+Apr  7 03:54:20 localhost systemd[3355]: Stopped target timers.target - Timers.
+Apr  7 03:54:20 localhost systemd[3355]: Stopped systemd-tmpfiles-clean.timer - Daily Cleanup of User's Temporary Directories.
+Apr  7 03:54:20 localhost systemd[3355]: Closed dbus.socket - D-Bus User Message Bus Socket.
+Apr  7 03:54:20 localhost systemd[3355]: Closed pipewire.socket - PipeWire Multimedia System Sockets.
+Apr  7 03:54:20 localhost systemd[3355]: Stopped systemd-tmpfiles-setup.service - Create User Files and Directories.
+Apr  7 03:54:20 localhost systemd[3355]: Removed slice app.slice - User Application Slice.
+Apr  7 03:54:20 localhost systemd[3355]: Reached target shutdown.target - Shutdown.
+Apr  7 03:54:20 localhost systemd[3355]: Finished systemd-exit.service - Exit the Session.
+Apr  7 03:54:20 localhost systemd[3355]: Reached target exit.target - Exit the Session.
+Apr  7 03:54:20 localhost systemd-logind[924]: Removed session 4.
+Apr  7 03:54:20 localhost systemd[1]: user@0.service: Deactivated successfully.
+Apr  7 03:54:20 localhost systemd[1]: Stopped user@0.service - User Manager for UID 0.
+Apr  7 03:54:20 localhost systemd[1]: Stopping user-runtime-dir@0.service - User Runtime Directory /run/user/0...
+Apr  7 03:54:20 localhost systemd[1]: run-user-0.mount: Deactivated successfully.
+Apr  7 03:54:20 localhost systemd[1]: user-runtime-dir@0.service: Deactivated successfully.
+Apr  7 03:54:20 localhost systemd[1]: Stopped user-runtime-dir@0.service - User Runtime Directory /run/user/0.
+Apr  7 03:54:20 localhost systemd[1]: Removed slice user-0.slice - User Slice of UID 0.
+Apr  7 03:54:20 localhost systemd[1]: user-0.slice: Consumed 3.450s CPU time, 191.8M memory peak.
+Apr  7 03:54:22 localhost tracker-miner-f[3756]: tracker_indexing_tree_remove: assertion 'TRACKER_IS_INDEXING_TREE (tree)' failed
+Apr  7 03:54:22 localhost systemd[1]: run-media-kali-CentOS\x2dStream\x2d10\x2dBaseOS\x2dx86_64.mount: Deactivated successfully.
+Apr  7 03:54:22 localhost udisksd[925]: Cleaning up mount point /run/media/kali/CentOS-Stream-10-BaseOS-x86_64 (device 11:0 is not mounted)
+Apr  7 03:54:22 localhost udisksd[925]: Unmounted /dev/sr0 on behalf of uid 1000
+Apr  7 03:54:39 localhost kernel: usb 4-1: new SuperSpeed USB device number 2 using xhci_hcd
+Apr  7 03:54:39 localhost kernel: usb 4-1: New USB device found, idVendor=8564, idProduct=7000, bcdDevice=21.01
+Apr  7 03:54:39 localhost kernel: usb 4-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Apr  7 03:54:39 localhost kernel: usb 4-1: Product: StoreJet Transcend
+Apr  7 03:54:39 localhost kernel: usb 4-1: Manufacturer: StoreJet Transcend
+Apr  7 03:54:39 localhost kernel: usb 4-1: SerialNumber: WD-WX22A74MD9XP
+Apr  7 03:54:39 localhost mtp-probe[3862]: checking bus 4, device 2: "/sys/devices/pci0000:00/0000:00:15.0/0000:03:00.0/usb4/4-1"
+Apr  7 03:54:39 localhost mtp-probe[3862]: bus: 4, device: 2 was not an MTP device
+Apr  7 03:54:39 localhost kernel: usb-storage 4-1:1.0: USB Mass Storage device detected
+Apr  7 03:54:39 localhost kernel: scsi host3: usb-storage 4-1:1.0
+Apr  7 03:54:39 localhost kernel: usbcore: registered new interface driver usb-storage
+Apr  7 03:54:39 localhost kernel: usbcore: registered new interface driver uas
+Apr  7 03:54:39 localhost mtp-probe[3869]: checking bus 4, device 2: "/sys/devices/pci0000:00/0000:00:15.0/0000:03:00.0/usb4/4-1"
+Apr  7 03:54:39 localhost mtp-probe[3869]: bus: 4, device: 2 was not an MTP device
+Apr  7 03:54:40 localhost kernel: scsi 3:0:0:0: Direct-Access     StoreJet Transcend        2101 PQ: 0 ANSI: 6
+Apr  7 03:54:42 localhost kernel: sd 3:0:0:0: Attached scsi generic sg2 type 0
+Apr  7 03:54:42 localhost kernel: sd 3:0:0:0: [sdb] 1953525168 512-byte logical blocks: (1.00 TB/932 GiB)
+Apr  7 03:54:42 localhost kernel: sd 3:0:0:0: [sdb] Write Protect is off
+Apr  7 03:54:42 localhost kernel: sd 3:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+Apr  7 03:54:42 localhost kernel: sdb: sdb1
+Apr  7 03:54:42 localhost kernel: sd 3:0:0:0: [sdb] Attached SCSI disk
+Apr  7 03:54:43 localhost ntfs-3g[3885]: Version 2022.10.3 integrated FUSE 28
+Apr  7 03:54:43 localhost ntfs-3g[3885]: Mounted /dev/sdb1 (Read-Write, label "Transcend", NTFS 3.1)
+Apr  7 03:54:43 localhost ntfs-3g[3885]: Cmdline options: rw,uhelper=udisks2,nodev,nosuid,uid=1000,gid=1000,windows_names
+Apr  7 03:54:43 localhost ntfs-3g[3885]: Mount options: uhelper=udisks2,nodev,nosuid,allow_other,nonempty,relatime,rw,default_permissions,fsname=/dev/sdb1,blkdev,blksize=4096
+Apr  7 03:54:43 localhost ntfs-3g[3885]: Global ownership and permissions enforced, configuration type 7
+Apr  7 03:54:43 localhost udisksd[925]: Mounted /dev/sdb1 at /run/media/kali/Transcend on behalf of uid 1000
+Apr  7 03:54:52 localhost systemd[2272]: Started dbus-:1.2-org.gnome.Ptyxis@1.service.
+Apr  7 03:54:52 localhost systemd[2272]: Started ptyxis-spawn-019dba17-f13f-4145-84b9-2819cccd0de9.scope - [systemd-run] /usr/bin/bash.
+Apr  7 03:55:07 localhost systemd[2272]: dbus-:1.2-org.gnome.Nautilus@0.service: Consumed 1.977s CPU time, 219.8M memory peak.
+Apr  7 03:55:10 localhost systemd[1]: Starting fprintd.service - Fingerprint Authentication Daemon...
+Apr  7 03:55:10 localhost systemd[1]: Started fprintd.service - Fingerprint Authentication Daemon.
+Apr  7 03:55:11 localhost systemd-logind[924]: Existing logind session ID 3 used by new audit session, ignoring.
+Apr  7 03:55:11 localhost systemd[1]: Created slice user-0.slice - User Slice of UID 0.
+Apr  7 03:55:11 localhost systemd[1]: Starting user-runtime-dir@0.service - User Runtime Directory /run/user/0...
+Apr  7 03:55:11 localhost systemd-logind[924]: New session c3 of user root.
+Apr  7 03:55:11 localhost systemd[1]: Finished user-runtime-dir@0.service - User Runtime Directory /run/user/0.
+Apr  7 03:55:11 localhost systemd[1]: Starting user@0.service - User Manager for UID 0...
+Apr  7 03:55:11 localhost systemd-logind[924]: New session 5 of user root.
+Apr  7 03:55:11 localhost systemd[3999]: Queued start job for default target default.target.
+Apr  7 03:55:11 localhost systemd[3999]: Created slice app.slice - User Application Slice.
+Apr  7 03:55:11 localhost systemd[3999]: grub-boot-success.timer - Mark boot as successful after the user session has run 2 minutes was skipped because of an unmet condition check (ConditionUser=!@system).
+Apr  7 03:55:11 localhost systemd[3999]: Started systemd-tmpfiles-clean.timer - Daily Cleanup of User's Temporary Directories.
+Apr  7 03:55:11 localhost systemd[3999]: Reached target paths.target - Paths.
+Apr  7 03:55:11 localhost systemd[3999]: Reached target timers.target - Timers.
+Apr  7 03:55:11 localhost systemd[3999]: Starting dbus.socket - D-Bus User Message Bus Socket...
+Apr  7 03:55:11 localhost systemd[3999]: pipewire-pulse.socket - PipeWire PulseAudio was skipped because of an unmet condition check (ConditionUser=!root).
+Apr  7 03:55:11 localhost systemd[3999]: Listening on pipewire.socket - PipeWire Multimedia System Sockets.
+Apr  7 03:55:11 localhost systemd[3999]: Starting systemd-tmpfiles-setup.service - Create User Files and Directories...
+Apr  7 03:55:11 localhost systemd[3999]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+Apr  7 03:55:11 localhost systemd[3999]: Reached target sockets.target - Sockets.
+Apr  7 03:55:11 localhost systemd[3999]: Finished systemd-tmpfiles-setup.service - Create User Files and Directories.
+Apr  7 03:55:11 localhost systemd[3999]: Reached target basic.target - Basic System.
+Apr  7 03:55:11 localhost systemd[3999]: gnome-initial-setup-copy-worker.service - GNOME Initial Setup Copy Worker was skipped because of an unmet condition check (ConditionUser=!@system).
+Apr  7 03:55:11 localhost systemd[3999]: Reached target default.target - Main User Target.
+Apr  7 03:55:11 localhost systemd[1]: Started user@0.service - User Manager for UID 0.
+Apr  7 03:55:11 localhost systemd[3999]: Startup finished in 146ms.
+Apr  7 03:55:11 localhost systemd[1]: Started session-c3.scope - Session c3 of User root.
+Apr  7 03:55:14 localhost systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Apr  7 03:55:16 localhost systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+Apr  7 03:55:16 localhost systemd[1]: Started systemd-timedated.service - Time & Date Service.

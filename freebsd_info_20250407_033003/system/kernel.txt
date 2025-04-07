@@ -1,0 +1,15 @@
+kern.version: FreeBSD 14.1-RELEASE releng/14.1-n267679-10e31f0946d8 GENERIC
+kern.posix1version: 200112
+FreeBSD clang version 18.1.5 (https://github.com/llvm/llvm-project.git llvmorg-18.1.5-0-g617a15a9eac9)
+ioapic0 <Version 2.0> irqs 0-23
+smbios0: Version: 2.7
+mpt0: MPI Version=1.2.0.0
+usbus1: EHCI version 1.0
+ZFS filesystem version: 5
+ZFS storage pool version: features support (5000)
+kern.devstat.version: 6
+kern.compiler_version: FreeBSD clang version 18.1.5 (https://github.com/llvm/llvm-project.git llvmorg-18.1.5-0-g617a15a9eac9)
+kern.evdev.input.3.id: { bustype = 0x0011, vendor = 0x0002, product = 0x0001, version = 0x0000 }
+kern.evdev.input.2.id: { bustype = 0x0011, vendor = 0x0001, product = 0x0001, version = 0x0000 }
+kern.evdev.input.1.id: { bustype = 0x0006, vendor = 0x0000, product = 0x0000, version = 0x0000 }
+kern.evdev.input.0.id: { bustype = 0x0006, vendor = 0x0000, product = 0x0000, version = 0x0000 }

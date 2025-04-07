@@ -1,0 +1,200 @@
+2025-04-07T19:16:32.992690+08:00 kali-VMware-Virtual-Platform gnome-shell[2695]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+2025-04-07T19:16:32.994752+08:00 kali-VMware-Virtual-Platform gnome-shell[2695]: > Warning:          Unsupported maximum keycode 708, clipping.
+2025-04-07T19:16:32.994847+08:00 kali-VMware-Virtual-Platform gnome-shell[2695]: >                   X11 cannot support keycodes above 255.
+2025-04-07T19:16:32.997133+08:00 kali-VMware-Virtual-Platform gnome-shell[2695]: > Warning:          Could not resolve keysym XF86CameraAccessEnable
+2025-04-07T19:16:32.997211+08:00 kali-VMware-Virtual-Platform gnome-shell[2695]: > Warning:          Could not resolve keysym XF86CameraAccessDisable
+2025-04-07T19:16:32.997265+08:00 kali-VMware-Virtual-Platform gnome-shell[2695]: > Warning:          Could not resolve keysym XF86CameraAccessToggle
+2025-04-07T19:16:32.997398+08:00 kali-VMware-Virtual-Platform gnome-shell[2695]: > Warning:          Could not resolve keysym XF86NextElement
+2025-04-07T19:16:32.997456+08:00 kali-VMware-Virtual-Platform gnome-shell[2695]: > Warning:          Could not resolve keysym XF86PreviousElement
+2025-04-07T19:16:32.997507+08:00 kali-VMware-Virtual-Platform gnome-shell[2695]: > Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+2025-04-07T19:16:32.997558+08:00 kali-VMware-Virtual-Platform gnome-shell[2695]: > Warning:          Could not resolve keysym XF86MarkWaypoint
+2025-04-07T19:16:32.997608+08:00 kali-VMware-Virtual-Platform gnome-shell[2695]: > Warning:          Could not resolve keysym XF86Sos
+2025-04-07T19:16:32.997671+08:00 kali-VMware-Virtual-Platform gnome-shell[2695]: > Warning:          Could not resolve keysym XF86NavChart
+2025-04-07T19:16:32.997723+08:00 kali-VMware-Virtual-Platform gnome-shell[2695]: > Warning:          Could not resolve keysym XF86FishingChart
+2025-04-07T19:16:32.998212+08:00 kali-VMware-Virtual-Platform gnome-shell[2695]: > Warning:          Could not resolve keysym XF86SingleRangeRadar
+2025-04-07T19:16:32.998231+08:00 kali-VMware-Virtual-Platform gnome-shell[2695]: > Warning:          Could not resolve keysym XF86DualRangeRadar
+2025-04-07T19:16:32.998241+08:00 kali-VMware-Virtual-Platform gnome-shell[2695]: > Warning:          Could not resolve keysym XF86RadarOverlay
+2025-04-07T19:16:32.998251+08:00 kali-VMware-Virtual-Platform gnome-shell[2695]: > Warning:          Could not resolve keysym XF86TraditionalSonar
+2025-04-07T19:16:32.998261+08:00 kali-VMware-Virtual-Platform gnome-shell[2695]: > Warning:          Could not resolve keysym XF86ClearvuSonar
+2025-04-07T19:16:32.998270+08:00 kali-VMware-Virtual-Platform gnome-shell[2695]: > Warning:          Could not resolve keysym XF86SidevuSonar
+2025-04-07T19:16:32.998280+08:00 kali-VMware-Virtual-Platform gnome-shell[2695]: > Warning:          Could not resolve keysym XF86NavInfo
+2025-04-07T19:16:32.998289+08:00 kali-VMware-Virtual-Platform gnome-shell[2695]: Errors from xkbcomp are not fatal to the X server
+2025-04-07T19:16:33.091818+08:00 kali-VMware-Virtual-Platform dbus-daemon[1909]: [session uid=1000 pid=1909] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.77' (uid=1000 pid=2565 comm="/usr/bin/nautilus --gapplication-service" label="nautilus (unconfined)")
+2025-04-07T19:16:33.099456+08:00 kali-VMware-Virtual-Platform systemd[1880]: Starting xdg-desktop-portal.service - Portal service...
+2025-04-07T19:16:33.177439+08:00 kali-VMware-Virtual-Platform dbus-daemon[1909]: [session uid=1000 pid=1909] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gnome' unit='xdg-desktop-portal-gnome.service' requested by ':1.85' (uid=1000 pid=2696 comm="/usr/libexec/xdg-desktop-portal" label="unconfined")
+2025-04-07T19:16:33.193724+08:00 kali-VMware-Virtual-Platform systemd[1880]: Starting xdg-desktop-portal-gnome.service - Portal service (GNOME implementation)...
+2025-04-07T19:16:33.225761+08:00 kali-VMware-Virtual-Platform gnome-shell[2121]: GNOME Shell started at Mon Apr 07 2025 19:16:30 GMT+0800 (台北標準時間)
+2025-04-07T19:16:33.226767+08:00 kali-VMware-Virtual-Platform gnome-shell[2121]: Registering session with GDM
+2025-04-07T19:16:33.233367+08:00 kali-VMware-Virtual-Platform gnome-shell[1440]: Connection to xwayland lost
+2025-04-07T19:16:33.233446+08:00 kali-VMware-Virtual-Platform gnome-shell[1440]: Xwayland terminated, exiting since it was mandatory
+2025-04-07T19:16:33.237363+08:00 kali-VMware-Virtual-Platform gsd-print-notif[1564]: Error releasing name org.gnome.SettingsDaemon.PrintNotifications: 這個連線已關閉
+2025-04-07T19:16:33.238683+08:00 kali-VMware-Virtual-Platform snapd-desktop-i[2648]: New theme: gtk=Yaru icon=Yaru cursor=Yaru, sound=Yaru
+2025-04-07T19:16:33.244135+08:00 kali-VMware-Virtual-Platform gsd-sharing[1536]: Error releasing name org.gnome.SettingsDaemon.Sharing: 這個連線已關閉
+2025-04-07T19:16:33.244668+08:00 kali-VMware-Virtual-Platform snapd-desktop-i[2648]: All available theme snaps installed
+2025-04-07T19:16:33.244870+08:00 kali-VMware-Virtual-Platform gsd-rfkill[1573]: Error releasing name org.gnome.SettingsDaemon.Rfkill: 這個連線已關閉
+2025-04-07T19:16:33.245369+08:00 kali-VMware-Virtual-Platform gsd-smartcard[1577]: Error releasing name org.gnome.SettingsDaemon.Smartcard: 這個連線已關閉
+2025-04-07T19:16:33.245720+08:00 kali-VMware-Virtual-Platform gnome-shell[1440]: JS ERROR: Gio.IOErrorEnum: Xwayland exited unexpectedly#012@resource:///org/gnome/shell/ui/init.js:21:20
+2025-04-07T19:16:33.247655+08:00 kali-VMware-Virtual-Platform gnome-shell[1440]: Execution of main.js threw exception: Module resource:///org/gnome/shell/ui/init.js threw an exception
+2025-04-07T19:16:33.293316+08:00 kali-VMware-Virtual-Platform /usr/libexec/gdm-wayland-session[1477]: Failed to launch bus: Bus exited with code 0
+2025-04-07T19:16:33.300379+08:00 kali-VMware-Virtual-Platform systemd[1]: session-c1.scope: Deactivated successfully.
+2025-04-07T19:16:33.300611+08:00 kali-VMware-Virtual-Platform systemd[1]: session-c1.scope: Consumed 3.749s CPU time.
+2025-04-07T19:16:33.302837+08:00 kali-VMware-Virtual-Platform gnome-shell[2121]: Launching DING process
+2025-04-07T19:16:33.334000+08:00 kali-VMware-Virtual-Platform gdm3: Gdm: Child process -1346 was already dead.
+2025-04-07T19:16:33.334838+08:00 kali-VMware-Virtual-Platform gdm3: Gdm: on_display_removed: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+2025-04-07T19:16:33.535594+08:00 kali-VMware-Virtual-Platform dbus-daemon[1909]: [session uid=1000 pid=1909] Successfully activated service 'org.freedesktop.impl.portal.desktop.gnome'
+2025-04-07T19:16:33.536483+08:00 kali-VMware-Virtual-Platform systemd[1880]: Started xdg-desktop-portal-gnome.service - Portal service (GNOME implementation).
+2025-04-07T19:16:33.550107+08:00 kali-VMware-Virtual-Platform systemd[1880]: Started org.gnome.SettingsDaemon.XSettings.service - GNOME XSettings service.
+2025-04-07T19:16:33.550246+08:00 kali-VMware-Virtual-Platform systemd[1880]: Reached target gnome-session-x11-services-ready.target - GNOME session X11 services.
+2025-04-07T19:16:33.568117+08:00 kali-VMware-Virtual-Platform tracker-miner-fs-3[2690]: Xlib:  extension "DRI2" missing on display ":0".
+2025-04-07T19:16:33.568982+08:00 kali-VMware-Virtual-Platform org.gnome.Shell.Screencast[2248]: Xlib:  extension "DRI2" missing on display ":0".
+2025-04-07T19:16:33.693851+08:00 kali-VMware-Virtual-Platform rtkit-daemon[1381]: Supervising 15 threads of 9 processes of 2 users.
+2025-04-07T19:16:33.696523+08:00 kali-VMware-Virtual-Platform rtkit-daemon[1381]: message repeated 2 times: [ Supervising 15 threads of 9 processes of 2 users.]
+2025-04-07T19:16:33.706982+08:00 kali-VMware-Virtual-Platform dbus-daemon[1909]: [session uid=1000 pid=1909] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.85' (uid=1000 pid=2696 comm="/usr/libexec/xdg-desktop-portal" label="unconfined")
+2025-04-07T19:16:33.717824+08:00 kali-VMware-Virtual-Platform systemd[1880]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+2025-04-07T19:16:33.781802+08:00 kali-VMware-Virtual-Platform gnome-shell[2121]: DING: Detected async api for thumbnails
+2025-04-07T19:16:33.813912+08:00 kali-VMware-Virtual-Platform dbus-daemon[1909]: [session uid=1000 pid=1909] Successfully activated service 'org.gnome.Shell.Screencast'
+2025-04-07T19:16:33.899605+08:00 kali-VMware-Virtual-Platform systemd[1880]: Started tracker-miner-fs-3.service - Tracker file system data miner.
+2025-04-07T19:16:33.913587+08:00 kali-VMware-Virtual-Platform gnome-shell[2121]: DING: (gjs:2747): Gjs-WARNING **: 19:16:33.904: GLib.unix_signal_add has been moved to a separate platform-specific library. Please update your code to use GLibUnix.signal_add instead.
+2025-04-07T19:16:33.913817+08:00 kali-VMware-Virtual-Platform gnome-shell[2121]: DING: 0 DesktopManager() ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/desktopManager.js":264:12]
+2025-04-07T19:16:33.913952+08:00 kali-VMware-Virtual-Platform gnome-shell[2121]: DING: 1 anonymous() ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js":180:25]
+2025-04-07T19:16:33.914067+08:00 kali-VMware-Virtual-Platform gnome-shell[2121]: DING: 2 anonymous() ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js":197:20]
+2025-04-07T19:16:33.914204+08:00 kali-VMware-Virtual-Platform gnome-shell[2121]: DING: 3 <TOP LEVEL> ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js":206:12]
+2025-04-07T19:16:33.917848+08:00 kali-VMware-Virtual-Platform dbus-daemon[1909]: [session uid=1000 pid=1909] Successfully activated service 'org.freedesktop.impl.portal.desktop.gtk'
+2025-04-07T19:16:33.919681+08:00 kali-VMware-Virtual-Platform systemd[1880]: Started xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+2025-04-07T19:16:33.963430+08:00 kali-VMware-Virtual-Platform dbus-daemon[1909]: [session uid=1000 pid=1909] Successfully activated service 'org.freedesktop.portal.Desktop'
+2025-04-07T19:16:33.963651+08:00 kali-VMware-Virtual-Platform systemd[1880]: Started xdg-desktop-portal.service - Portal service.
+2025-04-07T19:16:33.983268+08:00 kali-VMware-Virtual-Platform gnome-shell[2121]: DING: DBus interface for Switcheroo control (net.hadess.SwitcherooControl) is now available.
+2025-04-07T19:16:33.983321+08:00 kali-VMware-Virtual-Platform gnome-shell[2121]: DING: DBus interface for Gvfs daemon (org.gtk.vfs.Metadata) is now available.
+2025-04-07T19:16:34.001636+08:00 kali-VMware-Virtual-Platform gnome-shell[2121]: DING: ** Message: 19:16:33.996: Connecting to org.freedesktop.Tracker3.Miner.Files
+2025-04-07T19:16:34.067652+08:00 kali-VMware-Virtual-Platform gnome-shell[2121]: DING: DBus interface for Nautilus (org.gnome.Nautilus.FileOperations2) is now available.
+2025-04-07T19:16:34.068952+08:00 kali-VMware-Virtual-Platform gnome-shell[2121]: DING: DBus interface for Nautilus (org.freedesktop.FileManager1) is now available.
+2025-04-07T19:16:34.069674+08:00 kali-VMware-Virtual-Platform gnome-shell[2121]: Received notification for window. 0 notifications remaining.
+2025-04-07T19:16:34.147988+08:00 kali-VMware-Virtual-Platform tracker-miner-fs-3[2839]: (tracker-extract-3:2839): GLib-GIO-WARNING **: 19:16:34.146: Error creating IO channel for /proc/self/mountinfo: 不適用的引數 (g-io-error-quark, 13)
+2025-04-07T19:16:34.152416+08:00 kali-VMware-Virtual-Platform gnome-shell[2121]: DING: GNOME nautilus 46.2
+2025-04-07T19:16:43.432537+08:00 kali-VMware-Virtual-Platform systemd[1]: Stopping user@120.service - User Manager for UID 120...
+2025-04-07T19:16:43.434650+08:00 kali-VMware-Virtual-Platform systemd[1242]: Activating special unit exit.target...
+2025-04-07T19:16:43.435739+08:00 kali-VMware-Virtual-Platform systemd[1242]: Stopped target default.target - Main User Target.
+2025-04-07T19:16:43.435775+08:00 kali-VMware-Virtual-Platform systemd[1242]: Stopped target sound.target - Sound Card.
+2025-04-07T19:16:43.436508+08:00 kali-VMware-Virtual-Platform systemd[1242]: Stopping dbus.service - D-Bus User Message Bus...
+2025-04-07T19:16:43.436945+08:00 kali-VMware-Virtual-Platform systemd[1242]: Stopping filter-chain.service - PipeWire filter chain daemon...
+2025-04-07T19:16:43.436983+08:00 kali-VMware-Virtual-Platform systemd[1242]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+2025-04-07T19:16:43.437567+08:00 kali-VMware-Virtual-Platform systemd[1242]: Stopping xdg-document-portal.service - flatpak document portal service...
+2025-04-07T19:16:43.437834+08:00 kali-VMware-Virtual-Platform systemd[1242]: Stopping xdg-permission-store.service - sandboxed app permission store...
+2025-04-07T19:16:43.438549+08:00 kali-VMware-Virtual-Platform systemd[1242]: xdg-permission-store.service: Main process exited, code=exited, status=1/FAILURE
+2025-04-07T19:16:43.439092+08:00 kali-VMware-Virtual-Platform systemd[1242]: xdg-permission-store.service: Failed with result 'exit-code'.
+2025-04-07T19:16:43.441431+08:00 kali-VMware-Virtual-Platform systemd[1242]: Stopped xdg-permission-store.service - sandboxed app permission store.
+2025-04-07T19:16:43.444299+08:00 kali-VMware-Virtual-Platform systemd[1242]: Stopped filter-chain.service - PipeWire filter chain daemon.
+2025-04-07T19:16:43.453370+08:00 kali-VMware-Virtual-Platform systemd[1242]: Stopped dbus.service - D-Bus User Message Bus.
+2025-04-07T19:16:43.453458+08:00 kali-VMware-Virtual-Platform systemd[1]: run-user-120-doc.mount: Deactivated successfully.
+2025-04-07T19:16:43.456890+08:00 kali-VMware-Virtual-Platform systemd[1242]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+2025-04-07T19:16:43.457181+08:00 kali-VMware-Virtual-Platform systemd[1242]: xdg-document-portal.service: Main process exited, code=exited, status=20/n/a
+2025-04-07T19:16:43.457337+08:00 kali-VMware-Virtual-Platform systemd[1242]: xdg-document-portal.service: Failed with result 'exit-code'.
+2025-04-07T19:16:43.457616+08:00 kali-VMware-Virtual-Platform systemd[1242]: Stopped xdg-document-portal.service - flatpak document portal service.
+2025-04-07T19:16:43.458055+08:00 kali-VMware-Virtual-Platform systemd[1242]: Stopping wireplumber.service - Multimedia Service Session Manager...
+2025-04-07T19:16:43.458332+08:00 kali-VMware-Virtual-Platform wireplumber[1353]: stopped by signal: 終止
+2025-04-07T19:16:43.458724+08:00 kali-VMware-Virtual-Platform wireplumber[1353]: disconnected from pipewire
+2025-04-07T19:16:43.462133+08:00 kali-VMware-Virtual-Platform systemd[1242]: Stopped wireplumber.service - Multimedia Service Session Manager.
+2025-04-07T19:16:43.462619+08:00 kali-VMware-Virtual-Platform systemd[1242]: Stopping pipewire.service - PipeWire Multimedia Service...
+2025-04-07T19:16:43.464769+08:00 kali-VMware-Virtual-Platform systemd[1242]: Stopped pipewire.service - PipeWire Multimedia Service.
+2025-04-07T19:16:43.465330+08:00 kali-VMware-Virtual-Platform systemd[1242]: Removed slice session.slice - User Core Session Slice.
+2025-04-07T19:16:43.465582+08:00 kali-VMware-Virtual-Platform systemd[1242]: Stopped target basic.target - Basic System.
+2025-04-07T19:16:43.465621+08:00 kali-VMware-Virtual-Platform systemd[1242]: Stopped target paths.target - Paths.
+2025-04-07T19:16:43.470380+08:00 kali-VMware-Virtual-Platform systemd[1242]: Stopped ubuntu-report.path - Pending report trigger for Ubuntu Report.
+2025-04-07T19:16:43.470426+08:00 kali-VMware-Virtual-Platform systemd[1242]: Stopped target sockets.target - Sockets.
+2025-04-07T19:16:43.470449+08:00 kali-VMware-Virtual-Platform systemd[1242]: Stopped target timers.target - Timers.
+2025-04-07T19:16:43.470470+08:00 kali-VMware-Virtual-Platform systemd[1242]: Stopped launchpadlib-cache-clean.timer - Clean up old files in the Launchpadlib cache.
+2025-04-07T19:16:43.470494+08:00 kali-VMware-Virtual-Platform systemd[1242]: Stopped snap.firmware-updater.firmware-notifier.timer - Timer firmware-notifier for snap application firmware-updater.firmware-notifier.
+2025-04-07T19:16:43.470728+08:00 kali-VMware-Virtual-Platform systemd[1242]: Closed dbus.socket - D-Bus User Message Bus Socket.
+2025-04-07T19:16:43.470815+08:00 kali-VMware-Virtual-Platform systemd[1242]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+2025-04-07T19:16:43.470901+08:00 kali-VMware-Virtual-Platform systemd[1242]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+2025-04-07T19:16:43.470981+08:00 kali-VMware-Virtual-Platform systemd[1242]: Closed gnome-keyring-daemon.socket - GNOME Keyring daemon.
+2025-04-07T19:16:43.471060+08:00 kali-VMware-Virtual-Platform systemd[1242]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2025-04-07T19:16:43.471147+08:00 kali-VMware-Virtual-Platform systemd[1242]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2025-04-07T19:16:43.477441+08:00 kali-VMware-Virtual-Platform systemd[1242]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2025-04-07T19:16:43.477488+08:00 kali-VMware-Virtual-Platform systemd[1242]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2025-04-07T19:16:43.477583+08:00 kali-VMware-Virtual-Platform systemd[1242]: Closed keyboxd.socket - GnuPG public key management service.
+2025-04-07T19:16:43.477662+08:00 kali-VMware-Virtual-Platform systemd[1242]: Closed pipewire-pulse.socket - PipeWire PulseAudio.
+2025-04-07T19:16:43.477741+08:00 kali-VMware-Virtual-Platform systemd[1242]: Closed pipewire.socket - PipeWire Multimedia System Sockets.
+2025-04-07T19:16:43.477824+08:00 kali-VMware-Virtual-Platform systemd[1242]: Closed pk-debconf-helper.socket - debconf communication socket.
+2025-04-07T19:16:43.477892+08:00 kali-VMware-Virtual-Platform systemd[1242]: Closed snapd.session-agent.socket - REST API socket for snapd user session agent.
+2025-04-07T19:16:43.477974+08:00 kali-VMware-Virtual-Platform systemd[1242]: Closed speech-dispatcher.socket - Speech Dispatcher Socket.
+2025-04-07T19:16:43.490041+08:00 kali-VMware-Virtual-Platform systemd[1242]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2025-04-07T19:16:43.490521+08:00 kali-VMware-Virtual-Platform systemd[1242]: Removed slice app.slice - User Application Slice.
+2025-04-07T19:16:43.490556+08:00 kali-VMware-Virtual-Platform systemd[1242]: Reached target shutdown.target - Shutdown.
+2025-04-07T19:16:43.490840+08:00 kali-VMware-Virtual-Platform systemd[1242]: Finished systemd-exit.service - Exit the Session.
+2025-04-07T19:16:43.490883+08:00 kali-VMware-Virtual-Platform systemd[1242]: Reached target exit.target - Exit the Session.
+2025-04-07T19:16:43.506502+08:00 kali-VMware-Virtual-Platform systemd[1]: user@120.service: Deactivated successfully.
+2025-04-07T19:16:43.506558+08:00 kali-VMware-Virtual-Platform systemd[1]: Stopped user@120.service - User Manager for UID 120.
+2025-04-07T19:16:43.517242+08:00 kali-VMware-Virtual-Platform systemd[1]: Stopping user-runtime-dir@120.service - User Runtime Directory /run/user/120...
+2025-04-07T19:16:43.524839+08:00 kali-VMware-Virtual-Platform systemd[1]: run-user-120.mount: Deactivated successfully.
+2025-04-07T19:16:43.527783+08:00 kali-VMware-Virtual-Platform systemd[1]: user-runtime-dir@120.service: Deactivated successfully.
+2025-04-07T19:16:43.528056+08:00 kali-VMware-Virtual-Platform systemd[1]: Stopped user-runtime-dir@120.service - User Runtime Directory /run/user/120.
+2025-04-07T19:16:43.530879+08:00 kali-VMware-Virtual-Platform systemd[1]: Removed slice user-120.slice - User Slice of UID 120.
+2025-04-07T19:16:43.531165+08:00 kali-VMware-Virtual-Platform systemd[1]: user-120.slice: Consumed 4.460s CPU time.
+2025-04-07T19:16:45.795823+08:00 kali-VMware-Virtual-Platform systemd-timesyncd[538]: Contacted time server 185.125.190.56:123 (ntp.ubuntu.com).
+2025-04-07T19:16:45.796071+08:00 kali-VMware-Virtual-Platform systemd-timesyncd[538]: Initial clock synchronization to Mon 2025-04-07 19:16:45.794740 CST.
+2025-04-07T19:16:45.796223+08:00 kali-VMware-Virtual-Platform systemd-resolved[535]: Clock change detected. Flushing caches.
+2025-04-07T19:16:48.548976+08:00 kali-VMware-Virtual-Platform systemd[1]: systemd-timedated.service: Deactivated successfully.
+2025-04-07T19:16:51.833932+08:00 kali-VMware-Virtual-Platform systemd[1]: fprintd.service: Deactivated successfully.
+2025-04-07T19:17:01.985716+08:00 kali-VMware-Virtual-Platform CRON[2886]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2025-04-07T19:17:03.721907+08:00 kali-VMware-Virtual-Platform systemd[1]: systemd-localed.service: Deactivated successfully.
+2025-04-07T19:17:03.722976+08:00 kali-VMware-Virtual-Platform systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+2025-04-07T19:17:04.447943+08:00 kali-VMware-Virtual-Platform kernel: usb 4-1: new SuperSpeed USB device number 2 using xhci_hcd
+2025-04-07T19:17:04.460893+08:00 kali-VMware-Virtual-Platform kernel: usb 4-1: New USB device found, idVendor=8564, idProduct=7000, bcdDevice=21.01
+2025-04-07T19:17:04.460905+08:00 kali-VMware-Virtual-Platform kernel: usb 4-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+2025-04-07T19:17:04.460906+08:00 kali-VMware-Virtual-Platform kernel: usb 4-1: Product: StoreJet Transcend
+2025-04-07T19:17:04.460906+08:00 kali-VMware-Virtual-Platform kernel: usb 4-1: Manufacturer: StoreJet Transcend
+2025-04-07T19:17:04.460907+08:00 kali-VMware-Virtual-Platform kernel: usb 4-1: SerialNumber: WD-WX22A74MD9XP
+2025-04-07T19:17:04.473054+08:00 kali-VMware-Virtual-Platform mtp-probe: checking bus 4, device 2: "/sys/devices/pci0000:00/0000:00:15.0/0000:03:00.0/usb4/4-1"
+2025-04-07T19:17:04.473119+08:00 kali-VMware-Virtual-Platform mtp-probe: bus: 4, device: 2 was not an MTP device
+2025-04-07T19:17:04.496485+08:00 kali-VMware-Virtual-Platform kernel: usb-storage 4-1:1.0: USB Mass Storage device detected
+2025-04-07T19:17:04.496496+08:00 kali-VMware-Virtual-Platform kernel: scsi host33: usb-storage 4-1:1.0
+2025-04-07T19:17:04.496496+08:00 kali-VMware-Virtual-Platform kernel: usbcore: registered new interface driver usb-storage
+2025-04-07T19:17:04.507150+08:00 kali-VMware-Virtual-Platform kernel: usbcore: registered new interface driver uas
+2025-04-07T19:17:04.508800+08:00 kali-VMware-Virtual-Platform mtp-probe: checking bus 4, device 2: "/sys/devices/pci0000:00/0000:00:15.0/0000:03:00.0/usb4/4-1"
+2025-04-07T19:17:04.508841+08:00 kali-VMware-Virtual-Platform mtp-probe: bus: 4, device: 2 was not an MTP device
+2025-04-07T19:17:05.559718+08:00 kali-VMware-Virtual-Platform kernel: scsi 33:0:0:0: Direct-Access     StoreJet Transcend        2101 PQ: 0 ANSI: 6
+2025-04-07T19:17:05.559771+08:00 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: Attached scsi generic sg3 type 0
+2025-04-07T19:17:05.560973+08:00 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] 1953525168 512-byte logical blocks: (1.00 TB/932 GiB)
+2025-04-07T19:17:05.561056+08:00 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] Write Protect is off
+2025-04-07T19:17:05.561111+08:00 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] Mode Sense: 47 00 00 08
+2025-04-07T19:17:05.562432+08:00 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+2025-04-07T19:17:05.572322+08:00 kali-VMware-Virtual-Platform kernel:  sdb: sdb1
+2025-04-07T19:17:05.572330+08:00 kali-VMware-Virtual-Platform kernel: sd 33:0:0:0: [sdb] Attached SCSI disk
+2025-04-07T19:17:05.944870+08:00 kali-VMware-Virtual-Platform (udev-worker)[2919]: sdb: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sdb' failed with exit code 1.
+2025-04-07T19:17:06.150854+08:00 kali-VMware-Virtual-Platform (udev-worker)[2904]: sdb1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sdb1' failed with exit code 1.
+2025-04-07T19:17:06.260537+08:00 kali-VMware-Virtual-Platform kernel: ntfs3: Enabled Linux POSIX ACLs support
+2025-04-07T19:17:06.260552+08:00 kali-VMware-Virtual-Platform kernel: ntfs3: Read-only LZX/Xpress compression included
+2025-04-07T19:17:09.064000+08:00 kali-VMware-Virtual-Platform gnome-shell[2121]: Impossible to mount removable Transcend: Gio.IOErrorEnum: 這個操作已經排入行程#012#012Stack trace:#012  _promisify/proto[asyncFunc]/</<@resource:///org/gnome/gjs/modules/core/overrides/Gio.js:453:45#012  @resource:///org/gnome/shell/ui/init.js:21:20#012  ### Promise created here: ####012  launchAction@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:632:35#012  mountAndLaunch@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:580:24#012  vfunc_launch@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:546:14#012  makeLocationApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1064:26#012  _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37#012  wrapWindowsBackedApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1005:22#012  _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37#012  wrapWindowsBackedApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1020:34#012  _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37#012  launchNewWindow@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/appIcons.js:745:26#012  activate@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/appIcons.js:685:18#012  vfunc_clicked@resource:///org/gnome/shell/ui/appDisplay.js:3077:14#012  @resource:///org/gnome/shell/ui/init.js:21:20#012  
+2025-04-07T19:17:09.064902+08:00 kali-VMware-Virtual-Platform gnome-shell[2121]: Mount and launch mountable-volume:12F21721F217089D: Error: No mounted location to open for mountable-volume:12F21721F217089D#012#012Stack trace:#012  mountAndLaunch@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:582:23#012  async*vfunc_launch@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:546:14#012  makeLocationApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1064:26#012  _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37#012  wrapWindowsBackedApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1005:22#012  _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37#012  wrapWindowsBackedApp/<@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js:1020:34#012  _create/object[name]@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js:326:37#012  launchNewWindow@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/appIcons.js:745:26#012  activate@file:///usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/appIcons.js:685:18#012  vfunc_clicked@resource:///org/gnome/shell/ui/appDisplay.js:3077:14#012  @resource:///org/gnome/shell/ui/init.js:21:20#012  
+2025-04-07T19:17:09.660415+08:00 kali-VMware-Virtual-Platform udisksd[761]: Mounted /dev/sdb1 at /media/kali/Transcend on behalf of uid 1000
+2025-04-07T19:17:09.689816+08:00 kali-VMware-Virtual-Platform gnome-shell[2121]: GFileInfo created without standard::icon
+2025-04-07T19:17:09.689964+08:00 kali-VMware-Virtual-Platform gnome-shell[2121]: file ../../../gio/gfileinfo.c: line 1765 (g_file_info_get_icon): should not be reached
+2025-04-07T19:17:15.251477+08:00 kali-VMware-Virtual-Platform dbus-daemon[1909]: [session uid=1000 pid=1909] Activating service name='org.gnome.Nautilus' requested by ':1.29' (uid=1000 pid=2121 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-04-07T19:17:15.281591+08:00 kali-VMware-Virtual-Platform nautilus[2944]: Connecting to org.freedesktop.Tracker3.Miner.Files
+2025-04-07T19:17:15.283141+08:00 kali-VMware-Virtual-Platform dbus-daemon[1909]: [session uid=1000 pid=1909] Successfully activated service 'org.gnome.Nautilus'
+2025-04-07T19:17:15.577467+08:00 kali-VMware-Virtual-Platform dbus-daemon[716]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.116' (uid=1000 pid=2944 comm="/usr/bin/nautilus --gapplication-service" label="nautilus (unconfined)")
+2025-04-07T19:17:15.579320+08:00 kali-VMware-Virtual-Platform gnome-shell[2121]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+2025-04-07T19:17:15.589997+08:00 kali-VMware-Virtual-Platform systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+2025-04-07T19:17:15.631372+08:00 kali-VMware-Virtual-Platform dbus-daemon[716]: [system] Successfully activated service 'org.freedesktop.hostname1'
+2025-04-07T19:17:15.631445+08:00 kali-VMware-Virtual-Platform systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+2025-04-07T19:17:16.375706+08:00 kali-VMware-Virtual-Platform gnome-shell[2121]: Invalid sequence for VSYNC frame info
+2025-04-07T19:17:21.806381+08:00 kali-VMware-Virtual-Platform geoclue[1753]: Service not used for 60 seconds. Shutting down..
+2025-04-07T19:17:21.809522+08:00 kali-VMware-Virtual-Platform systemd[1]: geoclue.service: Deactivated successfully.
+2025-04-07T19:17:28.523755+08:00 kali-VMware-Virtual-Platform dbus-daemon[1909]: [session uid=1000 pid=1909] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.99' (uid=1000 pid=2944 comm="/usr/bin/nautilus --gapplication-service" label="nautilus (unconfined)")
+2025-04-07T19:17:28.532177+08:00 kali-VMware-Virtual-Platform systemd[1880]: Created slice app-org.gnome.Terminal.slice - Slice /app/org.gnome.Terminal.
+2025-04-07T19:17:28.539207+08:00 kali-VMware-Virtual-Platform systemd[1880]: Starting gnome-terminal-server.service - GNOME Terminal Server...
+2025-04-07T19:17:28.742212+08:00 kali-VMware-Virtual-Platform dbus-daemon[1909]: [session uid=1000 pid=1909] Successfully activated service 'org.gnome.Terminal'
+2025-04-07T19:17:28.742502+08:00 kali-VMware-Virtual-Platform systemd[1880]: Started gnome-terminal-server.service - GNOME Terminal Server.
+2025-04-07T19:17:28.910821+08:00 kali-VMware-Virtual-Platform systemd[1880]: Started vte-spawn-c19173d0-2d66-4215-80dd-ec024d619df6.scope - VTE child process 3000 launched by gnome-terminal-server process 2993.
+2025-04-07T19:17:31.254768+08:00 kali-VMware-Virtual-Platform org.gnome.Nautilus[2944]: context mismatch in svga_surface_destroy
+2025-04-07T19:17:31.774284+08:00 kali-VMware-Virtual-Platform systemd[1880]: Started app-gnome-ubuntu\x2dadvantage\x2dnotification-3006.scope - Application launched by gnome-session-binary.
+2025-04-07T19:17:31.774366+08:00 kali-VMware-Virtual-Platform systemd[1880]: Started app-gnome-update\x2dnotifier-3010.scope - Application launched by gnome-session-binary.
+2025-04-07T19:17:46.256031+08:00 kali-VMware-Virtual-Platform org.gnome.Nautilus[2944]: context mismatch in svga_surface_destroy
+2025-04-07T19:17:46.256229+08:00 kali-VMware-Virtual-Platform org.gnome.Nautilus[2944]: message repeated 10 times: [ context mismatch in svga_surface_destroy]
+2025-04-07T19:17:46.389670+08:00 kali-VMware-Virtual-Platform systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+2025-04-07T19:18:03.255321+08:00 kali-VMware-Virtual-Platform crontab[3120]: (root) LIST (root)
+2025-04-07T19:18:10.378378+08:00 kali-VMware-Virtual-Platform dbus-daemon[716]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.120' (uid=0 pid=3288 comm="timedatectl" label="unconfined")
+2025-04-07T19:18:10.395301+08:00 kali-VMware-Virtual-Platform systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+2025-04-07T19:18:10.424356+08:00 kali-VMware-Virtual-Platform dbus-daemon[716]: [system] Successfully activated service 'org.freedesktop.timedate1'
+2025-04-07T19:18:10.425060+08:00 kali-VMware-Virtual-Platform systemd[1]: Started systemd-timedated.service - Time & Date Service.

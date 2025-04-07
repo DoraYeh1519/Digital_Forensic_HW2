@@ -1,0 +1,50 @@
+COMMAND    PID            USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
+systemd      1            root  314u  IPv4  29396      0t0  TCP *:sunrpc (LISTEN)
+systemd      1            root  315u  IPv4  29398      0t0  UDP *:sunrpc 
+systemd      1            root  316u  IPv6  29400      0t0  TCP *:sunrpc (LISTEN)
+systemd      1            root  317u  IPv6  29402      0t0  UDP *:sunrpc 
+systemd-r  586 systemd-resolve   14u  IPv4  17250      0t0  UDP _localdnsstub:domain 
+systemd-r  586 systemd-resolve   15u  IPv4  17251      0t0  TCP _localdnsstub:domain (LISTEN)
+systemd-r  586 systemd-resolve   16u  IPv4  17252      0t0  UDP _localdnsproxy:domain 
+systemd-r  586 systemd-resolve   17u  IPv4  17253      0t0  TCP _localdnsproxy:domain (LISTEN)
+avahi-dae  701           avahi   12u  IPv4  18384      0t0  UDP *:mdns 
+avahi-dae  701           avahi   13u  IPv6  18385      0t0  UDP *:mdns 
+avahi-dae  701           avahi   14u  IPv4  18386      0t0  UDP *:46437 
+avahi-dae  701           avahi   15u  IPv6  18387      0t0  UDP *:51037 
+NetworkMa  805            root   26u  IPv4  22270      0t0  UDP kali-VMware-Virtual-Platform:bootpc->192.168.110.254:bootps 
+cupsd     1208            root    6u  IPv6  20804      0t0  TCP ip6-localhost:ipp (LISTEN)
+cupsd     1208            root    7u  IPv4  20805      0t0  TCP localhost:ipp (LISTEN)
+nmbd      1293            root   13u  IPv4  22667      0t0  UDP *:netbios-ns 
+nmbd      1293            root   14u  IPv4  22668      0t0  UDP *:netbios-dgm 
+nmbd      1293            root   15u  IPv4  22679      0t0  UDP kali-VMware-Virtual-Platform:netbios-ns 
+nmbd      1293            root   16u  IPv4  22680      0t0  UDP 192.168.110.255:netbios-ns 
+nmbd      1293            root   17u  IPv4  22681      0t0  UDP kali-VMware-Virtual-Platform:netbios-dgm 
+nmbd      1293            root   18u  IPv4  22682      0t0  UDP 192.168.110.255:netbios-dgm 
+rpcbind   3364            _rpc    4u  IPv4  29396      0t0  TCP *:sunrpc (LISTEN)
+rpcbind   3364            _rpc    5u  IPv4  29398      0t0  UDP *:sunrpc 
+rpcbind   3364            _rpc    6u  IPv6  29400      0t0  TCP *:sunrpc (LISTEN)
+rpcbind   3364            _rpc    7u  IPv6  29402      0t0  UDP *:sunrpc 
+rpc.statd 4129           statd    5u  IPv4  31916      0t0  UDP localhost:913 
+rpc.statd 4129           statd    8u  IPv4  31923      0t0  UDP *:41365 
+rpc.statd 4129           statd    9u  IPv4  31927      0t0  TCP *:45815 (LISTEN)
+rpc.statd 4129           statd   10u  IPv6  31931      0t0  UDP *:54920 
+rpc.statd 4129           statd   11u  IPv6  31935      0t0  TCP *:48185 (LISTEN)
+rpc.mount 4806            root    4u  IPv4  36104      0t0  UDP *:36828 
+rpc.mount 4806            root    5u  IPv4  36110      0t0  TCP *:37205 (LISTEN)
+rpc.mount 4806            root    6u  IPv6  36116      0t0  UDP *:48746 
+rpc.mount 4806            root    7u  IPv6  36122      0t0  TCP *:46655 (LISTEN)
+rpc.mount 4806            root    8u  IPv4  36128      0t0  UDP *:42136 
+rpc.mount 4806            root    9u  IPv4  36134      0t0  TCP *:47809 (LISTEN)
+rpc.mount 4806            root   10u  IPv6  36140      0t0  UDP *:43674 
+rpc.mount 4806            root   11u  IPv6  36146      0t0  TCP *:45287 (LISTEN)
+rpc.mount 4806            root   12u  IPv4  36152      0t0  UDP *:58591 
+rpc.mount 4806            root   13u  IPv4  36158      0t0  TCP *:34683 (LISTEN)
+rpc.mount 4806            root   14u  IPv6  36164      0t0  UDP *:38274 
+rpc.mount 4806            root   15u  IPv6  36170      0t0  TCP *:44175 (LISTEN)
+smbd      4897            root   28u  IPv6  36561      0t0  TCP *:microsoft-ds (LISTEN)
+smbd      4897            root   29u  IPv6  36562      0t0  TCP *:netbios-ssn (LISTEN)
+smbd      4897            root   30u  IPv4  36563      0t0  TCP *:microsoft-ds (LISTEN)
+smbd      4897            root   31u  IPv4  36564      0t0  TCP *:netbios-ssn (LISTEN)
+smbd[127. 5343            root   33u  IPv4  38062      0t0  TCP localhost:microsoft-ds->localhost:35388 (ESTABLISHED)
+gvfsd-smb 6227            kali   10u  IPv4  54030      0t0  TCP kali-VMware-Virtual-Platform:33022->kali-VMware-Virtual-Platform:microsoft-ds (CLOSE_WAIT)
+gvfsd-smb 6227            kali   11u  IPv4  54035      0t0  TCP kali-VMware-Virtual-Platform:33028->kali-VMware-Virtual-Platform:microsoft-ds (CLOSE_WAIT)

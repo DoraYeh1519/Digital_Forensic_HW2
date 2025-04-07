@@ -1,0 +1,47 @@
+-r--r--r--  1 root wheel 6368 May 31  2024 /usr/tests/atf_python/ktest.py
+-r--r--r--  1 root wheel 11531 May 31  2024 /usr/tests/atf_python/atf_pytest.py
+-r--r--r--  1 root wheel 2736 May 31  2024 /usr/tests/atf_python/utils.py
+-r--r--r--  1 root wheel 18325 May 31  2024 /usr/tests/atf_python/sys/net/rtsock.py
+-r--r--r--  1 root wheel 3041 May 31  2024 /usr/tests/atf_python/sys/net/tools.py
+-r--r--r--  1 root wheel 18925 May 31  2024 /usr/tests/atf_python/sys/net/vnet.py
+-r--r--r--  1 root wheel 0 May 31  2024 /usr/tests/atf_python/sys/net/__init__.py
+-r--r--r--  1 root wheel 0 May 31  2024 /usr/tests/atf_python/sys/__init__.py
+-r--r--r--  1 root wheel 2356 May 31  2024 /usr/tests/atf_python/sys/netpfil/ipfw/ioctl_headers.py
+-r--r--r--  1 root wheel 15460 May 31  2024 /usr/tests/atf_python/sys/netpfil/ipfw/ioctl.py
+-r--r--r--  1 root wheel 3685 May 31  2024 /usr/tests/atf_python/sys/netpfil/ipfw/ipfw.py
+-r--r--r--  1 root wheel 16412 May 31  2024 /usr/tests/atf_python/sys/netpfil/ipfw/insns.py
+-r--r--r--  1 root wheel 0 May 31  2024 /usr/tests/atf_python/sys/netpfil/ipfw/__init__.py
+-r--r--r--  1 root wheel 4632 May 31  2024 /usr/tests/atf_python/sys/netpfil/ipfw/insn_headers.py
+-r--r--r--  1 root wheel 1191 May 31  2024 /usr/tests/atf_python/sys/netpfil/ipfw/utils.py
+-r--r--r--  1 root wheel 0 May 31  2024 /usr/tests/atf_python/sys/netpfil/__init__.py
+-r--r--r--  1 root wheel 8967 May 31  2024 /usr/tests/atf_python/sys/netlink/netlink_generic.py
+-r--r--r--  1 root wheel 22639 May 31  2024 /usr/tests/atf_python/sys/netlink/netlink_route.py
+-r--r--r--  1 root wheel 1323 May 31  2024 /usr/tests/atf_python/sys/netlink/base_headers.py
+-r--r--r--  1 root wheel 1677 May 31  2024 /usr/tests/atf_python/sys/netlink/utils.py
+-r--r--r--  1 root wheel 0 May 31  2024 /usr/tests/atf_python/sys/netlink/__init__.py
+-r--r--r--  1 root wheel 13688 May 31  2024 /usr/tests/atf_python/sys/netlink/netlink.py
+-r--r--r--  1 root wheel 9624 May 31  2024 /usr/tests/atf_python/sys/netlink/message.py
+-r--r--r--  1 root wheel 9007 May 31  2024 /usr/tests/atf_python/sys/netlink/attrs.py
+-r--r--r--  1 root wheel 133 May 31  2024 /usr/tests/atf_python/__init__.py
+-r--r--r--  1 root wheel 1561 May 31  2024 /usr/libexec/kgdb/acttrace.py
+-r-xr-xr-x  1 root wheel 412 May 31  2024 /usr/bin/lesspipe.sh
+-r--r--r--  1 root wheel 2139 May 31  2024 /usr/share/mk/stage-install.sh
+-r--r--r--  1 root wheel 1131 May 31  2024 /usr/share/sendmail/cf/sh/makeinfo.sh
+-r--r--r--  1 root wheel 27544 May 31  2024 /usr/share/examples/drivers/make_device_driver.sh
+-r--r--r--  1 root wheel 9453 May 31  2024 /usr/share/examples/drivers/make_pseudo_driver.sh
+-r--r--r--  1 root wheel 280 May 31  2024 /usr/share/examples/bsdconfig/add_some_packages.sh
+-r--r--r--  1 root wheel 1071 May 31  2024 /usr/share/examples/bsdconfig/browse_packages_http.sh
+-r--r--r--  1 root wheel 10291 May 31  2024 /usr/share/examples/bhyve/vmrun.sh
+-r--r--r--  1 root wheel 1533 May 31  2024 /usr/share/examples/BSD_daemon/poster.sh
+-r--r--r--  1 root wheel 54 May 31  2024 /usr/share/examples/hast/vip-down.sh
+-r--r--r--  1 root wheel 68 May 31  2024 /usr/share/examples/hast/vip-up.sh
+-r--r--r--  1 root wheel 3527 May 31  2024 /usr/share/examples/hast/ucarp_down.sh
+-r--r--r--  1 root wheel 3988 May 31  2024 /usr/share/examples/hast/ucarp_up.sh
+-r--r--r--  1 root wheel 2652 May 31  2024 /usr/share/examples/hast/ucarp.sh
+-r--r--r--  1 root wheel 4621 May 31  2024 /usr/share/examples/ipfw/change_rules.sh
+-r--r--r--  1 root wheel 2859 May 31  2024 /usr/share/examples/mdoc/deshallify.sh
+-rwxrwxrwx  1 root wheel 12190 Mar 26 00:59 /mnt/usb/Digital Forensics/forensics tools/volatility_2.6_win64_standalone/plugins/bitlocker.py
+-rwxrwxrwx  1 root wheel 791 Apr  6 23:55 /mnt/usb/Digital Forensics/HW2/auto_collect.sh
+-rwxrwxrwx  1 root wheel 3634 Apr  7 02:45 /mnt/usb/Digital Forensics/HW2/collect_centos.sh
+-rwxrwxrwx  1 root wheel 4099 Apr  7 03:27 /mnt/usb/Digital Forensics/HW2/collect_freebsd.sh
+-rwxrwxrwx  1 root wheel 3852 Apr  6 23:55 /mnt/usb/Digital Forensics/HW2/collect_ubuntu_debian.sh

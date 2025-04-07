@@ -1,0 +1,12 @@
+● nfs-server.service - NFS server and services
+     Loaded: loaded (/usr/lib/systemd/system/nfs-server.service; enabled; preset: enabled)
+    Drop-In: /run/systemd/generator/nfs-server.service.d
+             └─order-with-mounts.conf
+     Active: active (exited) since Mon 2025-04-07 19:16:17 CST; 1min 44s ago
+    Process: 1077 ExecStartPre=/usr/sbin/exportfs -r (code=exited, status=0/SUCCESS)
+    Process: 1117 ExecStart=/usr/sbin/rpc.nfsd (code=exited, status=0/SUCCESS)
+   Main PID: 1117 (code=exited, status=0/SUCCESS)
+        CPU: 19ms
+
+ 4月 07 19:16:17 kali-VMware-Virtual-Platform systemd[1]: Starting nfs-server.service - NFS server and services...
+ 4月 07 19:16:17 kali-VMware-Virtual-Platform systemd[1]: Finished nfs-server.service - NFS server and services.

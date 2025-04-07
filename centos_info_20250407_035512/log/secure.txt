@@ -1,0 +1,74 @@
+Apr  6 17:29:30 localhost sshd[1113]: Server listening on 0.0.0.0 port 22.
+Apr  6 17:29:30 localhost sshd[1113]: Server listening on :: port 22.
+Apr  6 17:29:30 localhost (systemd)[1192]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Apr  6 17:29:30 localhost gdm-launch-environment][1159]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Apr  6 17:32:25 localhost gdm-password][5747]: gkr-pam: unable to locate daemon control file
+Apr  6 17:32:25 localhost gdm-password][5747]: gkr-pam: stashed password to try later in open session
+Apr  6 17:32:25 localhost (systemd)[5761]: pam_unix(systemd-user:session): session opened for user kali(uid=1000) by kali(uid=0)
+Apr  6 17:32:25 localhost gdm-password][5747]: pam_unix(gdm-password:session): session opened for user kali(uid=1000) by kali(uid=0)
+Apr  6 17:32:25 localhost gdm-password][5747]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Apr  6 17:32:28 localhost gdm-launch-environment][1159]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Apr  6 17:37:40 localhost sudo[7274]:    kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/bin/yum install ntfsprogs
+Apr  6 17:37:40 localhost (systemd)[7288]: pam_unix(systemd-user:session): session opened for user root(uid=0) by root(uid=0)
+Apr  6 17:37:40 localhost sudo[7274]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr  6 17:37:47 localhost sudo[7274]: pam_unix(sudo:session): session closed for user root
+Apr  6 17:38:32 localhost sudo[7341]:    kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/bin/yum -y install epel-release
+Apr  6 17:38:32 localhost (systemd)[7345]: pam_unix(systemd-user:session): session opened for user root(uid=0) by root(uid=0)
+Apr  6 17:38:32 localhost sudo[7341]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr  6 17:38:34 localhost sudo[7341]: pam_unix(sudo:session): session closed for user root
+Apr  6 17:38:46 localhost sudo[7548]:    kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/bin/yum -y install ntfs-3g
+Apr  6 17:38:46 localhost (systemd)[7552]: pam_unix(systemd-user:session): session opened for user root(uid=0) by root(uid=0)
+Apr  6 17:38:46 localhost sudo[7548]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr  6 17:38:49 localhost sudo[7548]: pam_unix(sudo:session): session closed for user root
+Apr  6 17:39:02 localhost sudo[7587]:    kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/bin/yum install ntfsprogs
+Apr  6 17:39:02 localhost (systemd)[7591]: pam_unix(systemd-user:session): session opened for user root(uid=0) by root(uid=0)
+Apr  6 17:39:02 localhost sudo[7587]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr  6 17:39:02 localhost sudo[7587]: pam_unix(sudo:session): session closed for user root
+Apr  6 17:41:04 localhost sudo[7628]:    kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/bin/yum install epel-release
+Apr  6 17:41:04 localhost (systemd)[7632]: pam_unix(systemd-user:session): session opened for user root(uid=0) by root(uid=0)
+Apr  6 17:41:04 localhost sudo[7628]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr  6 17:41:13 localhost sudo[7628]: pam_unix(sudo:session): session closed for user root
+Apr  6 17:42:15 localhost sudo[7829]:    kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/bin/yum install epel-release fuse ntfs-3g
+Apr  6 17:42:16 localhost (systemd)[7833]: pam_unix(systemd-user:session): session opened for user root(uid=0) by root(uid=0)
+Apr  6 17:42:16 localhost sudo[7829]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr  6 17:42:16 localhost sudo[7829]: pam_unix(sudo:session): session closed for user root
+Apr  6 17:43:00 localhost sudo[7866]:    kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/bin/yum update
+Apr  6 17:43:00 localhost (systemd)[7870]: pam_unix(systemd-user:session): session opened for user root(uid=0) by root(uid=0)
+Apr  6 17:43:00 localhost sudo[7866]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr  6 17:43:00 localhost sudo[7866]: pam_unix(sudo:session): session closed for user root
+Apr  6 17:43:49 localhost sudo[7908]:    kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/bin/yum repolist
+Apr  6 17:43:49 localhost (systemd)[7914]: pam_unix(systemd-user:session): session opened for user root(uid=0) by root(uid=0)
+Apr  6 17:43:49 localhost sudo[7908]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr  6 17:43:50 localhost sudo[7908]: pam_unix(sudo:session): session closed for user root
+Apr  6 17:50:19 localhost sudo[8057]:    kali : TTY=pts/0 ; PWD=/home/kali/Downloads ; USER=root ; COMMAND=/bin/dnf install ./ntfs-3g-2022.10.3-1.el9.x86_64.rpm
+Apr  6 17:50:19 localhost (systemd)[8070]: pam_unix(systemd-user:session): session opened for user root(uid=0) by root(uid=0)
+Apr  6 17:50:19 localhost sudo[8057]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr  6 17:50:19 localhost sudo[8057]: pam_unix(sudo:session): session closed for user root
+Apr  6 17:51:10 localhost sudo[8109]:    kali : TTY=pts/0 ; PWD=/home/kali/Downloads ; USER=root ; COMMAND=/bin/dnf install ./ntfs-3g-2022.10.3-1.el9.x86_64.rpm ./ntfs-3g-libs-2022.10.3-1.el9.x86_64.rpm
+Apr  6 17:51:10 localhost (systemd)[8113]: pam_unix(systemd-user:session): session opened for user root(uid=0) by root(uid=0)
+Apr  6 17:51:10 localhost sudo[8109]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr  6 17:51:14 localhost sudo[8109]: pam_unix(sudo:session): session closed for user root
+Apr  6 17:52:18 localhost sudo[8322]:    kali : TTY=pts/0 ; PWD=/run/media/kali/Transcend/Digital Forensics/HW2 ; USER=root ; COMMAND=./auto_collect.sh
+Apr  6 17:52:18 localhost (systemd)[8336]: pam_unix(systemd-user:session): session opened for user root(uid=0) by root(uid=0)
+Apr  6 17:52:19 localhost sudo[8322]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr  6 17:52:22 localhost sudo[8322]: pam_unix(sudo:session): session closed for user root
+Apr  7 03:33:45 localhost sshd[1072]: Server listening on 0.0.0.0 port 22.
+Apr  7 03:33:45 localhost sshd[1072]: Server listening on :: port 22.
+Apr  7 03:33:45 localhost (systemd)[1163]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Apr  7 03:33:45 localhost gdm-launch-environment][1136]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Apr  7 03:33:53 localhost gdm-password][2260]: gkr-pam: unable to locate daemon control file
+Apr  7 03:33:53 localhost gdm-password][2260]: gkr-pam: stashed password to try later in open session
+Apr  7 03:33:53 localhost (systemd)[2272]: pam_unix(systemd-user:session): session opened for user kali(uid=1000) by kali(uid=0)
+Apr  7 03:33:53 localhost gdm-password][2260]: pam_unix(gdm-password:session): session opened for user kali(uid=1000) by kali(uid=0)
+Apr  7 03:33:53 localhost gdm-password][2260]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Apr  7 03:33:58 localhost gdm-launch-environment][1136]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Apr  7 03:34:17 localhost unix_chkpwd[3326]: password check failed for user (root)
+Apr  7 03:34:17 localhost su[3324]: pam_unix(su:auth): authentication failure; logname=kali uid=1000 euid=0 tty=/dev/pts/0 ruser=kali rhost=  user=root
+Apr  7 03:34:24 localhost unix_chkpwd[3340]: password check failed for user (root)
+Apr  7 03:34:24 localhost su[3331]: pam_unix(su:auth): authentication failure; logname=kali uid=1000 euid=0 tty=/dev/pts/0 ruser=kali rhost=  user=root
+Apr  7 03:34:34 localhost (systemd)[3355]: pam_unix(systemd-user:session): session opened for user root(uid=0) by root(uid=0)
+Apr  7 03:34:34 localhost su[3349]: pam_unix(su:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr  7 03:54:10 localhost su[3349]: pam_unix(su:session): session closed for user root
+Apr  7 03:55:11 localhost sudo[3986]:    kali : TTY=pts/0 ; PWD=/run/media/kali/Transcend/Digital Forensics/HW2 ; USER=root ; COMMAND=./auto_collect.sh
+Apr  7 03:55:11 localhost (systemd)[3999]: pam_unix(systemd-user:session): session opened for user root(uid=0) by root(uid=0)
+Apr  7 03:55:11 localhost sudo[3986]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)

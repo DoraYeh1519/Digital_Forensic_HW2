@@ -1,0 +1,1 @@
+uid=0(root) gid=0(wheel) groups=0(wheel),5(operator)

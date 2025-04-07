@@ -1,0 +1,17 @@
+● nmbd.service - Samba NMB Daemon
+     Loaded: loaded (/usr/lib/systemd/system/nmbd.service; enabled; preset: enabled)
+     Active: active (running) since Sun 2025-04-06 23:05:33 CST; 37min ago
+       Docs: man:nmbd(8)
+             man:samba(7)
+             man:smb.conf(5)
+   Main PID: 1293 (nmbd)
+     Status: "nmbd: ready to serve connections..."
+      Tasks: 1 (limit: 4551)
+     Memory: 9.8M (peak: 10.6M)
+        CPU: 95ms
+     CGroup: /system.slice/nmbd.service
+             └─1293 /usr/sbin/nmbd --foreground --no-process-group
+
+ 4月 06 23:05:33 kali-VMware-Virtual-Platform systemd[1]: Starting nmbd.service - Samba NMB Daemon...
+ 4月 06 23:05:33 kali-VMware-Virtual-Platform (nmbd)[1293]: nmbd.service: Referenced but unset environment variable evaluates to an empty string: NMBDOPTIONS
+ 4月 06 23:05:33 kali-VMware-Virtual-Platform systemd[1]: Started nmbd.service - Samba NMB Daemon.

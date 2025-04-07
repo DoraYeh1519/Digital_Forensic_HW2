@@ -1,0 +1,20 @@
+● smbd.service - Samba SMB Daemon
+     Loaded: loaded (/usr/lib/systemd/system/smbd.service; enabled; preset: enabled)
+     Active: active (running) since Sun 2025-04-06 23:28:59 CST; 13min ago
+       Docs: man:smbd(8)
+             man:samba(7)
+             man:smb.conf(5)
+   Main PID: 4897 (smbd)
+     Status: "smbd: ready to serve connections..."
+      Tasks: 4 (limit: 4551)
+     Memory: 9.6M (peak: 12.2M)
+        CPU: 73ms
+     CGroup: /system.slice/smbd.service
+             ├─4897 /usr/sbin/smbd --foreground --no-process-group
+             ├─4900 "smbd: notifyd" .
+             ├─4901 "smbd: cleanupd "
+             └─5343 "smbd: client [127.0.0.1]"
+
+ 4月 06 23:28:59 kali-VMware-Virtual-Platform systemd[1]: Starting smbd.service - Samba SMB Daemon...
+ 4月 06 23:28:59 kali-VMware-Virtual-Platform (smbd)[4897]: smbd.service: Referenced but unset environment variable evaluates to an empty string: SMBDOPTIONS
+ 4月 06 23:28:59 kali-VMware-Virtual-Platform systemd[1]: Started smbd.service - Samba SMB Daemon.

@@ -1,0 +1,1 @@
+Apr  7 02:05:42  newsyslog[764]: logfile first created

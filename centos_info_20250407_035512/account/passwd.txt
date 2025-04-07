@@ -1,0 +1,37 @@
+root:x:0:0:Super User:/root:/bin/bash
+bin:x:1:1:bin:/bin:/usr/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/usr/sbin/nologin
+adm:x:3:4:adm:/var/adm:/usr/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/usr/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/usr/sbin/nologin
+operator:x:11:0:operator:/root:/usr/sbin/nologin
+games:x:12:100:games:/usr/games:/usr/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/usr/sbin/nologin
+nobody:x:65534:65534:Kernel Overflow User:/:/usr/sbin/nologin
+tss:x:59:59:Account used for TPM access:/:/usr/sbin/nologin
+dbus:x:81:81:System Message Bus:/:/usr/sbin/nologin
+avahi:x:70:70:Avahi mDNS/DNS-SD Stack:/var/run/avahi-daemon:/sbin/nologin
+systemd-oom:x:999:999:systemd Userspace OOM Killer:/:/sbin/nologin
+polkitd:x:114:114:User for polkitd:/:/sbin/nologin
+rtkit:x:172:172:RealtimeKit:/:/sbin/nologin
+colord:x:998:997:User for colord:/var/lib/colord:/sbin/nologin
+geoclue:x:997:996:User for geoclue:/var/lib/geoclue:/sbin/nologin
+sssd:x:996:995:User for sssd:/run/sssd/:/sbin/nologin
+libstoragemgmt:x:994:994:daemon account for libstoragemgmt:/:/usr/sbin/nologin
+systemd-coredump:x:993:993:systemd Core Dumper:/:/usr/sbin/nologin
+wsdd:x:992:992:Web Services Dynamic Discovery host daemon:/:/sbin/nologin
+clevis:x:991:991:Clevis Decryption Framework unprivileged user:/var/cache/clevis:/usr/sbin/nologin
+setroubleshoot:x:990:990:SELinux troubleshoot server:/var/lib/setroubleshoot:/usr/sbin/nologin
+pipewire:x:989:989:PipeWire System Daemon:/run/pipewire:/usr/sbin/nologin
+flatpak:x:988:988:Flatpak system helper:/:/usr/sbin/nologin
+gdm:x:42:42:GNOME Display Manager:/var/lib/gdm:/usr/sbin/nologin
+gnome-initial-setup:x:987:986::/run/gnome-initial-setup/:/sbin/nologin
+dnsmasq:x:986:985:Dnsmasq DHCP and DNS server:/var/lib/dnsmasq:/usr/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/usr/share/empty.sshd:/usr/sbin/nologin
+chrony:x:985:984:chrony system user:/var/lib/chrony:/sbin/nologin
+tcpdump:x:72:72:tcpdump:/:/usr/sbin/nologin
+gnome-remote-desktop:x:982:982:GNOME Remote Desktop:/var/lib/gnome-remote-desktop:/usr/sbin/nologin
+kali:x:1000:1000:kali:/home/kali:/bin/bash

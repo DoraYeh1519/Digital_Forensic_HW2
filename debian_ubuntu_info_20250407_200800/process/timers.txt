@@ -1,0 +1,14 @@
+NEXT                        LEFT          LAST                        PASSED        UNIT                         ACTIVATES
+Mon 2025-04-07 20:30:16 CST 22min left    Mon 2025-04-07 19:34:22 CST 33min ago     anacron.timer                anacron.service
+Mon 2025-04-07 20:30:17 CST 22min left    Sun 2025-04-06 03:03:20 CST 1 day 17h ago fstrim.timer                 fstrim.service
+Mon 2025-04-07 21:26:58 CST 1h 18min left Sun 2025-04-06 03:03:20 CST 1 day 17h ago fwupd-refresh.timer          fwupd-refresh.service
+Mon 2025-04-07 22:25:06 CST 2h 17min left Sun 2025-04-06 03:03:20 CST 1 day 17h ago apt-daily.timer              apt-daily.service
+Tue 2025-04-08 00:00:00 CST 3h 51min left -                           -             dpkg-db-backup.timer         dpkg-db-backup.service
+Tue 2025-04-08 00:00:00 CST 3h 51min left Mon 2025-04-07 19:31:13 CST 36min ago     logrotate.timer              logrotate.service
+Tue 2025-04-08 03:28:18 CST 7h left       Sun 2025-04-06 03:03:20 CST 1 day 17h ago man-db.timer                 man-db.service
+Tue 2025-04-08 06:20:17 CST 10h left      Mon 2025-04-07 19:59:52 CST 8min ago      apt-daily-upgrade.timer      apt-daily-upgrade.service
+Tue 2025-04-08 19:46:12 CST 23h left      Mon 2025-04-07 19:46:12 CST 21min ago     systemd-tmpfiles-clean.timer systemd-tmpfiles-clean.service
+Sun 2025-04-13 03:10:57 CST 5 days left   Sun 2025-04-06 03:10:43 CST 1 day 16h ago e2scrub_all.timer            e2scrub_all.service
+
+10 timers listed.
+Pass --all to see loaded but inactive timers, too.

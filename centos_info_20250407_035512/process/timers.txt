@@ -1,0 +1,11 @@
+NEXT                           LEFT LAST                              PASSED UNIT                         ACTIVATES
+Mon 2025-04-07 04:03:05 CST    7min Sun 2025-04-06 17:29:29 CST            - plocate-updatedb.timer       plocate-updatedb.service
+Mon 2025-04-07 04:09:36 CST   14min Mon 2025-04-07 03:50:29 CST 4min 45s ago fwupd-refresh.timer          fwupd-refresh.service
+Mon 2025-04-07 04:10:11 CST   14min -                                      - dnf-makecache.timer          dnf-makecache.service
+Mon 2025-04-07 04:56:50 CST 1h 1min Sun 2025-04-06 17:29:29 CST            - fstrim.timer                 fstrim.service
+Tue 2025-04-08 00:04:27 CST     20h Mon 2025-04-07 03:35:50 CST    19min ago logrotate.timer              logrotate.service
+Tue 2025-04-08 03:48:47 CST     23h Mon 2025-04-07 03:48:47 CST     6min ago systemd-tmpfiles-clean.timer systemd-tmpfiles-clean.service
+Sun 2025-04-13 01:00:00 CST  5 days Sun 2025-04-06 17:29:29 CST            - raid-check.timer             raid-check.service
+
+7 timers listed.
+Pass --all to see loaded but inactive timers, too.

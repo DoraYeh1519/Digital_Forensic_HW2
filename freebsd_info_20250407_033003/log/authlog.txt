@@ -1,0 +1,22 @@
+Apr  7 02:05:42  newsyslog[764]: logfile first created
+Apr  7 02:05:43  sshd[900]: Server listening on :: port 22.
+Apr  7 02:05:43  sshd[900]: Server listening on 0.0.0.0 port 22.
+Apr  7 02:05:47  login[916]: login on ttyv0 as kali
+Apr  6 18:06:00  login[928]: login on ttyv0 as root
+Apr  6 18:06:00  login[928]: ROOT LOGIN (root) ON ttyv0
+Apr  6 18:27:28  shutdown[1229]: power-down by root: 
+Apr  6 18:27:28  sshd[900]: Received signal 15; terminating.
+Apr  6 20:02:27  sshd[896]: Server listening on :: port 22.
+Apr  6 20:02:27  sshd[896]: Server listening on 0.0.0.0 port 22.
+Apr  6 20:02:37  login[912]: login on ttyv0 as root
+Apr  6 20:02:37  login[912]: ROOT LOGIN (root) ON ttyv0
+Apr  6 20:09:47  sshd[875]: Server listening on :: port 22.
+Apr  6 20:09:47  sshd[875]: Server listening on 0.0.0.0 port 22.
+Apr  6 20:10:03  login[891]: login on ttyv0 as root
+Apr  6 20:10:03  login[891]: ROOT LOGIN (root) ON ttyv0
+Apr  6 20:20:46  shutdown[2278]: power-down by root: 
+Apr  6 20:20:46  sshd[875]: Received signal 15; terminating.
+Apr  7 02:35:06  sshd[894]: Server listening on :: port 22.
+Apr  7 02:35:06  sshd[894]: Server listening on 0.0.0.0 port 22.
+Apr  7 02:35:11  login[910]: login on ttyv0 as root
+Apr  7 02:35:11  login[910]: ROOT LOGIN (root) ON ttyv0

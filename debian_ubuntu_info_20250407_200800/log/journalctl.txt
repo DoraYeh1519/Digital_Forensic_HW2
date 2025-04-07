@@ -1,0 +1,3522 @@
+ 4月 07 19:31:12 debian VGAuthService[469]: BEGIN SERVICE
+ 4月 07 19:31:13 debian systemd[1]: Mounting proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System...
+░░ Subject: 單位 proc-sys-fs-binfmt_misc.mount 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 proc-sys-fs-binfmt_misc.mount 已開始啟動。
+ 4月 07 19:31:13 debian systemd[1]: Mounted proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System.
+░░ Subject: 單位 proc-sys-fs-binfmt_misc.mount 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 proc-sys-fs-binfmt_misc.mount 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Finished systemd-binfmt.service - Set Up Additional Binary Formats.
+░░ Subject: 單位 systemd-binfmt.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 systemd-binfmt.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Started systemd-timesyncd.service - Network Time Synchronization.
+░░ Subject: 單位 systemd-timesyncd.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 systemd-timesyncd.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Reached target sysinit.target - System Initialization.
+░░ Subject: 單位 sysinit.target 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 sysinit.target 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Started cups.path - CUPS Scheduler.
+░░ Subject: 單位 cups.path 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 cups.path 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Started systemd-tmpfiles-clean.timer - Daily Cleanup of Temporary Directories.
+░░ Subject: 單位 systemd-tmpfiles-clean.timer 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 systemd-tmpfiles-clean.timer 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Reached target paths.target - Path Units.
+░░ Subject: 單位 paths.target 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 paths.target 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Reached target time-set.target - System Time Set.
+░░ Subject: 單位 time-set.target 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 time-set.target 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Started anacron.timer - Trigger anacron every hour.
+░░ Subject: 單位 anacron.timer 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 anacron.timer 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Started apt-daily.timer - Daily apt download activities.
+░░ Subject: 單位 apt-daily.timer 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 apt-daily.timer 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Started apt-daily-upgrade.timer - Daily apt upgrade and clean activities.
+░░ Subject: 單位 apt-daily-upgrade.timer 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 apt-daily-upgrade.timer 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Started dpkg-db-backup.timer - Daily dpkg database backup timer.
+░░ Subject: 單位 dpkg-db-backup.timer 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 dpkg-db-backup.timer 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Started e2scrub_all.timer - Periodic ext4 Online Metadata Check for All Filesystems.
+░░ Subject: 單位 e2scrub_all.timer 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 e2scrub_all.timer 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Started fstrim.timer - Discard unused blocks once a week.
+░░ Subject: 單位 fstrim.timer 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 fstrim.timer 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Started fwupd-refresh.timer - Refresh fwupd metadata regularly.
+░░ Subject: 單位 fwupd-refresh.timer 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 fwupd-refresh.timer 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Started logrotate.timer - Daily rotation of log files.
+░░ Subject: 單位 logrotate.timer 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 logrotate.timer 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Started man-db.timer - Daily man-db regeneration.
+░░ Subject: 單位 man-db.timer 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 man-db.timer 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Reached target timers.target - Timer Units.
+░░ Subject: 單位 timers.target 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 timers.target 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Listening on avahi-daemon.socket - Avahi mDNS/DNS-SD Stack Activation Socket.
+░░ Subject: 單位 avahi-daemon.socket 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 avahi-daemon.socket 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Listening on cups.socket - CUPS Scheduler.
+░░ Subject: 單位 cups.socket 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 cups.socket 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Listening on dbus.socket - D-Bus System Message Bus Socket.
+░░ Subject: 單位 dbus.socket 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 dbus.socket 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Reached target sockets.target - Socket Units.
+░░ Subject: 單位 sockets.target 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 sockets.target 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: systemd-pcrphase-sysinit.service - TPM2 PCR Barrier (Initialization) was skipped because of an unmet condition check (ConditionPathExists=/sys/firmware/efi/efivars/StubPcrKernelImage-4a67b082-0a4c-41cf-b6c7-440b29bb8c4f).
+░░ Subject: 單位 systemd-pcrphase-sysinit.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 systemd-pcrphase-sysinit.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Reached target basic.target - Basic System.
+░░ Subject: 單位 basic.target 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 basic.target 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Starting accounts-daemon.service - Accounts Service...
+░░ Subject: 單位 accounts-daemon.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 accounts-daemon.service 已開始啟動。
+ 4月 07 19:31:13 debian systemd[1]: Started anacron.service - Run anacron jobs.
+░░ Subject: 單位 anacron.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 anacron.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Starting avahi-daemon.service - Avahi mDNS/DNS-SD Stack...
+░░ Subject: 單位 avahi-daemon.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 avahi-daemon.service 已開始啟動。
+ 4月 07 19:31:13 debian systemd[1]: Started cron.service - Regular background program processing daemon.
+░░ Subject: 單位 cron.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 cron.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Starting dbus.service - D-Bus System Message Bus...
+░░ Subject: 單位 dbus.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 dbus.service 已開始啟動。
+ 4月 07 19:31:13 debian systemd[1]: Starting e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots...
+░░ Subject: 單位 e2scrub_reap.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 e2scrub_reap.service 已開始啟動。
+ 4月 07 19:31:13 debian systemd[1]: getty-static.service - getty on tty2-tty6 if dbus and logind are not available was skipped because of an unmet condition check (ConditionPathExists=!/usr/bin/dbus-daemon).
+░░ Subject: 單位 getty-static.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 getty-static.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Reached target getty.target - Login Prompts.
+░░ Subject: 單位 getty.target 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 getty.target 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Started low-memory-monitor.service - Low Memory Monitor.
+░░ Subject: 單位 low-memory-monitor.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 low-memory-monitor.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Starting polkit.service - Authorization Manager...
+░░ Subject: 單位 polkit.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 polkit.service 已開始啟動。
+ 4月 07 19:31:13 debian anacron[836]: Anacron 2.3 started on 2025-04-07
+ 4月 07 19:31:13 debian cron[838]: (CRON) INFO (pidfile fd = 3)
+ 4月 07 19:31:13 debian systemd[1]: Starting power-profiles-daemon.service - Power Profiles daemon...
+░░ Subject: 單位 power-profiles-daemon.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 power-profiles-daemon.service 已開始啟動。
+ 4月 07 19:31:13 debian anacron[836]: Will run job `cron.daily' in 5 min.
+ 4月 07 19:31:13 debian anacron[836]: Jobs will be executed sequentially
+ 4月 07 19:31:13 debian systemd[1]: Starting switcheroo-control.service - Switcheroo Control Proxy service...
+░░ Subject: 單位 switcheroo-control.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 switcheroo-control.service 已開始啟動。
+ 4月 07 19:31:13 debian cron[838]: (CRON) INFO (Running @reboot jobs)
+ 4月 07 19:31:13 debian avahi-daemon[837]: Found user 'avahi' (UID 103) and group 'avahi' (GID 112).
+ 4月 07 19:31:13 debian systemd[1]: Starting systemd-logind.service - User Login Management...
+░░ Subject: 單位 systemd-logind.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 systemd-logind.service 已開始啟動。
+ 4月 07 19:31:13 debian systemd[1]: systemd-pcrphase.service - TPM2 PCR Barrier (User) was skipped because of an unmet condition check (ConditionPathExists=/sys/firmware/efi/efivars/StubPcrKernelImage-4a67b082-0a4c-41cf-b6c7-440b29bb8c4f).
+░░ Subject: 單位 systemd-pcrphase.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 systemd-pcrphase.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Starting udisks2.service - Disk Manager...
+░░ Subject: 單位 udisks2.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 udisks2.service 已開始啟動。
+ 4月 07 19:31:13 debian avahi-daemon[837]: Successfully dropped root privileges.
+ 4月 07 19:31:13 debian systemd[1]: Starting logrotate.service - Rotate log files...
+░░ Subject: 單位 logrotate.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 logrotate.service 已開始啟動。
+ 4月 07 19:31:13 debian avahi-daemon[837]: avahi-daemon 0.8 starting up.
+ 4月 07 19:31:13 debian polkitd[842]: Started polkitd version 122
+ 4月 07 19:31:13 debian udisksd[846]: udisks daemon version 2.9.4 starting
+ 4月 07 19:31:13 debian systemd-logind[845]: New seat seat0.
+░░ Subject: 新的座位 seat0 可用
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ Documentation: sd-login(3)
+░░ 
+░░ 一個新的座位 seat0 已被設定且現在可用。
+ 4月 07 19:31:13 debian systemd-logind[845]: Watching system buttons on /dev/input/event1 (Power Button)
+ 4月 07 19:31:13 debian systemd-logind[845]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+ 4月 07 19:31:13 debian systemd[1]: Started dbus.service - D-Bus System Message Bus.
+░░ Subject: 單位 dbus.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 dbus.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian avahi-daemon[837]: Successfully called chroot().
+ 4月 07 19:31:13 debian avahi-daemon[837]: Successfully dropped remaining capabilities.
+ 4月 07 19:31:13 debian avahi-daemon[837]: No service file found in /etc/avahi/services.
+ 4月 07 19:31:13 debian avahi-daemon[837]: Joining mDNS multicast group on interface lo.IPv6 with address ::1.
+ 4月 07 19:31:13 debian avahi-daemon[837]: New relevant interface lo.IPv6 for mDNS.
+ 4月 07 19:31:13 debian avahi-daemon[837]: Joining mDNS multicast group on interface lo.IPv4 with address 127.0.0.1.
+ 4月 07 19:31:13 debian avahi-daemon[837]: New relevant interface lo.IPv4 for mDNS.
+ 4月 07 19:31:13 debian avahi-daemon[837]: Network interface enumeration completed.
+ 4月 07 19:31:13 debian avahi-daemon[837]: Registering new address record for ::1 on lo.*.
+ 4月 07 19:31:13 debian avahi-daemon[837]: Registering new address record for 127.0.0.1 on lo.IPv4.
+ 4月 07 19:31:13 debian polkitd[842]: Loading rules from directory /etc/polkit-1/rules.d
+ 4月 07 19:31:13 debian polkitd[842]: Loading rules from directory /usr/share/polkit-1/rules.d
+ 4月 07 19:31:13 debian dbus-daemon[839]: [system] Activating systemd to hand-off: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.6' (uid=0 pid=843 comm="/usr/libexec/power-profiles-daemon")
+ 4月 07 19:31:13 debian systemd[1]: Starting NetworkManager.service - Network Manager...
+░░ Subject: 單位 NetworkManager.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 NetworkManager.service 已開始啟動。
+ 4月 07 19:31:13 debian systemd[1]: Starting wpa_supplicant.service - WPA supplicant...
+░░ Subject: 單位 wpa_supplicant.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 wpa_supplicant.service 已開始啟動。
+ 4月 07 19:31:13 debian dbus-daemon[839]: [system] Successfully activated service 'org.freedesktop.systemd1'
+ 4月 07 19:31:13 debian systemd[1]: Started avahi-daemon.service - Avahi mDNS/DNS-SD Stack.
+░░ Subject: 單位 avahi-daemon.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 avahi-daemon.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Started switcheroo-control.service - Switcheroo Control Proxy service.
+░░ Subject: 單位 switcheroo-control.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 switcheroo-control.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Started systemd-logind.service - User Login Management.
+░░ Subject: 單位 systemd-logind.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 systemd-logind.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian polkitd[842]: Finished loading, compiling and executing 11 rules
+ 4月 07 19:31:13 debian dbus-daemon[839]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+ 4月 07 19:31:13 debian systemd[1]: Started polkit.service - Authorization Manager.
+░░ Subject: 單位 polkit.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 polkit.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian polkitd[842]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+ 4月 07 19:31:13 debian systemd[1]: Starting ModemManager.service - Modem Manager...
+░░ Subject: 單位 ModemManager.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 ModemManager.service 已開始啟動。
+ 4月 07 19:31:13 debian accounts-daemon[835]: started daemon version 22.08.8
+ 4月 07 19:31:13 debian systemd[1]: Started accounts-daemon.service - Accounts Service.
+░░ Subject: 單位 accounts-daemon.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 accounts-daemon.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Started power-profiles-daemon.service - Power Profiles daemon.
+░░ Subject: 單位 power-profiles-daemon.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 power-profiles-daemon.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian udisksd[846]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+ 4月 07 19:31:13 debian systemd[1]: Started wpa_supplicant.service - WPA supplicant.
+░░ Subject: 單位 wpa_supplicant.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 wpa_supplicant.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian wpa_supplicant[872]: Successfully initialized wpa_supplicant
+ 4月 07 19:31:13 debian systemd[1]: logrotate.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit logrotate.service has successfully entered the 'dead' state.
+ 4月 07 19:31:13 debian udisksd[846]: Failed to load the 'mdraid' libblockdev plugin
+ 4月 07 19:31:13 debian systemd[1]: Finished logrotate.service - Rotate log files.
+░░ Subject: 單位 logrotate.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 logrotate.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian ModemManager[880]: <info>  ModemManager (version 1.20.4) starting in system bus...
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.3734] NetworkManager (version 1.42.4) is starting... (boot:d2193101-4fc9-4be7-89e8-002d0d17aa66)
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.3735] Read config: /etc/NetworkManager/NetworkManager.conf (lib: no-mac-addr-change.conf)
+ 4月 07 19:31:13 debian systemd[1]: Started NetworkManager.service - Network Manager.
+░░ Subject: 單位 NetworkManager.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 NetworkManager.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Reached target network.target - Network.
+░░ Subject: 單位 network.target 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 network.target 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.3775] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+ 4月 07 19:31:13 debian systemd[1]: Starting NetworkManager-wait-online.service - Network Manager Wait Online...
+░░ Subject: 單位 NetworkManager-wait-online.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 NetworkManager-wait-online.service 已開始啟動。
+ 4月 07 19:31:13 debian systemd[1]: Starting cups.service - CUPS Scheduler...
+░░ Subject: 單位 cups.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 cups.service 已開始啟動。
+ 4月 07 19:31:13 debian systemd[1]: Starting systemd-user-sessions.service - Permit User Sessions...
+░░ Subject: 單位 systemd-user-sessions.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 systemd-user-sessions.service 已開始啟動。
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.3961] manager[0x557d5bc2a000]: monitoring kernel firmware directory '/lib/firmware'.
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.3962] monitoring ifupdown state file '/run/network/ifstate'.
+ 4月 07 19:31:13 debian dbus-daemon[839]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.12' (uid=0 pid=859 comm="/usr/sbin/NetworkManager --no-daemon")
+ 4月 07 19:31:13 debian systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+░░ Subject: 單位 systemd-hostnamed.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 systemd-hostnamed.service 已開始啟動。
+ 4月 07 19:31:13 debian systemd[1]: Finished systemd-user-sessions.service - Permit User Sessions.
+░░ Subject: 單位 systemd-user-sessions.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 systemd-user-sessions.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Starting gdm.service - GNOME Display Manager...
+░░ Subject: 單位 gdm.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 gdm.service 已開始啟動。
+ 4月 07 19:31:13 debian systemd[1]: Starting plymouth-quit-wait.service - Hold until boot process finishes up...
+░░ Subject: 單位 plymouth-quit-wait.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 plymouth-quit-wait.service 已開始啟動。
+ 4月 07 19:31:13 debian kernel: NET: Registered PF_QIPCRTR protocol family
+ 4月 07 19:31:13 debian systemd[1]: Started udisks2.service - Disk Manager.
+░░ Subject: 單位 udisks2.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 udisks2.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Started ModemManager.service - Modem Manager.
+░░ Subject: 單位 ModemManager.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 ModemManager.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian udisksd[846]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+ 4月 07 19:31:13 debian audit[896]: AVC apparmor="DENIED" operation="capable" profile="/usr/sbin/cupsd" pid=896 comm="cupsd" capability=12  capname="net_admin"
+ 4月 07 19:31:13 debian systemd[1]: Started cups.service - CUPS Scheduler.
+░░ Subject: 單位 cups.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 cups.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian dbus-daemon[839]: [system] Successfully activated service 'org.freedesktop.hostname1'
+ 4月 07 19:31:13 debian systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+░░ Subject: 單位 systemd-hostnamed.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 systemd-hostnamed.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.4837] hostname: hostname: using hostnamed
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.4837] hostname: static hostname changed from (none) to "debian"
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.4841] dns-mgr: init: dns=default,systemd-resolved rc-manager=symlink (auto)
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.4933] manager[0x557d5bc2a000]: rfkill: Wi-Fi hardware radio set enabled
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.4934] manager[0x557d5bc2a000]: rfkill: WWAN hardware radio set enabled
+ 4月 07 19:31:13 debian systemd[1]: Listening on systemd-rfkill.socket - Load/Save RF Kill Switch Status /dev/rfkill Watch.
+░░ Subject: 單位 systemd-rfkill.socket 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 systemd-rfkill.socket 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5010] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.42.4/libnm-device-plugin-wwan.so)
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5049] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.42.4/libnm-device-plugin-bluetooth.so)
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5060] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.42.4/libnm-device-plugin-adsl.so)
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5099] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.42.4/libnm-device-plugin-team.so)
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5178] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.42.4/libnm-device-plugin-wifi.so)
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5180] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5181] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5181] manager: Networking is enabled by state file
+ 4月 07 19:31:13 debian dbus-daemon[839]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=859 comm="/usr/sbin/NetworkManager --no-daemon")
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5195] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.42.4/libnm-settings-plugin-ifupdown.so")
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5196] settings: Loaded settings plugin: keyfile (internal)
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5196] ifupdown: management mode: unmanaged
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5196] ifupdown:       interface-parser: parsing file /etc/network/interfaces
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5196] ifupdown:       interface-parser: source line includes interfaces file(s) /etc/network/interfaces.d/*
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5196] ifupdown: interfaces file /etc/network/interfaces.d/* doesn't exist
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5197] ifupdown:       interface-parser: finished parsing file /etc/network/interfaces
+ 4月 07 19:31:13 debian systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+░░ Subject: 單位 NetworkManager-dispatcher.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 NetworkManager-dispatcher.service 已開始啟動。
+ 4月 07 19:31:13 debian systemd[1]: Started gdm.service - GNOME Display Manager.
+░░ Subject: 單位 gdm.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 gdm.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5272] dhcp: init: Using DHCP client 'internal'
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5278] manager: (lo): new Loopback device (/org/freedesktop/NetworkManager/Devices/1)
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5284] device (lo): state change: unmanaged -> unavailable (reason 'connection-assumed', sys-iface-state: 'external')
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5287] device (lo): state change: unavailable -> disconnected (reason 'connection-assumed', sys-iface-state: 'external')
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5291] device (lo): Activation: starting connection 'lo' (04115f4d-ff7b-49d3-a97e-0921d91a8f07)
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5296] manager: (ens33): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5297] device (ens33): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5371] device (lo): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'external')
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5372] device (lo): state change: prepare -> config (reason 'none', sys-iface-state: 'external')
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5373] device (lo): state change: config -> ip-config (reason 'none', sys-iface-state: 'external')
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5375] device (lo): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'external')
+ 4月 07 19:31:13 debian dbus-daemon[839]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+ 4月 07 19:31:13 debian systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+░░ Subject: 單位 NetworkManager-dispatcher.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 NetworkManager-dispatcher.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5422] device (ens33): carrier: link connected
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5423] device (ens33): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+ 4月 07 19:31:13 debian kernel: e1000: ens33 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+ 4月 07 19:31:13 debian kernel: IPv6: ADDRCONF(NETDEV_CHANGE): ens33: link becomes ready
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5443] policy: auto-activating connection 'Wired connection 1' (cd08dab8-34bf-4a79-8344-cd187c28e5de)
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5445] device (ens33): Activation: starting connection 'Wired connection 1' (cd08dab8-34bf-4a79-8344-cd187c28e5de)
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5445] device (ens33): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5446] manager: NetworkManager state is now CONNECTING
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5452] device (ens33): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5470] modem-manager: ModemManager available
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5473] device (ens33): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5494] dhcp4 (ens33): activation: beginning transaction (timeout in 45 seconds)
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5498] device (lo): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'external')
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5501] device (lo): state change: secondaries -> activated (reason 'none', sys-iface-state: 'external')
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5505] device (lo): Activation: successful, device activated.
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5508] dhcp4 (ens33): state changed new lease, address=192.168.110.131
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5510] policy: set 'Wired connection 1' (ens33) as default for IPv4 routing and DNS
+ 4月 07 19:31:13 debian avahi-daemon[837]: Joining mDNS multicast group on interface ens33.IPv4 with address 192.168.110.131.
+ 4月 07 19:31:13 debian avahi-daemon[837]: New relevant interface ens33.IPv4 for mDNS.
+ 4月 07 19:31:13 debian avahi-daemon[837]: Registering new address record for 192.168.110.131 on ens33.IPv4.
+ 4月 07 19:31:13 debian avahi-daemon[837]: Joining mDNS multicast group on interface ens33.IPv6 with address fe80::20c:29ff:fefa:ad69.
+ 4月 07 19:31:13 debian avahi-daemon[837]: New relevant interface ens33.IPv6 for mDNS.
+ 4月 07 19:31:13 debian avahi-daemon[837]: Registering new address record for fe80::20c:29ff:fefa:ad69 on ens33.*.
+ 4月 07 19:31:13 debian systemd[1]: Received SIGRTMIN+21 from PID 279 (plymouthd).
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5602] device (ens33): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5632] device (ens33): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5633] device (ens33): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5634] manager: NetworkManager state is now CONNECTED_SITE
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5635] device (ens33): Activation: successful, device activated.
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5637] manager: NetworkManager state is now CONNECTED_GLOBAL
+ 4月 07 19:31:13 debian NetworkManager[859]: <info>  [1744025473.5639] manager: startup complete
+ 4月 07 19:31:13 debian systemd[1]: Finished NetworkManager-wait-online.service - Network Manager Wait Online.
+░░ Subject: 單位 NetworkManager-wait-online.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 NetworkManager-wait-online.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Reached target network-online.target - Network is Online.
+░░ Subject: 單位 network-online.target 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 network-online.target 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Started cups-browsed.service - Make remote CUPS printers available locally.
+░░ Subject: 單位 cups-browsed.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 cups-browsed.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian gdm-launch-environment][930]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm(uid=111) by (uid=0)
+ 4月 07 19:31:13 debian systemd[1]: Created slice user-111.slice - User Slice of UID 111.
+░░ Subject: 單位 user-111.slice 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 user-111.slice 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Starting user-runtime-dir@111.service - User Runtime Directory /run/user/111...
+░░ Subject: 單位 user-runtime-dir@111.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 user-runtime-dir@111.service 已開始啟動。
+ 4月 07 19:31:13 debian systemd-logind[845]: New session c1 of user Debian-gdm.
+░░ Subject: 新的工作階段 c1 已為使用者 Debian-gdm 建立
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ Documentation: sd-login(3)
+░░ 
+░░ 一個新的工作階段，ID c1 已為使用者 Debian-gdm 建立。
+░░ 
+░░ 這個工作階段的領導行程為 930。
+ 4月 07 19:31:13 debian systemd[1]: e2scrub_reap.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit e2scrub_reap.service has successfully entered the 'dead' state.
+ 4月 07 19:31:13 debian systemd[1]: Finished e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots.
+░░ Subject: 單位 e2scrub_reap.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 e2scrub_reap.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Finished user-runtime-dir@111.service - User Runtime Directory /run/user/111.
+░░ Subject: 單位 user-runtime-dir@111.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 user-runtime-dir@111.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Starting user@111.service - User Manager for UID 111...
+░░ Subject: 單位 user@111.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 user@111.service 已開始啟動。
+ 4月 07 19:31:13 debian (systemd)[983]: pam_unix(systemd-user:session): session opened for user Debian-gdm(uid=111) by (uid=0)
+ 4月 07 19:31:13 debian systemd[1]: alsa-state.service - Manage Sound Card State (restore and store) was skipped because of an unmet condition check (ConditionPathExists=/etc/alsa/state-daemon.conf).
+░░ Subject: 單位 alsa-state.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 alsa-state.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Starting alsa-restore.service - Save/Restore Sound Card State...
+░░ Subject: 單位 alsa-restore.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 alsa-restore.service 已開始啟動。
+ 4月 07 19:31:13 debian alsactl[999]: alsa-lib main.c:1541:(snd_use_case_mgr_open) error: failed to import hw:0 use case configuration -2
+ 4月 07 19:31:13 debian systemd[1]: Finished alsa-restore.service - Save/Restore Sound Card State.
+░░ Subject: 單位 alsa-restore.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 alsa-restore.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Reached target sound.target - Sound Card.
+░░ Subject: 單位 sound.target 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 sound.target 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[983]: Queued start job for default target default.target.
+ 4月 07 19:31:13 debian systemd[983]: Created slice app.slice - User Application Slice.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[983]: Created slice session.slice - User Core Session Slice.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[983]: Created slice background.slice - User Background Tasks Slice.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[983]: Reached target paths.target - Paths.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[983]: Reached target timers.target - Timers.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[983]: Starting dbus.socket - D-Bus User Message Bus Socket...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:13 debian systemd[983]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[983]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[983]: Listening on gnome-keyring-daemon.socket - GNOME Keyring daemon.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[983]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[983]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[983]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[983]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[983]: Listening on pipewire-pulse.socket - PipeWire PulseAudio.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[983]: Listening on pipewire.socket - PipeWire Multimedia System Socket.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[983]: Listening on pk-debconf-helper.socket - debconf communication socket.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[983]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[983]: Reached target sockets.target - Sockets.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[983]: Reached target basic.target - Basic System.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Started user@111.service - User Manager for UID 111.
+░░ Subject: 單位 user@111.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 user@111.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[1]: Started session-c1.scope - Session c1 of User Debian-gdm.
+░░ Subject: 單位 session-c1.scope 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 session-c1.scope 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[983]: Started pipewire.service - PipeWire Multimedia Service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[983]: Starting tracker-extract-3.service - Tracker metadata extractor...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:13 debian systemd[983]: Started wireplumber.service - Multimedia Service Session Manager.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[983]: Started pipewire-pulse.service - PipeWire PulseAudio.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian systemd[983]: Starting dbus.service - D-Bus User Message Bus...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:13 debian systemd[983]: Started dbus.service - D-Bus User Message Bus.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian pipewire-pulse[1005]: mod.rt: Can't find org.freedesktop.portal.Desktop. Is xdg-desktop-portal running?
+ 4月 07 19:31:13 debian pipewire-pulse[1005]: mod.rt: found session bus but no portal
+ 4月 07 19:31:13 debian dbus-daemon[839]: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service' requested by ':1.23' (uid=111 pid=1005 comm="/usr/bin/pipewire-pulse")
+ 4月 07 19:31:13 debian wireplumber[1003]: Can't find org.freedesktop.portal.Desktop. Is xdg-desktop-portal running?
+ 4月 07 19:31:13 debian wireplumber[1003]: found session bus but no portal
+ 4月 07 19:31:13 debian pipewire[1001]: mod.rt: Can't find org.freedesktop.portal.Desktop. Is xdg-desktop-portal running?
+ 4月 07 19:31:13 debian pipewire[1001]: mod.rt: found session bus but no portal
+ 4月 07 19:31:13 debian systemd[1]: Starting rtkit-daemon.service - RealtimeKit Scheduling Policy Service...
+░░ Subject: 單位 rtkit-daemon.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 rtkit-daemon.service 已開始啟動。
+ 4月 07 19:31:13 debian dbus-daemon[839]: [system] Successfully activated service 'org.freedesktop.RealtimeKit1'
+ 4月 07 19:31:13 debian rtkit-daemon[1008]: Successfully called chroot.
+ 4月 07 19:31:13 debian rtkit-daemon[1008]: Successfully dropped privileges.
+ 4月 07 19:31:13 debian rtkit-daemon[1008]: Successfully limited resources.
+ 4月 07 19:31:13 debian systemd[1]: Started rtkit-daemon.service - RealtimeKit Scheduling Policy Service.
+░░ Subject: 單位 rtkit-daemon.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 rtkit-daemon.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:13 debian rtkit-daemon[1008]: Running.
+ 4月 07 19:31:13 debian rtkit-daemon[1008]: Watchdog thread running.
+ 4月 07 19:31:13 debian rtkit-daemon[1008]: Canary thread running.
+ 4月 07 19:31:13 debian rtkit-daemon[1008]: Successfully made thread 1005 of process 1005 owned by '111' high priority at nice level -11.
+ 4月 07 19:31:13 debian rtkit-daemon[1008]: Supervising 1 threads of 1 processes of 1 users.
+ 4月 07 19:31:13 debian rtkit-daemon[1008]: Successfully made thread 1003 of process 1003 owned by '111' high priority at nice level -11.
+ 4月 07 19:31:13 debian rtkit-daemon[1008]: Supervising 2 threads of 2 processes of 1 users.
+ 4月 07 19:31:13 debian rtkit-daemon[1008]: Successfully made thread 1001 of process 1001 owned by '111' high priority at nice level -11.
+ 4月 07 19:31:13 debian rtkit-daemon[1008]: Supervising 3 threads of 3 processes of 1 users.
+ 4月 07 19:31:13 debian rtkit-daemon[1008]: Supervising 3 threads of 3 processes of 1 users.
+ 4月 07 19:31:13 debian rtkit-daemon[1008]: Supervising 3 threads of 3 processes of 1 users.
+ 4月 07 19:31:13 debian rtkit-daemon[1008]: Supervising 3 threads of 3 processes of 1 users.
+ 4月 07 19:31:13 debian rtkit-daemon[1008]: Supervising 3 threads of 3 processes of 1 users.
+ 4月 07 19:31:13 debian rtkit-daemon[1008]: Successfully made thread 1021 of process 1003 owned by '111' RT at priority 20.
+ 4月 07 19:31:13 debian rtkit-daemon[1008]: Supervising 4 threads of 3 processes of 1 users.
+ 4月 07 19:31:13 debian rtkit-daemon[1008]: Supervising 4 threads of 3 processes of 1 users.
+ 4月 07 19:31:13 debian rtkit-daemon[1008]: Successfully made thread 1022 of process 1001 owned by '111' RT at priority 20.
+ 4月 07 19:31:13 debian rtkit-daemon[1008]: Supervising 5 threads of 3 processes of 1 users.
+ 4月 07 19:31:13 debian rtkit-daemon[1008]: Supervising 5 threads of 3 processes of 1 users.
+ 4月 07 19:31:13 debian rtkit-daemon[1008]: Successfully made thread 1026 of process 1005 owned by '111' RT at priority 20.
+ 4月 07 19:31:13 debian rtkit-daemon[1008]: Supervising 6 threads of 3 processes of 1 users.
+ 4月 07 19:31:13 debian wireplumber[1003]: Failed to set scheduler settings: 此項操作並不被允許
+ 4月 07 19:31:13 debian wireplumber[1003]: SPA handle 'api.libcamera.enum.manager' could not be loaded; is it installed?
+ 4月 07 19:31:13 debian wireplumber[1003]: PipeWire's libcamera SPA missing or broken. libcamera not supported.
+ 4月 07 19:31:14 debian wireplumber[1003]: GetManagedObjects() failed: org.freedesktop.DBus.Error.NameHasNoOwner
+ 4月 07 19:31:14 debian dbus-daemon[1007]: [session uid=111 pid=1007] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.8' (uid=111 pid=1002 comm="/usr/libexec/tracker-extract-3")
+ 4月 07 19:31:14 debian wireplumber[1003]: <WpNode:0x55ed580d8580> ignoring set_param on already destroyed objects
+ 4月 07 19:31:14 debian wireplumber[1003]: <WpNode:0x55ed580d8480> ignoring set_param on already destroyed objects
+ 4月 07 19:31:14 debian systemd[983]: Starting gvfs-daemon.service - Virtual filesystem service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:14 debian dbus-daemon[1007]: [session uid=111 pid=1007] Successfully activated service 'org.gtk.vfs.Daemon'
+ 4月 07 19:31:14 debian systemd[983]: Started gvfs-daemon.service - Virtual filesystem service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:14 debian gnome-shell[1034]: Running GNOME Shell (using mutter 43.8) as a Wayland display server
+ 4月 07 19:31:14 debian avahi-daemon[837]: Server startup complete. Host name is debian.local. Local service cookie is 1601523116.
+ 4月 07 19:31:14 debian org.gnome.Shell.desktop[1034]: VMware: No 3D enabled (0, 成功).
+ 4月 07 19:31:14 debian org.gnome.Shell.desktop[1034]: VMware: No 3D enabled (0, 成功).
+ 4月 07 19:31:14 debian gnome-shell[1034]: (../src/backends/native/meta-kms-impl-device-simple.c:1733):meta_kms_impl_device_simple_open_device_file: runtime check failed: (!meta_device_file_has_tag (device_file, META_DEVICE_FILE_TAG_KMS, META_KMS_DEVICE_FILE_TAG_ATOMIC))
+ 4月 07 19:31:14 debian gnome-shell[1034]: Added device '/dev/dri/card0' (vmwgfx) using non-atomic mode setting.
+ 4月 07 19:31:14 debian gnome-shell[1034]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Not hardware accelerated
+ 4月 07 19:31:14 debian gnome-shell[1034]: Created gbm renderer for '/dev/dri/card0'
+ 4月 07 19:31:14 debian gnome-shell[1034]: Boot VGA GPU /dev/dri/card0 selected as primary
+ 4月 07 19:31:15 debian gnome-shell[1034]: Disabling DMA buffer screen sharing (not hardware accelerated)
+ 4月 07 19:31:15 debian gnome-shell[1034]: Disabling DMA buffer screen sharing (implicit modifiers not supported)
+ 4月 07 19:31:15 debian /usr/libexec/gdm-wayland-session[1011]: dbus-daemon[1011]: [session uid=111 pid=1011] Activating service name='org.a11y.Bus' requested by ':1.4' (uid=111 pid=1034 comm="/usr/bin/gnome-shell")
+ 4月 07 19:31:15 debian /usr/libexec/gdm-wayland-session[1011]: dbus-daemon[1011]: [session uid=111 pid=1011] Successfully activated service 'org.a11y.Bus'
+ 4月 07 19:31:15 debian gnome-shell[1034]: Using public X11 display :1024, (using :1025 for managed services)
+ 4月 07 19:31:15 debian gnome-shell[1034]: Using Wayland display name 'wayland-0'
+ 4月 07 19:31:15 debian org.gnome.Shell.desktop[1084]: VMware: No 3D enabled (0, Success).
+ 4月 07 19:31:15 debian org.gnome.Shell.desktop[1084]: libEGL warning: egl: failed to create dri2 screen
+ 4月 07 19:31:15 debian org.gnome.Shell.desktop[1084]: VMware: No 3D enabled (0, Success).
+ 4月 07 19:31:15 debian org.gnome.Shell.desktop[1084]: libEGL warning: egl: failed to create dri2 screen
+ 4月 07 19:31:15 debian dbus-daemon[1007]: [session uid=111 pid=1007] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Files' unit='tracker-miner-fs-3.service' requested by ':1.8' (uid=111 pid=1002 comm="/usr/libexec/tracker-extract-3")
+ 4月 07 19:31:15 debian systemd[983]: Starting tracker-miner-fs-3.service - Tracker file system data miner...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:15 debian tracker-miner-f[1086]: Unable to get XDG user directory path for special directory &DOCUMENTS. Ignoring this location.
+ 4月 07 19:31:15 debian tracker-miner-f[1086]: Unable to get XDG user directory path for special directory &MUSIC. Ignoring this location.
+ 4月 07 19:31:15 debian tracker-miner-f[1086]: Unable to get XDG user directory path for special directory &PICTURES. Ignoring this location.
+ 4月 07 19:31:15 debian tracker-miner-f[1086]: Unable to get XDG user directory path for special directory &VIDEOS. Ignoring this location.
+ 4月 07 19:31:15 debian tracker-miner-f[1086]: Unable to get XDG user directory path for special directory &DOWNLOAD. Ignoring this location.
+ 4月 07 19:31:15 debian tracker-miner-f[1086]: Unable to get XDG user directory path for special directory &DOCUMENTS. Ignoring this location.
+ 4月 07 19:31:15 debian tracker-miner-f[1086]: Unable to get XDG user directory path for special directory &MUSIC. Ignoring this location.
+ 4月 07 19:31:15 debian tracker-miner-f[1086]: Unable to get XDG user directory path for special directory &PICTURES. Ignoring this location.
+ 4月 07 19:31:15 debian tracker-miner-f[1086]: Unable to get XDG user directory path for special directory &VIDEOS. Ignoring this location.
+ 4月 07 19:31:15 debian gnome-shell[1034]: Unset XDG_SESSION_ID, getCurrentSessionProxy() called outside a user session. Asking logind directly.
+ 4月 07 19:31:15 debian gnome-shell[1034]: Will monitor session c1
+ 4月 07 19:31:15 debian dbus-daemon[839]: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service' requested by ':1.30' (uid=111 pid=1034 comm="/usr/bin/gnome-shell")
+ 4月 07 19:31:15 debian systemd[1]: Starting systemd-localed.service - Locale Service...
+░░ Subject: 單位 systemd-localed.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 systemd-localed.service 已開始啟動。
+ 4月 07 19:31:15 debian /usr/libexec/gdm-wayland-session[1011]: dbus-daemon[1011]: [session uid=111 pid=1011] Activating service name='org.gnome.Shell.Screencast' requested by ':1.3' (uid=111 pid=1034 comm="/usr/bin/gnome-shell")
+ 4月 07 19:31:15 debian dbus-daemon[839]: [system] Successfully activated service 'org.freedesktop.locale1'
+ 4月 07 19:31:15 debian systemd[1]: Started systemd-localed.service - Locale Service.
+░░ Subject: 單位 systemd-localed.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 systemd-localed.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:15 debian /usr/libexec/gdm-wayland-session[1011]: dbus-daemon[1011]: [session uid=111 pid=1011] Activating service name='org.freedesktop.impl.portal.PermissionStore' requested by ':1.3' (uid=111 pid=1034 comm="/usr/bin/gnome-shell")
+ 4月 07 19:31:15 debian /usr/libexec/gdm-wayland-session[1011]: dbus-daemon[1011]: [session uid=111 pid=1011] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+ 4月 07 19:31:15 debian dbus-daemon[839]: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service' requested by ':1.30' (uid=111 pid=1034 comm="/usr/bin/gnome-shell")
+ 4月 07 19:31:15 debian systemd[1]: Starting upower.service - Daemon for power management...
+░░ Subject: 單位 upower.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 upower.service 已開始啟動。
+ 4月 07 19:31:15 debian dbus-daemon[839]: [system] Successfully activated service 'org.freedesktop.UPower'
+ 4月 07 19:31:15 debian systemd[1]: Started upower.service - Daemon for power management.
+░░ Subject: 單位 upower.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 upower.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:15 debian dbus-daemon[839]: [system] Activating via systemd: service name='org.freedesktop.GeoClue2' unit='geoclue.service' requested by ':1.30' (uid=111 pid=1034 comm="/usr/bin/gnome-shell")
+ 4月 07 19:31:15 debian systemd[1]: Starting geoclue.service - Location Lookup Service...
+░░ Subject: 單位 geoclue.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 geoclue.service 已開始啟動。
+ 4月 07 19:31:15 debian polkitd[842]: Registered Authentication Agent for unix-session:c1 (system bus name :1.30 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_TW.UTF-8)
+ 4月 07 19:31:15 debian ModemManager[880]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:11.0/0000:02:01.0': not supported by any plugin
+ 4月 07 19:31:15 debian dbus-daemon[839]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.30' (uid=111 pid=1034 comm="/usr/bin/gnome-shell")
+ 4月 07 19:31:15 debian systemd[1]: Starting packagekit.service - PackageKit Daemon...
+░░ Subject: 單位 packagekit.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 packagekit.service 已開始啟動。
+ 4月 07 19:31:15 debian gnome-shell[1034]: Extension apps-menu@gnome-shell-extensions.gcampax.github.com already installed in /usr/share/gnome-shell/extensions/apps-menu@gnome-shell-extensions.gcampax.github.com. /usr/share/gnome-shell/extensions/apps-menu@gnome-shell-extensions.gcampax.github.com will not be loaded
+ 4月 07 19:31:15 debian /usr/libexec/gdm-wayland-session[1011]: dbus-daemon[1011]: [session uid=111 pid=1011] Activating service name='org.gnome.Shell.Notifications' requested by ':1.3' (uid=111 pid=1034 comm="/usr/bin/gnome-shell")
+ 4月 07 19:31:15 debian gnome-shell[1034]: Extension auto-move-windows@gnome-shell-extensions.gcampax.github.com already installed in /usr/share/gnome-shell/extensions/auto-move-windows@gnome-shell-extensions.gcampax.github.com. /usr/share/gnome-shell/extensions/auto-move-windows@gnome-shell-extensions.gcampax.github.com will not be loaded
+ 4月 07 19:31:15 debian /usr/libexec/gdm-wayland-session[1074]: dbus-daemon[1074]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=111 pid=1034 comm="/usr/bin/gnome-shell")
+ 4月 07 19:31:15 debian gnome-shell[1034]: Extension drive-menu@gnome-shell-extensions.gcampax.github.com already installed in /usr/share/gnome-shell/extensions/drive-menu@gnome-shell-extensions.gcampax.github.com. /usr/share/gnome-shell/extensions/drive-menu@gnome-shell-extensions.gcampax.github.com will not be loaded
+ 4月 07 19:31:15 debian gnome-shell[1034]: Extension launch-new-instance@gnome-shell-extensions.gcampax.github.com already installed in /usr/share/gnome-shell/extensions/launch-new-instance@gnome-shell-extensions.gcampax.github.com. /usr/share/gnome-shell/extensions/launch-new-instance@gnome-shell-extensions.gcampax.github.com will not be loaded
+ 4月 07 19:31:15 debian gnome-shell[1034]: Extension native-window-placement@gnome-shell-extensions.gcampax.github.com already installed in /usr/share/gnome-shell/extensions/native-window-placement@gnome-shell-extensions.gcampax.github.com. /usr/share/gnome-shell/extensions/native-window-placement@gnome-shell-extensions.gcampax.github.com will not be loaded
+ 4月 07 19:31:15 debian gnome-shell[1034]: Extension places-menu@gnome-shell-extensions.gcampax.github.com already installed in /usr/share/gnome-shell/extensions/places-menu@gnome-shell-extensions.gcampax.github.com. /usr/share/gnome-shell/extensions/places-menu@gnome-shell-extensions.gcampax.github.com will not be loaded
+ 4月 07 19:31:15 debian gnome-shell[1034]: Extension screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com already installed in /usr/share/gnome-shell/extensions/screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com. /usr/share/gnome-shell/extensions/screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com will not be loaded
+ 4月 07 19:31:15 debian gnome-shell[1034]: Extension user-theme@gnome-shell-extensions.gcampax.github.com already installed in /usr/share/gnome-shell/extensions/user-theme@gnome-shell-extensions.gcampax.github.com. /usr/share/gnome-shell/extensions/user-theme@gnome-shell-extensions.gcampax.github.com will not be loaded
+ 4月 07 19:31:15 debian gnome-shell[1034]: Extension window-list@gnome-shell-extensions.gcampax.github.com already installed in /usr/share/gnome-shell/extensions/window-list@gnome-shell-extensions.gcampax.github.com. /usr/share/gnome-shell/extensions/window-list@gnome-shell-extensions.gcampax.github.com will not be loaded
+ 4月 07 19:31:15 debian gnome-shell[1034]: Extension windowsNavigator@gnome-shell-extensions.gcampax.github.com already installed in /usr/share/gnome-shell/extensions/windowsNavigator@gnome-shell-extensions.gcampax.github.com. /usr/share/gnome-shell/extensions/windowsNavigator@gnome-shell-extensions.gcampax.github.com will not be loaded
+ 4月 07 19:31:15 debian gnome-shell[1034]: Extension workspace-indicator@gnome-shell-extensions.gcampax.github.com already installed in /usr/share/gnome-shell/extensions/workspace-indicator@gnome-shell-extensions.gcampax.github.com. /usr/share/gnome-shell/extensions/workspace-indicator@gnome-shell-extensions.gcampax.github.com will not be loaded
+ 4月 07 19:31:16 debian dbus-daemon[839]: [system] Activating via systemd: service name='org.freedesktop.ColorManager' unit='colord.service' requested by ':1.30' (uid=111 pid=1034 comm="/usr/bin/gnome-shell")
+ 4月 07 19:31:16 debian PackageKit[1123]: daemon start
+ 4月 07 19:31:16 debian geoclue[1121]: No feature manager for feature of type 'GProxyResolver'
+ 4月 07 19:31:16 debian dbus-daemon[1007]: [session uid=111 pid=1007] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.11' (uid=111 pid=1086 comm="/usr/libexec/tracker-miner-fs-3")
+ 4月 07 19:31:16 debian /usr/libexec/gdm-wayland-session[1129]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+ 4月 07 19:31:16 debian geoclue[1121]: No feature manager for feature of type 'GProxyResolver'
+ 4月 07 19:31:16 debian /usr/libexec/gdm-wayland-session[1074]: dbus-daemon[1074]: Successfully activated service 'org.a11y.atspi.Registry'
+ 4月 07 19:31:16 debian org.gnome.Shell.desktop[1034]: Window manager warning: Failed to parse saved session file: 開啟檔案「/var/lib/gdm3/.config/mutter/sessions/107d12ce813a9795b31744025474989600000010120000.ms」失敗：沒有此一檔案或目錄
+ 4月 07 19:31:16 debian systemd[1]: Starting colord.service - Manage, Install and Generate Color Profiles...
+░░ Subject: 單位 colord.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 colord.service 已開始啟動。
+ 4月 07 19:31:16 debian systemd[983]: Starting gvfs-udisks2-volume-monitor.service - Virtual filesystem service - disk device monitor...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:16 debian dbus-daemon[839]: [system] Successfully activated service 'org.freedesktop.GeoClue2'
+ 4月 07 19:31:16 debian systemd[1]: Started geoclue.service - Location Lookup Service.
+░░ Subject: 單位 geoclue.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 geoclue.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:16 debian colord[1131]: failed to get edid data: EDID length is too small
+ 4月 07 19:31:16 debian dbus-daemon[839]: [system] Successfully activated service 'org.freedesktop.ColorManager'
+ 4月 07 19:31:16 debian systemd[1]: Started colord.service - Manage, Install and Generate Color Profiles.
+░░ Subject: 單位 colord.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 colord.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:16 debian dbus-daemon[1007]: [session uid=111 pid=1007] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+ 4月 07 19:31:16 debian systemd[983]: Started gvfs-udisks2-volume-monitor.service - Virtual filesystem service - disk device monitor.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:16 debian dbus-daemon[1007]: [session uid=111 pid=1007] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.11' (uid=111 pid=1086 comm="/usr/libexec/tracker-miner-fs-3")
+ 4月 07 19:31:16 debian /usr/libexec/gdm-wayland-session[1011]: dbus-daemon[1011]: [session uid=111 pid=1011] Successfully activated service 'org.gnome.Shell.Notifications'
+ 4月 07 19:31:16 debian systemd[983]: Starting gvfs-gphoto2-volume-monitor.service - Virtual filesystem service - digital camera monitor...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:16 debian dbus-daemon[839]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+ 4月 07 19:31:16 debian systemd[1]: Started packagekit.service - PackageKit Daemon.
+░░ Subject: 單位 packagekit.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 packagekit.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:16 debian dbus-daemon[1007]: [session uid=111 pid=1007] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+ 4月 07 19:31:16 debian systemd[983]: Started gvfs-gphoto2-volume-monitor.service - Virtual filesystem service - digital camera monitor.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:16 debian dbus-daemon[1007]: [session uid=111 pid=1007] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.11' (uid=111 pid=1086 comm="/usr/libexec/tracker-miner-fs-3")
+ 4月 07 19:31:16 debian systemd[983]: Starting gvfs-afc-volume-monitor.service - Virtual filesystem service - Apple File Conduit monitor...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:16 debian dbus-daemon[1007]: [session uid=111 pid=1007] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+ 4月 07 19:31:16 debian systemd[983]: Started gvfs-afc-volume-monitor.service - Virtual filesystem service - Apple File Conduit monitor.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:16 debian dbus-daemon[1007]: [session uid=111 pid=1007] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.11' (uid=111 pid=1086 comm="/usr/libexec/tracker-miner-fs-3")
+ 4月 07 19:31:16 debian systemd[983]: Starting gvfs-goa-volume-monitor.service - Virtual filesystem service - GNOME Online Accounts monitor...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:16 debian dbus-daemon[1007]: [session uid=111 pid=1007] Activating service name='org.gnome.OnlineAccounts' requested by ':1.15' (uid=111 pid=1212 comm="/usr/libexec/gvfs-goa-volume-monitor")
+ 4月 07 19:31:16 debian /usr/libexec/gdm-wayland-session[1011]: dbus-daemon[1011]: [session uid=111 pid=1011] Activating service name='org.freedesktop.portal.IBus' requested by ':1.20' (uid=111 pid=1161 comm="ibus-daemon --panel disable")
+ 4月 07 19:31:16 debian kernel: rfkill: input handler disabled
+ 4月 07 19:31:16 debian NetworkManager[859]: <info>  [1744025476.4191] agent-manager: agent[a024b347bfac5093,:1.30/org.gnome.Shell.NetworkAgent/111]: agent registered
+ 4月 07 19:31:16 debian /usr/libexec/gdm-wayland-session[1011]: dbus-daemon[1011]: [session uid=111 pid=1011] Activating service name='org.freedesktop.systemd1' requested by ':1.11' (uid=111 pid=1142 comm="/usr/libexec/gsd-sharing")
+ 4月 07 19:31:16 debian /usr/libexec/gdm-wayland-session[1011]: dbus-daemon[1011]: [session uid=111 pid=1011] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+ 4月 07 19:31:16 debian gsd-sharing[1142]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+ 4月 07 19:31:16 debian gsd-sharing[1142]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+ 4月 07 19:31:16 debian gnome-shell[1034]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+ 4月 07 19:31:16 debian org.gnome.Shell.desktop[1084]: Failed to initialize glamor, falling back to sw
+ 4月 07 19:31:16 debian /usr/libexec/gdm-wayland-session[1011]: dbus-daemon[1011]: [session uid=111 pid=1011] Successfully activated service 'org.freedesktop.portal.IBus'
+ 4月 07 19:31:16 debian goa-daemon[1230]: goa-daemon version 3.46.0 starting
+ 4月 07 19:31:16 debian dbus-daemon[1007]: [session uid=111 pid=1007] Activating service name='org.gnome.Identity' requested by ':1.16' (uid=111 pid=1230 comm="/usr/libexec/goa-daemon")
+ 4月 07 19:31:16 debian dbus-daemon[1007]: [session uid=111 pid=1007] Successfully activated service 'org.gnome.OnlineAccounts'
+ 4月 07 19:31:16 debian dbus-daemon[1007]: [session uid=111 pid=1007] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+ 4月 07 19:31:16 debian systemd[983]: Started gvfs-goa-volume-monitor.service - Virtual filesystem service - GNOME Online Accounts monitor.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:16 debian dbus-daemon[1007]: [session uid=111 pid=1007] Successfully activated service 'org.gnome.Identity'
+ 4月 07 19:31:16 debian dbus-daemon[1007]: [session uid=111 pid=1007] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.11' (uid=111 pid=1086 comm="/usr/libexec/tracker-miner-fs-3")
+ 4月 07 19:31:16 debian systemd[983]: Starting gvfs-mtp-volume-monitor.service - Virtual filesystem service - Media Transfer Protocol monitor...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:16 debian dbus-daemon[1007]: [session uid=111 pid=1007] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+ 4月 07 19:31:16 debian systemd[983]: Started gvfs-mtp-volume-monitor.service - Virtual filesystem service - Media Transfer Protocol monitor.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:16 debian dbus-daemon[839]: [system] Activating via systemd: service name='org.freedesktop.realmd' unit='realmd.service' requested by ':1.30' (uid=111 pid=1034 comm="/usr/bin/gnome-shell")
+ 4月 07 19:31:17 debian systemd[1]: Starting realmd.service - Realm and Domain Configuration...
+░░ Subject: 單位 realmd.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 realmd.service 已開始啟動。
+ 4月 07 19:31:17 debian realmd[1364]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+ 4月 07 19:31:17 debian realmd[1364]: holding daemon: startup
+ 4月 07 19:31:17 debian realmd[1364]: starting service
+ 4月 07 19:31:17 debian realmd[1364]: GLib-GIO: Using cross-namespace EXTERNAL authentication (this will deadlock if server is GDBus < 2.73.3)
+ 4月 07 19:31:17 debian realmd[1364]: connected to bus
+ 4月 07 19:31:17 debian realmd[1364]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+ 4月 07 19:31:17 debian realmd[1364]: released daemon: startup
+ 4月 07 19:31:17 debian dbus-daemon[839]: [system] Successfully activated service 'org.freedesktop.realmd'
+ 4月 07 19:31:17 debian realmd[1364]: claimed name on bus: org.freedesktop.realmd
+ 4月 07 19:31:17 debian systemd[1]: Started realmd.service - Realm and Domain Configuration.
+░░ Subject: 單位 realmd.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 realmd.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:17 debian /usr/libexec/gdm-wayland-session[1011]: dbus-daemon[1011]: [session uid=111 pid=1011] Successfully activated service 'org.gnome.Shell.Screencast'
+ 4月 07 19:31:17 debian gnome-shell[1034]: ATK Bridge is disabled but a11y has already been enabled.
+ 4月 07 19:31:17 debian gnome-session-binary[1012]: Entering running state
+ 4月 07 19:31:17 debian xbrlapi.desktop[1374]: openConnection: connect: 沒有此一檔案或目錄
+ 4月 07 19:31:17 debian xbrlapi.desktop[1374]: cannot connect to braille devices daemon brltty at :0
+ 4月 07 19:31:17 debian gsd-media-keys[1187]: Failed to grab accelerator for keybinding settings:playback-repeat
+ 4月 07 19:31:17 debian gsd-media-keys[1187]: Failed to grab accelerator for keybinding settings:hibernate
+ 4月 07 19:31:17 debian /usr/libexec/gdm-wayland-session[1011]: dbus-daemon[1011]: [session uid=111 pid=1011] Activating service name='org.gnome.ScreenSaver' requested by ':1.27' (uid=111 pid=1223 comm="/usr/libexec/gsd-power")
+ 4月 07 19:31:17 debian org.gnome.Shell.desktop[1377]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+ 4月 07 19:31:17 debian org.gnome.Shell.desktop[1377]: > Warning:          Unsupported maximum keycode 708, clipping.
+ 4月 07 19:31:17 debian org.gnome.Shell.desktop[1377]: >                   X11 cannot support keycodes above 255.
+ 4月 07 19:31:17 debian org.gnome.Shell.desktop[1377]: Errors from xkbcomp are not fatal to the X server
+ 4月 07 19:31:17 debian /usr/libexec/gdm-wayland-session[1011]: dbus-daemon[1011]: [session uid=111 pid=1011] Activating service name='org.freedesktop.portal.IBus' requested by ':1.35' (uid=111 pid=1375 comm="ibus-daemon --panel disable -r --xim")
+ 4月 07 19:31:17 debian /usr/libexec/gdm-wayland-session[1011]: dbus-daemon[1011]: [session uid=111 pid=1011] Successfully activated service 'org.gnome.ScreenSaver'
+ 4月 07 19:31:17 debian /usr/libexec/gdm-wayland-session[1011]: dbus-daemon[1011]: [session uid=111 pid=1011] Successfully activated service 'org.freedesktop.portal.IBus'
+ 4月 07 19:31:17 debian kernel: vmwgfx 0000:00:0f.0: [drm] Using CursorMob mobid 3, max dimension 2048
+ 4月 07 19:31:17 debian kernel: vmwgfx 0000:00:0f.0: [drm] Using CursorMob mobid 4, max dimension 2048
+ 4月 07 19:31:17 debian dbus-daemon[1007]: [session uid=111 pid=1007] Successfully activated service 'org.freedesktop.Tracker3.Miner.Files'
+ 4月 07 19:31:17 debian systemd[983]: Started tracker-miner-fs-3.service - Tracker file system data miner.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:17 debian gnome-shell[1034]: Registering session with GDM
+ 4月 07 19:31:17 debian systemd[1]: Received SIGRTMIN+21 from PID 279 (plymouthd).
+ 4月 07 19:31:17 debian systemd[1]: Finished plymouth-quit-wait.service - Hold until boot process finishes up.
+░░ Subject: 單位 plymouth-quit-wait.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 plymouth-quit-wait.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:17 debian systemd[1]: Reached target multi-user.target - Multi-User System.
+░░ Subject: 單位 multi-user.target 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 multi-user.target 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:17 debian systemd[1]: Reached target graphical.target - Graphical Interface.
+░░ Subject: 單位 graphical.target 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 graphical.target 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:17 debian systemd[983]: Started tracker-extract-3.service - Tracker metadata extractor.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:17 debian systemd[983]: Reached target default.target - Main User Target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:17 debian systemd[983]: Startup finished in 3.913s.
+░░ Subject: User manager start-up is now complete
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The user manager instance for user 111 has been started. All services queued
+░░ for starting have been started. Note that other services might still be starting
+░░ up or be started at any later time.
+░░ 
+░░ Startup of the manager took 3913999 microseconds.
+ 4月 07 19:31:17 debian systemd[1]: Starting systemd-update-utmp-runlevel.service - Record Runlevel Change in UTMP...
+░░ Subject: 單位 systemd-update-utmp-runlevel.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 systemd-update-utmp-runlevel.service 已開始啟動。
+ 4月 07 19:31:17 debian systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit systemd-update-utmp-runlevel.service has successfully entered the 'dead' state.
+ 4月 07 19:31:17 debian systemd[1]: Finished systemd-update-utmp-runlevel.service - Record Runlevel Change in UTMP.
+░░ Subject: 單位 systemd-update-utmp-runlevel.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 systemd-update-utmp-runlevel.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:17 debian systemd[1]: Startup finished in 2.202s (kernel) + 5.784s (userspace) = 7.986s.
+░░ Subject: 系統啟動已完成
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 所有開機所必要的系統服務都已成功啟動。
+░░ 注意這並不代表這臺機器有空閒的時間
+░░ 可以服務，可能仍忙於完成啟動。
+░░ 
+░░ 核心啟動需要 2202124 微秒。
+░░ 
+░░ 初始 RAM 磁碟啟動需要 INITRD_USEC 微秒。
+░░ 
+░░ 使用者空間啟動需要 5784423 微秒。
+ 4月 07 19:31:23 debian systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+ 4月 07 19:31:29 debian gdm-password][1439]: gkr-pam: unable to locate daemon control file
+ 4月 07 19:31:29 debian gdm-password][1439]: gkr-pam: stashed password to try later in open session
+ 4月 07 19:31:29 debian gdm-password][1439]: pam_unix(gdm-password:session): session opened for user kali(uid=1000) by (uid=0)
+ 4月 07 19:31:29 debian systemd[1]: Created slice user-1000.slice - User Slice of UID 1000.
+░░ Subject: 單位 user-1000.slice 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 user-1000.slice 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1]: Starting user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+░░ Subject: 單位 user-runtime-dir@1000.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 user-runtime-dir@1000.service 已開始啟動。
+ 4月 07 19:31:29 debian systemd-logind[845]: New session 2 of user kali.
+░░ Subject: 新的工作階段 2 已為使用者 kali 建立
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ Documentation: sd-login(3)
+░░ 
+░░ 一個新的工作階段，ID 2 已為使用者 kali 建立。
+░░ 
+░░ 這個工作階段的領導行程為 1439。
+ 4月 07 19:31:29 debian systemd[1]: Finished user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+░░ Subject: 單位 user-runtime-dir@1000.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 user-runtime-dir@1000.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1]: Starting user@1000.service - User Manager for UID 1000...
+░░ Subject: 單位 user@1000.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 user@1000.service 已開始啟動。
+ 4月 07 19:31:29 debian (systemd)[1459]: pam_unix(systemd-user:session): session opened for user kali(uid=1000) by (uid=0)
+ 4月 07 19:31:29 debian systemd[1459]: Queued start job for default target default.target.
+ 4月 07 19:31:29 debian systemd[1459]: Created slice app.slice - User Application Slice.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Created slice session.slice - User Core Session Slice.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Created slice background.slice - User Background Tasks Slice.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Reached target paths.target - Paths.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Reached target timers.target - Timers.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Starting dbus.socket - D-Bus User Message Bus Socket...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:29 debian systemd[1459]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Listening on gnome-keyring-daemon.socket - GNOME Keyring daemon.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Listening on pipewire-pulse.socket - PipeWire PulseAudio.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Listening on pipewire.socket - PipeWire Multimedia System Socket.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Listening on pk-debconf-helper.socket - debconf communication socket.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Reached target sockets.target - Sockets.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Reached target basic.target - Basic System.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1]: Started user@1000.service - User Manager for UID 1000.
+░░ Subject: 單位 user@1000.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 user@1000.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Started pipewire.service - PipeWire Multimedia Service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1]: Started session-2.scope - Session 2 of User kali.
+░░ Subject: 單位 session-2.scope 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 session-2.scope 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Starting tracker-extract-3.service - Tracker metadata extractor...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:29 debian systemd[1459]: Started wireplumber.service - Multimedia Service Session Manager.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Started pipewire-pulse.service - PipeWire PulseAudio.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Starting dbus.service - D-Bus User Message Bus...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:29 debian systemd[1459]: Started gnome-keyring-daemon.service - GNOME Keyring daemon.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Started dbus.service - D-Bus User Message Bus.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian pipewire[1476]: mod.rt: Can't find org.freedesktop.portal.Desktop. Is xdg-desktop-portal running?
+ 4月 07 19:31:29 debian pipewire[1476]: mod.rt: found session bus but no portal
+ 4月 07 19:31:29 debian rtkit-daemon[1008]: Successfully made thread 1476 of process 1476 owned by '1000' high priority at nice level -11.
+ 4月 07 19:31:29 debian rtkit-daemon[1008]: Supervising 7 threads of 4 processes of 2 users.
+ 4月 07 19:31:29 debian rtkit-daemon[1008]: Supervising 7 threads of 4 processes of 2 users.
+ 4月 07 19:31:29 debian gnome-keyring-daemon[1488]: GNOME_KEYRING_CONTROL=/run/user/1000/keyring
+ 4月 07 19:31:29 debian wireplumber[1485]: Can't find org.freedesktop.portal.Desktop. Is xdg-desktop-portal running?
+ 4月 07 19:31:29 debian wireplumber[1485]: found session bus but no portal
+ 4月 07 19:31:29 debian rtkit-daemon[1008]: Supervising 7 threads of 4 processes of 2 users.
+ 4月 07 19:31:29 debian pipewire-pulse[1486]: mod.rt: Can't find org.freedesktop.portal.Desktop. Is xdg-desktop-portal running?
+ 4月 07 19:31:29 debian pipewire-pulse[1486]: mod.rt: found session bus but no portal
+ 4月 07 19:31:29 debian rtkit-daemon[1008]: Successfully made thread 1485 of process 1485 owned by '1000' high priority at nice level -11.
+ 4月 07 19:31:29 debian rtkit-daemon[1008]: Supervising 8 threads of 5 processes of 2 users.
+ 4月 07 19:31:29 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.5' (uid=1000 pid=1481 comm="/usr/libexec/tracker-extract-3")
+ 4月 07 19:31:29 debian rtkit-daemon[1008]: Successfully made thread 1486 of process 1486 owned by '1000' high priority at nice level -11.
+ 4月 07 19:31:29 debian rtkit-daemon[1008]: Supervising 9 threads of 6 processes of 2 users.
+ 4月 07 19:31:29 debian rtkit-daemon[1008]: Successfully made thread 1492 of process 1476 owned by '1000' RT at priority 20.
+ 4月 07 19:31:29 debian rtkit-daemon[1008]: Supervising 10 threads of 6 processes of 2 users.
+ 4月 07 19:31:29 debian rtkit-daemon[1008]: Supervising 10 threads of 6 processes of 2 users.
+ 4月 07 19:31:29 debian rtkit-daemon[1008]: Supervising 10 threads of 6 processes of 2 users.
+ 4月 07 19:31:29 debian rtkit-daemon[1008]: Supervising 10 threads of 6 processes of 2 users.
+ 4月 07 19:31:29 debian gdm-password][1439]: gkr-pam: unlocked login keyring
+ 4月 07 19:31:29 debian systemd[1459]: Starting gvfs-daemon.service - Virtual filesystem service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:29 debian rtkit-daemon[1008]: Successfully made thread 1500 of process 1485 owned by '1000' RT at priority 20.
+ 4月 07 19:31:29 debian rtkit-daemon[1008]: Supervising 11 threads of 6 processes of 2 users.
+ 4月 07 19:31:29 debian rtkit-daemon[1008]: Supervising 11 threads of 6 processes of 2 users.
+ 4月 07 19:31:29 debian rtkit-daemon[1008]: Successfully made thread 1501 of process 1486 owned by '1000' RT at priority 20.
+ 4月 07 19:31:29 debian rtkit-daemon[1008]: Supervising 12 threads of 6 processes of 2 users.
+ 4月 07 19:31:29 debian wireplumber[1485]: Failed to set scheduler settings: 此項操作並不被允許
+ 4月 07 19:31:29 debian wireplumber[1485]: SPA handle 'api.libcamera.enum.manager' could not be loaded; is it installed?
+ 4月 07 19:31:29 debian wireplumber[1485]: PipeWire's libcamera SPA missing or broken. libcamera not supported.
+ 4月 07 19:31:29 debian gsd-media-keys[1187]: Unable to get default source
+ 4月 07 19:31:29 debian gsd-media-keys[1187]: Unable to get default sink
+ 4月 07 19:31:29 debian kernel: rfkill: input handler enabled
+ 4月 07 19:31:29 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.gtk.vfs.Daemon'
+ 4月 07 19:31:29 debian systemd[1459]: Started gvfs-daemon.service - Virtual filesystem service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian wireplumber[1485]: GetManagedObjects() failed: org.freedesktop.DBus.Error.NameHasNoOwner
+ 4月 07 19:31:29 debian wireplumber[1485]: <WpNode:0x55890e4b5560> ignoring set_param on already destroyed objects
+ 4月 07 19:31:29 debian wireplumber[1485]: <WpNode:0x55890e4b5460> ignoring set_param on already destroyed objects
+ 4月 07 19:31:29 debian wireplumber[1485]: <WpSiAudioAdapter:0x55890e52d080> Object activation aborted: proxy destroyed
+ 4月 07 19:31:29 debian wireplumber[1485]: <WpSiAudioAdapter:0x55890e52d080> failed to activate item: Object activation aborted: proxy destroyed
+ 4月 07 19:31:29 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Files' unit='tracker-miner-fs-3.service' requested by ':1.5' (uid=1000 pid=1481 comm="/usr/libexec/tracker-extract-3")
+ 4月 07 19:31:29 debian systemd[1459]: Starting tracker-miner-fs-3.service - Tracker file system data miner...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:29 debian systemd[1459]: Created slice app-gnome\x2dsession\x2dmanager.slice - Slice /app/gnome-session-manager.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Reached target gnome-session-wayland.target - GNOME Wayland Session.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Reached target org.gnome.Shell.target - GNOME Shell.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Started gcr-ssh-agent.service - GCR ssh-agent wrapper.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: gnome-initial-setup-copy-worker.service - GNOME Initial Setup Copy Worker was skipped because of an unmet condition check (ConditionPathExists=!/home/kali/.config/gnome-initial-setup-done).
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Starting gnome-session-monitor.service - Monitor Session leader for GNOME Session...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:29 debian systemd[1459]: Started ssh-agent.service - OpenSSH Agent.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Starting xdg-desktop-portal-rewrite-launchers.service - Rewrite dynamic launcher portal entries...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:29 debian systemd[1459]: Started gnome-session-monitor.service - Monitor Session leader for GNOME Session.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian agent-launch[1594]: dbus-update-activation-environment: setting SSH_AUTH_SOCK=/run/user/1000/openssh_agent
+ 4月 07 19:31:29 debian agent-launch[1594]: dbus-update-activation-environment: setting SSH_AGENT_LAUNCHER=openssh
+ 4月 07 19:31:29 debian systemd[1459]: Finished xdg-desktop-portal-rewrite-launchers.service - Rewrite dynamic launcher portal entries.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Reached target graphical-session-pre.target - Session services which should run early before the graphical session is brought up.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Reached target gnome-session-pre.target - Tasks to be run before GNOME Session starts.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Starting gnome-session-manager@gnome.service - GNOME Session Manager (session: gnome)...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:29 debian agent-launch[1588]: SSH_AUTH_SOCK=/run/user/1000/openssh_agent; export SSH_AUTH_SOCK;
+ 4月 07 19:31:29 debian agent-launch[1588]: echo Agent pid 1588;
+ 4月 07 19:31:29 debian gnome-keyring-daemon[1488]: The Secret Service was already initialized
+ 4月 07 19:31:29 debian gnome-keyring-d[1488]: The Secret Service was already initialized
+ 4月 07 19:31:29 debian gnome-keyring-daemon[1604]: discover_other_daemon: 1
+ 4月 07 19:31:29 debian gnome-keyring-secrets.desktop[1604]: discover_other_daemon: 1GNOME_KEYRING_CONTROL=/run/user/1000/keyring
+ 4月 07 19:31:29 debian gnome-session[1597]: gnome-session-binary[1597]: GnomeDesktop-WARNING: Could not create transient scope for PID 1603: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1603 does not exist.
+ 4月 07 19:31:29 debian gnome-session-binary[1597]: GnomeDesktop-WARNING: Could not create transient scope for PID 1603: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1603 does not exist.
+ 4月 07 19:31:29 debian systemd[1459]: Started app-gnome-gnome\x2dkeyring\x2dssh-1605.scope - Application launched by gnome-session-binary.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Started app-gnome-gnome\x2dkeyring\x2dpkcs11-1607.scope - Application launched by gnome-session-binary.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian gnome-keyring-daemon[1488]: The PKCS#11 component was already initialized
+ 4月 07 19:31:29 debian gnome-keyring-daemon[1608]: discover_other_daemon: 1
+ 4月 07 19:31:29 debian gnome-keyring-d[1488]: The PKCS#11 component was already initialized
+ 4月 07 19:31:29 debian gnome-keyring-ssh.desktop[1608]: discover_other_daemon: 1GNOME_KEYRING_CONTROL=/run/user/1000/keyring
+ 4月 07 19:31:29 debian gnome-keyring-ssh.desktop[1608]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+ 4月 07 19:31:29 debian gnome-keyring-daemon[1609]: discover_other_daemon: 1
+ 4月 07 19:31:29 debian gnome-keyring-pkcs11.desktop[1609]: discover_other_daemon: 1GNOME_KEYRING_CONTROL=/run/user/1000/keyring
+ 4月 07 19:31:29 debian gnome-keyring-pkcs11.desktop[1609]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+ 4月 07 19:31:29 debian systemd[1459]: Started gnome-session-manager@gnome.service - GNOME Session Manager (session: gnome).
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Reached target gnome-session-manager.target - GNOME Session Manager is ready.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Starting org.gnome.Shell@wayland.service - GNOME Shell on Wayland...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:29 debian systemd[1459]: Starting org.gnome.Shell@x11.service - GNOME Shell on X11...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:29 debian systemd[1459]: org.gnome.Shell@x11.service: Skipped due to 'exec-condition'.
+░░ Subject: Unit skipped
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit UNIT was skipped due to an ExecCondition= command failure, and has
+░░ entered the 'dead' state with result 'exec-condition'.
+ 4月 07 19:31:29 debian systemd[1459]: Condition check resulted in org.gnome.Shell@x11.service - GNOME Shell on X11 being skipped.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Started app-gnome-at\x2dspi\x2ddbus\x2dbus-1614.scope - Application launched by gnome-session-binary.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian gnome-session[1597]: gnome-session-binary[1597]: GnomeDesktop-WARNING: Could not create transient scope for PID 1613: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1613 does not exist.
+ 4月 07 19:31:29 debian gnome-session-binary[1597]: GnomeDesktop-WARNING: Could not create transient scope for PID 1613: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1613 does not exist.
+ 4月 07 19:31:29 debian gnome-shell[1612]: Running GNOME Shell (using mutter 43.8) as a Wayland display server
+ 4月 07 19:31:29 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.14' (uid=1000 pid=1583 comm="/usr/libexec/tracker-miner-fs-3")
+ 4月 07 19:31:29 debian systemd[1459]: Starting gvfs-udisks2-volume-monitor.service - Virtual filesystem service - disk device monitor...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:29 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+ 4月 07 19:31:29 debian systemd[1459]: Started gvfs-udisks2-volume-monitor.service - Virtual filesystem service - disk device monitor.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.14' (uid=1000 pid=1583 comm="/usr/libexec/tracker-miner-fs-3")
+ 4月 07 19:31:29 debian systemd[1459]: Starting gvfs-gphoto2-volume-monitor.service - Virtual filesystem service - digital camera monitor...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:29 debian gnome-shell[1612]: VMware: No 3D enabled (0, 成功).
+ 4月 07 19:31:29 debian gnome-shell[1612]: VMware: No 3D enabled (0, 成功).
+ 4月 07 19:31:29 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+ 4月 07 19:31:29 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.14' (uid=1000 pid=1583 comm="/usr/libexec/tracker-miner-fs-3")
+ 4月 07 19:31:29 debian systemd[1459]: Started gvfs-gphoto2-volume-monitor.service - Virtual filesystem service - digital camera monitor.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian systemd[1459]: Starting gvfs-afc-volume-monitor.service - Virtual filesystem service - Apple File Conduit monitor...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:29 debian gnome-shell[1612]: (../src/backends/native/meta-kms-impl-device-simple.c:1733):meta_kms_impl_device_simple_open_device_file: runtime check failed: (!meta_device_file_has_tag (device_file, META_DEVICE_FILE_TAG_KMS, META_KMS_DEVICE_FILE_TAG_ATOMIC))
+ 4月 07 19:31:29 debian gnome-shell[1612]: Added device '/dev/dri/card0' (vmwgfx) using non-atomic mode setting.
+ 4月 07 19:31:29 debian gnome-shell[1612]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Not hardware accelerated
+ 4月 07 19:31:29 debian gnome-shell[1612]: Created gbm renderer for '/dev/dri/card0'
+ 4月 07 19:31:29 debian gnome-shell[1612]: Boot VGA GPU /dev/dri/card0 selected as primary
+ 4月 07 19:31:29 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+ 4月 07 19:31:29 debian systemd[1459]: Started gvfs-afc-volume-monitor.service - Virtual filesystem service - Apple File Conduit monitor.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:29 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.14' (uid=1000 pid=1583 comm="/usr/libexec/tracker-miner-fs-3")
+ 4月 07 19:31:29 debian systemd[1459]: Starting gvfs-goa-volume-monitor.service - Virtual filesystem service - GNOME Online Accounts monitor...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:29 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating service name='org.gnome.OnlineAccounts' requested by ':1.33' (uid=1000 pid=1651 comm="/usr/libexec/gvfs-goa-volume-monitor")
+ 4月 07 19:31:29 debian goa-daemon[1659]: goa-daemon version 3.46.0 starting
+ 4月 07 19:31:30 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating service name='org.gnome.Identity' requested by ':1.34' (uid=1000 pid=1659 comm="/usr/libexec/goa-daemon")
+ 4月 07 19:31:30 debian gnome-shell[1612]: meta_viewport_info_get_extents: assertion 'viewport_info != NULL' failed
+ 4月 07 19:31:30 debian gnome-shell[1612]: meta_viewport_info_get_extents: assertion 'viewport_info != NULL' failed
+ 4月 07 19:31:30 debian gnome-shell[1612]: meta_viewport_info_get_extents: assertion 'viewport_info != NULL' failed
+ 4月 07 19:31:30 debian gnome-shell[1612]: meta_viewport_info_get_extents: assertion 'viewport_info != NULL' failed
+ 4月 07 19:31:30 debian gnome-shell[1612]: meta_viewport_info_get_extents: assertion 'viewport_info != NULL' failed
+ 4月 07 19:31:30 debian gnome-shell[1612]: meta_viewport_info_get_extents: assertion 'viewport_info != NULL' failed
+ 4月 07 19:31:30 debian gnome-shell[1612]: meta_viewport_info_get_extents: assertion 'viewport_info != NULL' failed
+ 4月 07 19:31:30 debian gnome-shell[1612]: meta_viewport_info_get_extents: assertion 'viewport_info != NULL' failed
+ 4月 07 19:31:30 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.gnome.OnlineAccounts'
+ 4月 07 19:31:30 debian gnome-shell[1612]: meta_viewport_info_get_extents: assertion 'viewport_info != NULL' failed
+ 4月 07 19:31:30 debian gnome-shell[1612]: meta_viewport_info_get_extents: assertion 'viewport_info != NULL' failed
+ 4月 07 19:31:30 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+ 4月 07 19:31:30 debian systemd[1459]: Started gvfs-goa-volume-monitor.service - Virtual filesystem service - GNOME Online Accounts monitor.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:30 debian gnome-shell[1612]: Disabling DMA buffer screen sharing (not hardware accelerated)
+ 4月 07 19:31:30 debian gnome-shell[1612]: Disabling DMA buffer screen sharing (implicit modifiers not supported)
+ 4月 07 19:31:30 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.gnome.Identity'
+ 4月 07 19:31:30 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.14' (uid=1000 pid=1583 comm="/usr/libexec/tracker-miner-fs-3")
+ 4月 07 19:31:30 debian systemd[1459]: Starting gvfs-mtp-volume-monitor.service - Virtual filesystem service - Media Transfer Protocol monitor...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:30 debian gnome-shell[1612]: Using public X11 display :0, (using :1 for managed services)
+ 4月 07 19:31:30 debian gnome-shell[1612]: Using Wayland display name 'wayland-0'
+ 4月 07 19:31:30 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+ 4月 07 19:31:30 debian systemd[1459]: Started gvfs-mtp-volume-monitor.service - Virtual filesystem service - Media Transfer Protocol monitor.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:30 debian gnome-shell[1612]: Unset XDG_SESSION_ID, getCurrentSessionProxy() called outside a user session. Asking logind directly.
+ 4月 07 19:31:30 debian gnome-shell[1612]: Will monitor session 2
+ 4月 07 19:31:30 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating service name='org.gnome.Shell.Screencast' requested by ':1.29' (uid=1000 pid=1612 comm="/usr/bin/gnome-shell")
+ 4月 07 19:31:30 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.29' (uid=1000 pid=1612 comm="/usr/bin/gnome-shell")
+ 4月 07 19:31:30 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating service name='org.gnome.Shell.CalendarServer' requested by ':1.29' (uid=1000 pid=1612 comm="/usr/bin/gnome-shell")
+ 4月 07 19:31:30 debian systemd[1459]: Starting xdg-permission-store.service - sandboxed app permission store...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:30 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+ 4月 07 19:31:30 debian systemd[1459]: Started xdg-permission-store.service - sandboxed app permission store.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:30 debian polkitd[842]: Registered Authentication Agent for unix-session:2 (system bus name :1.64 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_TW.UTF-8)
+ 4月 07 19:31:30 debian gnome-shell[1612]: Telepathy is not available, chat integration will be disabled.
+ 4月 07 19:31:30 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.freedesktop.Tracker3.Miner.Files'
+ 4月 07 19:31:30 debian systemd[1459]: Started tracker-miner-fs-3.service - Tracker file system data miner.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:30 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating via systemd: service name='org.gnome.evolution.dataserver.Sources5' unit='evolution-source-registry.service' requested by ':1.40' (uid=1000 pid=1715 comm="/usr/libexec/gnome-shell-calendar-server")
+ 4月 07 19:31:30 debian systemd[1459]: Starting evolution-source-registry.service - Evolution source registry...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:30 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating service name='org.gnome.Shell.Notifications' requested by ':1.29' (uid=1000 pid=1612 comm="/usr/bin/gnome-shell")
+ 4月 07 19:31:30 debian at-spi-dbus-bus.desktop[1620]: dbus-daemon[1620]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=1000 pid=1612 comm="/usr/bin/gnome-shell")
+ 4月 07 19:31:30 debian at-spi-dbus-bus.desktop[1620]: dbus-daemon[1620]: Successfully activated service 'org.a11y.atspi.Registry'
+ 4月 07 19:31:30 debian at-spi-dbus-bus.desktop[1743]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+ 4月 07 19:31:30 debian systemd[1459]: Started tracker-extract-3.service - Tracker metadata extractor.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:30 debian systemd[1459]: Reached target default.target - Main User Target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:30 debian systemd[1459]: Started org.gnome.Shell@wayland.service - GNOME Shell on Wayland.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:30 debian systemd[1459]: Reached target gnome-session-initialized.target - GNOME Session is initialized.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:30 debian systemd[1459]: gnome-session-x11-services.target - GNOME session X11 services is inactive.
+ 4月 07 19:31:30 debian systemd[1459]: Dependency failed for org.gnome.SettingsDaemon.XSettings.service - GNOME XSettings service.
+░░ Subject: 單位 UNIT 已失敗
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已失敗。
+░░ 
+░░ 結果為 dependency。
+ 4月 07 19:31:30 debian systemd[1459]: org.gnome.SettingsDaemon.XSettings.service: Job org.gnome.SettingsDaemon.XSettings.service/start failed with result 'dependency'.
+ 4月 07 19:31:30 debian systemd[1459]: gnome-session-x11-services-ready.target: Job gnome-session-x11-services-ready.target/verify-active failed with result 'dependency'.
+ 4月 07 19:31:30 debian systemd[1459]: Reached target gnome-session@gnome.target - GNOME Session (session: gnome).
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:30 debian systemd[1459]: Reached target org.gnome.SettingsDaemon.XSettings.target - GNOME XSettings target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:30 debian systemd[1459]: Starting gnome-session-signal-init.service - Signal initialization done to GNOME Session Manager...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:30 debian systemd[1459]: Starting org.freedesktop.IBus.session.GNOME.service - IBus Daemon for GNOME...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:30 debian systemd[1459]: Starting org.gnome.SettingsDaemon.A11ySettings.service - GNOME accessibility service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:30 debian systemd[1459]: Starting org.gnome.SettingsDaemon.Color.service - GNOME color management service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:30 debian systemd[1459]: Starting org.gnome.SettingsDaemon.Datetime.service - GNOME date & time service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:30 debian systemd[1459]: Starting org.gnome.SettingsDaemon.Housekeeping.service - GNOME maintenance of expirable data service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:30 debian systemd[1459]: Starting org.gnome.SettingsDaemon.Keyboard.service - GNOME keyboard configuration service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:30 debian systemd[1459]: Starting org.gnome.SettingsDaemon.MediaKeys.service - GNOME keyboard shortcuts service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:30 debian systemd[1459]: Starting org.gnome.SettingsDaemon.Power.service - GNOME power management service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:30 debian systemd[1459]: Starting org.gnome.SettingsDaemon.PrintNotifications.service - GNOME printer notifications service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:30 debian systemd[1459]: Starting org.gnome.SettingsDaemon.Rfkill.service - GNOME RFKill support service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:30 debian systemd[1459]: Starting org.gnome.SettingsDaemon.ScreensaverProxy.service - GNOME FreeDesktop screensaver service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:30 debian systemd[1459]: Starting org.gnome.SettingsDaemon.Sharing.service - GNOME file sharing service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:30 debian systemd[1459]: Starting org.gnome.SettingsDaemon.Smartcard.service - GNOME smartcard service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:30 debian systemd[1459]: Starting org.gnome.SettingsDaemon.Sound.service - GNOME sound sample caching service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:30 debian systemd[1459]: Starting org.gnome.SettingsDaemon.UsbProtection.service - GNOME USB protection service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:30 debian systemd[1459]: Starting org.gnome.SettingsDaemon.Wacom.service - GNOME Wacom tablet support service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:30 debian gnome-session-binary[1597]: Entering running state
+ 4月 07 19:31:30 debian at-spi2-registr[1743]: Failed to register client: GDBus.Error:org.gnome.SessionManager.AlreadyRegistered: Unable to register client
+ 4月 07 19:31:30 debian at-spi2-registr[1743]: Unable to register client with session manager
+ 4月 07 19:31:30 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.gnome.evolution.dataserver.Sources5'
+ 4月 07 19:31:30 debian gnome-session[1597]: gnome-session-binary[1597]: GnomeDesktop-WARNING: Could not create transient scope for PID 1805: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1805 does not exist.
+ 4月 07 19:31:30 debian gnome-session-binary[1597]: GnomeDesktop-WARNING: Could not create transient scope for PID 1805: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1805 does not exist.
+ 4月 07 19:31:30 debian gnome-session[1597]: gnome-session-binary[1597]: GnomeDesktop-WARNING: Could not create transient scope for PID 1806: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1806 does not exist.
+ 4月 07 19:31:30 debian gnome-session-binary[1597]: GnomeDesktop-WARNING: Could not create transient scope for PID 1806: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1806 does not exist.
+ 4月 07 19:31:30 debian systemd[1459]: Finished gnome-session-signal-init.service - Signal initialization done to GNOME Session Manager.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:30 debian gnome-session[1597]: gnome-session-binary[1597]: GnomeDesktop-WARNING: Could not create transient scope for PID 1830: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1830 does not exist.
+ 4月 07 19:31:30 debian gnome-session-binary[1597]: GnomeDesktop-WARNING: Could not create transient scope for PID 1830: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1830 does not exist.
+ 4月 07 19:31:30 debian systemd[1459]: Started org.gnome.SettingsDaemon.ScreensaverProxy.service - GNOME FreeDesktop screensaver service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:30 debian systemd[1459]: Started evolution-source-registry.service - Evolution source registry.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:30 debian systemd[1459]: Started app-gnome-im\x2dlaunch-1836.scope - Application launched by gnome-session-binary.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:30 debian systemd[1459]: Started app-gnome-org.gnome.Evolution\x2dalarm\x2dnotify-1819.scope - Application launched by gnome-session-binary.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:30 debian systemd[1459]: Started app-gnome-org.gnome.SettingsDaemon.DiskUtilityNotify-1791.scope - Application launched by gnome-session-binary.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:30 debian systemd[1459]: Started app-gnome-org.gnome.Software-1813.scope - Application launched by gnome-session-binary.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:30 debian systemd[1459]: Started app-gnome-user\x2ddirs\x2dupdate\x2dgtk-1810.scope - Application launched by gnome-session-binary.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:30 debian systemd[1459]: Reached target org.gnome.SettingsDaemon.ScreensaverProxy.target - GNOME FreeDesktop screensaver target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:30 debian kernel: rfkill: input handler disabled
+ 4月 07 19:31:30 debian systemd[1459]: Started org.gnome.SettingsDaemon.Smartcard.service - GNOME smartcard service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:30 debian systemd[1459]: Reached target org.gnome.SettingsDaemon.Smartcard.target - GNOME smartcard target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:30 debian systemd[1459]: Started org.gnome.SettingsDaemon.Rfkill.service - GNOME RFKill support service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:30 debian systemd[1459]: Reached target org.gnome.SettingsDaemon.Rfkill.target - GNOME RFKill support target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:30 debian systemd[1459]: Started org.gnome.SettingsDaemon.UsbProtection.service - GNOME USB protection service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:30 debian systemd[1459]: Reached target org.gnome.SettingsDaemon.UsbProtection.target - GNOME USB protection target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:30 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating service name='org.gnome.ScreenSaver' requested by ':1.51' (uid=1000 pid=1784 comm="/usr/libexec/gsd-usb-protection")
+ 4月 07 19:31:30 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.gnome.Shell.Notifications'
+ 4月 07 19:31:31 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.gnome.Shell.CalendarServer'
+ 4月 07 19:31:31 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating via systemd: service name='org.gnome.evolution.dataserver.Calendar8' unit='evolution-calendar-factory.service' requested by ':1.40' (uid=1000 pid=1715 comm="/usr/libexec/gnome-shell-calendar-server")
+ 4月 07 19:31:31 debian systemd[1459]: Started org.gnome.SettingsDaemon.Sound.service - GNOME sound sample caching service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:31 debian systemd[1459]: Reached target org.gnome.SettingsDaemon.Sound.target - GNOME sound sample caching target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:31 debian systemd[1459]: Starting evolution-calendar-factory.service - Evolution calendar service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:31 debian systemd[1459]: Started org.gnome.SettingsDaemon.Housekeeping.service - GNOME maintenance of expirable data service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:31 debian systemd[1459]: Started org.gnome.SettingsDaemon.A11ySettings.service - GNOME accessibility service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:31 debian systemd[1459]: Reached target org.gnome.SettingsDaemon.A11ySettings.target - GNOME accessibility target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:31 debian systemd[1459]: Reached target org.gnome.SettingsDaemon.Housekeeping.target - GNOME maintenance of expirable data target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:31 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.gnome.ScreenSaver'
+ 4月 07 19:31:31 debian systemd[1459]: Started org.gnome.SettingsDaemon.Sharing.service - GNOME file sharing service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:31 debian systemd[1459]: Reached target org.gnome.SettingsDaemon.Sharing.target - GNOME file sharing target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:31 debian systemd[1459]: Started org.gnome.SettingsDaemon.Datetime.service - GNOME date & time service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:31 debian systemd[1459]: Reached target org.gnome.SettingsDaemon.Datetime.target - GNOME date & time target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:31 debian systemd[1459]: Started org.gnome.SettingsDaemon.PrintNotifications.service - GNOME printer notifications service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:31 debian systemd[1459]: Reached target org.gnome.SettingsDaemon.PrintNotifications.target - GNOME printer notifications target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:31 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating service name='org.freedesktop.portal.IBus' requested by ':1.64' (uid=1000 pid=1755 comm="/usr/bin/ibus-daemon --panel disable")
+ 4月 07 19:31:31 debian systemd[1459]: Started org.freedesktop.IBus.session.GNOME.service - IBus Daemon for GNOME.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:31 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.freedesktop.portal.IBus'
+ 4月 07 19:31:31 debian NetworkManager[859]: <info>  [1744025491.3309] agent-manager: agent[d82f286c4d57b0fc,:1.64/org.gnome.Shell.NetworkAgent/1000]: agent registered
+ 4月 07 19:31:31 debian gsd-usb-protect[1784]: Failed to fetch USBGuard parameters: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.usbguard1 was not provided by any .service files
+ 4月 07 19:31:31 debian gnome-shell[1612]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+ 4月 07 19:31:31 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.gnome.evolution.dataserver.Calendar8'
+ 4月 07 19:31:31 debian systemd[1459]: Started evolution-calendar-factory.service - Evolution calendar service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:31 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.66' (uid=1000 pid=1908 comm="/usr/libexec/evolution-calendar-factory")
+ 4月 07 19:31:31 debian systemd[1459]: Starting gvfs-metadata.service - Virtual filesystem metadata service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:31 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.gtk.vfs.Metadata'
+ 4月 07 19:31:31 debian systemd[1459]: Started gvfs-metadata.service - Virtual filesystem metadata service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:31 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating via systemd: service name='org.gnome.evolution.dataserver.AddressBook10' unit='evolution-addressbook-factory.service' requested by ':1.66' (uid=1000 pid=1908 comm="/usr/libexec/evolution-calendar-factory")
+ 4月 07 19:31:31 debian systemd[1459]: Starting evolution-addressbook-factory.service - Evolution address book service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:31 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.gnome.evolution.dataserver.AddressBook10'
+ 4月 07 19:31:31 debian systemd[1459]: Started evolution-addressbook-factory.service - Evolution address book service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:31 debian systemd[1459]: Started org.gnome.SettingsDaemon.Keyboard.service - GNOME keyboard configuration service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:31 debian systemd[1459]: Reached target org.gnome.SettingsDaemon.Keyboard.target - GNOME keyboard configuration target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:31 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.gnome.Shell.Screencast'
+ 4月 07 19:31:31 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.59' (uid=1000 pid=1813 comm="/usr/bin/gnome-software --gapplication-service")
+ 4月 07 19:31:31 debian systemd[1459]: Starting xdg-desktop-portal.service - Portal service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:31 debian systemd[1459]: Started org.gnome.SettingsDaemon.Color.service - GNOME color management service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:31 debian systemd[1459]: Reached target org.gnome.SettingsDaemon.Color.target - GNOME color management target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:31 debian geoclue[1121]: No feature manager for feature of type 'GProxyResolver'
+ 4月 07 19:31:31 debian gnome-shell[2035]: VMware: No 3D enabled (0, Success).
+ 4月 07 19:31:31 debian gnome-shell[2035]: libEGL warning: egl: failed to create dri2 screen
+ 4月 07 19:31:31 debian geoclue[1121]: unable to create directory '/var/lib/geoclue/.cache/dconf': 唯讀的檔案系統.  dconf will not work properly.
+ 4月 07 19:31:31 debian geoclue[1121]: unable to create directory '/var/lib/geoclue/.cache/dconf': 唯讀的檔案系統.  dconf will not work properly.
+ 4月 07 19:31:31 debian geoclue[1121]: unable to create directory '/var/lib/geoclue/.cache/dconf': 唯讀的檔案系統.  dconf will not work properly.
+ 4月 07 19:31:31 debian geoclue[1121]: unable to create directory '/var/lib/geoclue/.cache/dconf': 唯讀的檔案系統.  dconf will not work properly.
+ 4月 07 19:31:31 debian geoclue[1121]: unable to create directory '/var/lib/geoclue/.cache/dconf': 唯讀的檔案系統.  dconf will not work properly.
+ 4月 07 19:31:31 debian geoclue[1121]: unable to create directory '/var/lib/geoclue/.cache/dconf': 唯讀的檔案系統.  dconf will not work properly.
+ 4月 07 19:31:31 debian geoclue[1121]: unable to create directory '/var/lib/geoclue/.cache/dconf': 唯讀的檔案系統.  dconf will not work properly.
+ 4月 07 19:31:31 debian geoclue[1121]: unable to create directory '/var/lib/geoclue/.cache/dconf': 唯讀的檔案系統.  dconf will not work properly.
+ 4月 07 19:31:31 debian geoclue[1121]: unable to create directory '/var/lib/geoclue/.cache/dconf': 唯讀的檔案系統.  dconf will not work properly.
+ 4月 07 19:31:31 debian geoclue[1121]: unable to create directory '/var/lib/geoclue/.cache/dconf': 唯讀的檔案系統.  dconf will not work properly.
+ 4月 07 19:31:31 debian gnome-shell[2035]: VMware: No 3D enabled (0, Success).
+ 4月 07 19:31:31 debian gnome-shell[2035]: libEGL warning: egl: failed to create dri2 screen
+ 4月 07 19:31:31 debian systemd[1459]: Started org.gnome.SettingsDaemon.Power.service - GNOME power management service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:31 debian systemd[1459]: Reached target org.gnome.SettingsDaemon.Power.target - GNOME power management target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:31 debian systemd[1459]: Started org.gnome.SettingsDaemon.MediaKeys.service - GNOME keyboard shortcuts service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:31 debian systemd[1459]: Reached target org.gnome.SettingsDaemon.MediaKeys.target - GNOME keyboard shortcuts target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:32 debian systemd[1459]: Started org.gnome.SettingsDaemon.Wacom.service - GNOME Wacom tablet support service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:32 debian systemd[1459]: Reached target org.gnome.SettingsDaemon.Wacom.target - GNOME Wacom tablet support target.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:32 debian systemd[1459]: Reached target gnome-session.target - GNOME Session.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:32 debian systemd[1459]: Reached target gnome-session-wayland@gnome.target - GNOME Wayland Session (session: gnome).
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:32 debian systemd[1459]: Reached target graphical-session.target - Current graphical user session.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:32 debian systemd[1459]: gnome-initial-setup-first-login.service - GNOME Initial Setup was skipped because of an unmet condition check (ConditionPathExists=!/home/kali/.config/gnome-initial-setup-done).
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:32 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.83' (uid=1000 pid=2064 comm="/usr/libexec/xdg-desktop-portal")
+ 4月 07 19:31:32 debian systemd[1459]: Starting xdg-document-portal.service - flatpak document portal service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:32 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.freedesktop.portal.Documents'
+ 4月 07 19:31:32 debian systemd[1459]: Started xdg-document-portal.service - flatpak document portal service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:32 debian xdg-document-portal[2103]: Ignoring invalid max threads value 4294967295 > max (100000).
+ 4月 07 19:31:32 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gnome' unit='xdg-desktop-portal-gnome.service' requested by ':1.83' (uid=1000 pid=2064 comm="/usr/libexec/xdg-desktop-portal")
+ 4月 07 19:31:32 debian gsd-media-keys[1763]: Failed to grab accelerator for keybinding settings:hibernate
+ 4月 07 19:31:32 debian gsd-media-keys[1763]: Failed to grab accelerator for keybinding settings:playback-repeat
+ 4月 07 19:31:32 debian systemd[1459]: Starting xdg-desktop-portal-gnome.service - Portal service (GNOME implementation)...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:32 debian gnome-shell[2035]: Failed to initialize glamor, falling back to sw
+ 4月 07 19:31:32 debian systemd[1459]: Reached target gnome-session-x11-services.target - GNOME session X11 services.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:32 debian gnome-shell[2153]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+ 4月 07 19:31:32 debian gnome-shell[2153]: > Warning:          Unsupported maximum keycode 708, clipping.
+ 4月 07 19:31:32 debian gnome-shell[2153]: >                   X11 cannot support keycodes above 255.
+ 4月 07 19:31:32 debian systemd[1459]: Starting org.gnome.SettingsDaemon.XSettings.service - GNOME XSettings service...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:32 debian gnome-shell[2153]: Errors from xkbcomp are not fatal to the X server
+ 4月 07 19:31:32 debian gnome-shell[1612]: GNOME Shell started at Mon Apr 07 2025 19:31:30 GMT+0800 (台北標準時間)
+ 4月 07 19:31:32 debian gnome-shell[1612]: Registering session with GDM
+ 4月 07 19:31:32 debian gdm-launch-environment][930]: pam_unix(gdm-launch-environment:session): session closed for user Debian-gdm
+ 4月 07 19:31:32 debian gdm-launch-environment][930]: GLib-GObject: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+ 4月 07 19:31:32 debian systemd-logind[845]: Session c1 logged out. Waiting for processes to exit.
+ 4月 07 19:31:32 debian polkitd[842]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.30, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_TW.UTF-8) (disconnected from bus)
+ 4月 07 19:31:32 debian systemd[1]: session-c1.scope: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit session-c1.scope has successfully entered the 'dead' state.
+ 4月 07 19:31:32 debian systemd[1]: session-c1.scope: Consumed 4.118s CPU time.
+░░ Subject: Resources consumed by unit runtime
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit session-c1.scope completed and consumed the indicated resources.
+ 4月 07 19:31:32 debian systemd-logind[845]: Removed session c1.
+░░ Subject: 工作階段 c1 已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ Documentation: sd-login(3)
+░░ 
+░░ 一個工作階段，ID c1 已結束。
+ 4月 07 19:31:32 debian gdm3[914]: Gdm: Child process -1004 was already dead.
+ 4月 07 19:31:32 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.freedesktop.impl.portal.desktop.gnome'
+ 4月 07 19:31:32 debian systemd[1459]: Started xdg-desktop-portal-gnome.service - Portal service (GNOME implementation).
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:33 debian rtkit-daemon[1008]: Supervising 12 threads of 6 processes of 2 users.
+ 4月 07 19:31:33 debian rtkit-daemon[1008]: Supervising 12 threads of 6 processes of 2 users.
+ 4月 07 19:31:33 debian rtkit-daemon[1008]: Supervising 12 threads of 6 processes of 2 users.
+ 4月 07 19:31:33 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.83' (uid=1000 pid=2064 comm="/usr/libexec/xdg-desktop-portal")
+ 4月 07 19:31:33 debian systemd[1459]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:33 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.freedesktop.impl.portal.desktop.gtk'
+ 4月 07 19:31:33 debian systemd[1459]: Started xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:33 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.freedesktop.portal.Desktop'
+ 4月 07 19:31:33 debian systemd[1459]: Started xdg-desktop-portal.service - Portal service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:33 debian dbus-daemon[839]: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.87' (uid=1000 pid=1813 comm="/usr/bin/gnome-software --gapplication-service")
+ 4月 07 19:31:33 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating via systemd: service name='ca.desrt.dconf' unit='dconf.service' requested by ':1.60' (uid=1000 pid=1756 comm="/usr/libexec/gsd-color")
+ 4月 07 19:31:33 debian systemd[1]: Starting fwupd.service - Firmware update daemon...
+░░ Subject: 單位 fwupd.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 fwupd.service 已開始啟動。
+ 4月 07 19:31:33 debian systemd[1459]: Starting dconf.service - User preferences database...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:33 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'ca.desrt.dconf'
+ 4月 07 19:31:33 debian systemd[1459]: Started dconf.service - User preferences database.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:33 debian systemd[1459]: Started org.gnome.SettingsDaemon.XSettings.service - GNOME XSettings service.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:33 debian systemd[1459]: Reached target gnome-session-x11-services-ready.target - GNOME session X11 services.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:33 debian systemd[1459]: Startup finished in 3.960s.
+░░ Subject: User manager start-up is now complete
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The user manager instance for user 1000 has been started. All services queued
+░░ for starting have been started. Note that other services might still be starting
+░░ up or be started at any later time.
+░░ 
+░░ Startup of the manager took 3960018 microseconds.
+ 4月 07 19:31:33 debian gnome-shell[1612]: ATK Bridge is disabled but a11y has already been enabled.
+ 4月 07 19:31:33 debian dbus-daemon[839]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.88' (uid=0 pid=2203 comm="/usr/libexec/fwupd/fwupd")
+ 4月 07 19:31:33 debian vmtoolsd[1807]: gtk_disable_setlocale() must be called before gtk_init()
+ 4月 07 19:31:33 debian systemd[1]: bluetooth.service - Bluetooth service was skipped because of an unmet condition check (ConditionPathIsDirectory=/sys/class/bluetooth).
+░░ Subject: 單位 bluetooth.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 bluetooth.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:33 debian kernel: input: VMware DnD UInput pointer as /devices/virtual/input/input7
+ 4月 07 19:31:35 debian dbus-daemon[839]: [system] Successfully activated service 'org.freedesktop.fwupd'
+ 4月 07 19:31:35 debian systemd[1]: Started fwupd.service - Firmware update daemon.
+░░ Subject: 單位 fwupd.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 fwupd.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:35 debian gnome-software[1813]: enabled plugins: fwupd, os-release, appstream, hardcoded-blocklist, malcontent, modalias, packagekit, rewrite-resource, generic-updates, provenance, icons, provenance-license
+ 4月 07 19:31:35 debian gnome-software[1813]: disabled plugins: dpkg, dummy, repos, epiphany
+ 4月 07 19:31:35 debian PackageKit[1123]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+ 4月 07 19:31:35 debian PackageKit[1123]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+ 4月 07 19:31:37 debian PackageKit[1123]: refresh-cache transaction /44_abebaadd from uid 1000 finished with success after 2653ms
+ 4月 07 19:31:37 debian gnome-software[1813]: Only 0 apps for recent list, hiding
+ 4月 07 19:31:38 debian PackageKit[1123]: resolve transaction /45_aaabccad from uid 1000 finished with success after 665ms
+ 4月 07 19:31:38 debian PackageKit[1123]: resolve transaction /46_eeaeadad from uid 1000 finished with success after 108ms
+ 4月 07 19:31:40 debian PackageKit[1123]: get-updates transaction /47_accbdbed from uid 1000 finished with success after 194ms
+ 4月 07 19:31:40 debian PackageKit[1123]: resolve transaction /48_aaecdcbd from uid 1000 finished with success after 112ms
+ 4月 07 19:31:41 debian PackageKit[1123]: search-file transaction /49_adcbabdb from uid 1000 finished with success after 701ms
+ 4月 07 19:31:41 debian PackageKit[1123]: search-file transaction /50_eebedbea from uid 1000 finished with success after 159ms
+ 4月 07 19:31:41 debian PackageKit[1123]: search-file transaction /51_cbabdedd from uid 1000 finished with success after 148ms
+ 4月 07 19:31:42 debian PackageKit[1123]: search-file transaction /52_daeaeaaa from uid 1000 finished with success after 160ms
+ 4月 07 19:31:42 debian PackageKit[1123]: search-file transaction /53_dbbaacae from uid 1000 finished with success after 139ms
+ 4月 07 19:31:42 debian PackageKit[1123]: search-file transaction /54_bbacddbb from uid 1000 finished with success after 142ms
+ 4月 07 19:31:42 debian PackageKit[1123]: search-file transaction /55_abeeedac from uid 1000 finished with success after 136ms
+ 4月 07 19:31:42 debian PackageKit[1123]: search-file transaction /56_dbdebdae from uid 1000 finished with success after 137ms
+ 4月 07 19:31:42 debian systemd[1]: Stopping user@111.service - User Manager for UID 111...
+░░ Subject: 單位 user@111.service 已開始關閉
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 user@111.service 已開始關閉。
+ 4月 07 19:31:42 debian systemd[983]: Activating special unit exit.target...
+ 4月 07 19:31:42 debian systemd[983]: Stopped target default.target - Main User Target.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Stopping dbus.service - D-Bus User Message Bus...
+░░ Subject: 單位 UNIT 已開始關閉
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始關閉。
+ 4月 07 19:31:42 debian systemd[983]: Stopping gvfs-afc-volume-monitor.service - Virtual filesystem service - Apple File Conduit monitor...
+░░ Subject: 單位 UNIT 已開始關閉
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始關閉。
+ 4月 07 19:31:42 debian systemd[983]: Stopping gvfs-daemon.service - Virtual filesystem service...
+░░ Subject: 單位 UNIT 已開始關閉
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始關閉。
+ 4月 07 19:31:42 debian systemd[983]: Stopping gvfs-goa-volume-monitor.service - Virtual filesystem service - GNOME Online Accounts monitor...
+░░ Subject: 單位 UNIT 已開始關閉
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始關閉。
+ 4月 07 19:31:42 debian systemd[983]: Stopping gvfs-gphoto2-volume-monitor.service - Virtual filesystem service - digital camera monitor...
+░░ Subject: 單位 UNIT 已開始關閉
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始關閉。
+ 4月 07 19:31:42 debian systemd[983]: Stopping gvfs-mtp-volume-monitor.service - Virtual filesystem service - Media Transfer Protocol monitor...
+░░ Subject: 單位 UNIT 已開始關閉
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始關閉。
+ 4月 07 19:31:42 debian systemd[983]: Stopping gvfs-udisks2-volume-monitor.service - Virtual filesystem service - disk device monitor...
+░░ Subject: 單位 UNIT 已開始關閉
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始關閉。
+ 4月 07 19:31:42 debian systemd[983]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+░░ Subject: 單位 UNIT 已開始關閉
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始關閉。
+ 4月 07 19:31:42 debian systemd[983]: Stopping tracker-miner-fs-3.service - Tracker file system data miner...
+░░ Subject: 單位 UNIT 已開始關閉
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始關閉。
+ 4月 07 19:31:42 debian systemd[983]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Stopped gvfs-udisks2-volume-monitor.service - Virtual filesystem service - disk device monitor.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Stopped gvfs-gphoto2-volume-monitor.service - Virtual filesystem service - digital camera monitor.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Stopped gvfs-goa-volume-monitor.service - Virtual filesystem service - GNOME Online Accounts monitor.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Stopped gvfs-afc-volume-monitor.service - Virtual filesystem service - Apple File Conduit monitor.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Stopping wireplumber.service - Multimedia Service Session Manager...
+░░ Subject: 單位 UNIT 已開始關閉
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始關閉。
+ 4月 07 19:31:42 debian wireplumber[1003]: stopped by signal: 終止
+ 4月 07 19:31:42 debian wireplumber[1003]: disconnected from pipewire
+ 4月 07 19:31:42 debian systemd[983]: Stopped wireplumber.service - Multimedia Service Session Manager.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Stopping pipewire.service - PipeWire Multimedia Service...
+░░ Subject: 單位 UNIT 已開始關閉
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始關閉。
+ 4月 07 19:31:42 debian systemd[983]: Stopped pipewire.service - PipeWire Multimedia Service.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Stopped gvfs-mtp-volume-monitor.service - Virtual filesystem service - Media Transfer Protocol monitor.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Stopped dbus.service - D-Bus User Message Bus.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[1]: run-user-111-gvfs.mount: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit run-user-111-gvfs.mount has successfully entered the 'dead' state.
+ 4月 07 19:31:42 debian PackageKit[1123]: search-file transaction /57_acacddec from uid 1000 finished with success after 198ms
+ 4月 07 19:31:42 debian tracker-miner-fs-3[1086]: OK
+ 4月 07 19:31:42 debian systemd[983]: Stopped tracker-miner-fs-3.service - Tracker file system data miner.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Stopped gvfs-daemon.service - Virtual filesystem service.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Removed slice session.slice - User Core Session Slice.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Removed slice background.slice - User Background Tasks Slice.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Stopped target basic.target - Basic System.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Stopped target paths.target - Paths.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Stopped target sockets.target - Sockets.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Stopped target timers.target - Timers.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Closed dbus.socket - D-Bus User Message Bus Socket.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Closed gnome-keyring-daemon.socket - GNOME Keyring daemon.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Closed pipewire-pulse.socket - PipeWire PulseAudio.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Closed pipewire.socket - PipeWire Multimedia System Socket.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Closed pk-debconf-helper.socket - debconf communication socket.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Removed slice app.slice - User Application Slice.
+░░ Subject: 單位 UNIT 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已關閉結束。
+ 4月 07 19:31:42 debian systemd[983]: Reached target shutdown.target - Shutdown.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:42 debian systemd[983]: Finished systemd-exit.service - Exit the Session.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:42 debian systemd[983]: Reached target exit.target - Exit the Session.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:42 debian systemd[1]: user@111.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit user@111.service has successfully entered the 'dead' state.
+ 4月 07 19:31:42 debian systemd[1]: Stopped user@111.service - User Manager for UID 111.
+░░ Subject: 單位 user@111.service 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 user@111.service 已關閉結束。
+ 4月 07 19:31:42 debian systemd[1]: user@111.service: Consumed 1.241s CPU time.
+░░ Subject: Resources consumed by unit runtime
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit user@111.service completed and consumed the indicated resources.
+ 4月 07 19:31:42 debian systemd[1]: Stopping user-runtime-dir@111.service - User Runtime Directory /run/user/111...
+░░ Subject: 單位 user-runtime-dir@111.service 已開始關閉
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 user-runtime-dir@111.service 已開始關閉。
+ 4月 07 19:31:42 debian systemd[1]: run-user-111.mount: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit run-user-111.mount has successfully entered the 'dead' state.
+ 4月 07 19:31:42 debian systemd[1]: user-runtime-dir@111.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit user-runtime-dir@111.service has successfully entered the 'dead' state.
+ 4月 07 19:31:42 debian systemd[1]: Stopped user-runtime-dir@111.service - User Runtime Directory /run/user/111.
+░░ Subject: 單位 user-runtime-dir@111.service 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 user-runtime-dir@111.service 已關閉結束。
+ 4月 07 19:31:42 debian systemd[1]: Removed slice user-111.slice - User Slice of UID 111.
+░░ Subject: 單位 user-111.slice 已關閉結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 user-111.slice 已關閉結束。
+ 4月 07 19:31:42 debian systemd[1]: user-111.slice: Consumed 5.370s CPU time.
+░░ Subject: Resources consumed by unit runtime
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit user-111.slice completed and consumed the indicated resources.
+ 4月 07 19:31:43 debian PackageKit[1123]: search-file transaction /58_eaabedcb from uid 1000 finished with success after 166ms
+ 4月 07 19:31:43 debian PackageKit[1123]: search-file transaction /59_aebdbddc from uid 1000 finished with success after 150ms
+ 4月 07 19:31:43 debian PackageKit[1123]: search-file transaction /60_aeacddda from uid 1000 finished with success after 143ms
+ 4月 07 19:31:43 debian systemd-timesyncd[458]: Contacted time server 183.177.72.201:123 (2.debian.pool.ntp.org).
+ 4月 07 19:31:43 debian systemd-timesyncd[458]: Initial clock synchronization to Mon 2025-04-07 19:31:43.658743 CST.
+░░ Subject: Initial clock synchronization
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ For the first time during the current boot an NTP synchronization has been
+░░ acquired and the local system clock adjustment has been initiated.
+ 4月 07 19:31:43 debian PackageKit[1123]: search-file transaction /61_eaeabcde from uid 1000 finished with success after 160ms
+ 4月 07 19:31:43 debian PackageKit[1123]: search-file transaction /62_caeadecd from uid 1000 finished with success after 151ms
+ 4月 07 19:31:43 debian PackageKit[1123]: search-file transaction /63_cbaddbdc from uid 1000 finished with success after 151ms
+ 4月 07 19:31:43 debian PackageKit[1123]: search-file transaction /64_bbcadcbe from uid 1000 finished with success after 143ms
+ 4月 07 19:31:44 debian PackageKit[1123]: search-file transaction /65_deacabbd from uid 1000 finished with success after 143ms
+ 4月 07 19:31:44 debian PackageKit[1123]: search-file transaction /66_edcecdeb from uid 1000 finished with success after 163ms
+ 4月 07 19:31:44 debian PackageKit[1123]: search-file transaction /67_bdaecbda from uid 1000 finished with success after 147ms
+ 4月 07 19:31:44 debian PackageKit[1123]: search-file transaction /68_eaebaaaa from uid 1000 finished with success after 145ms
+ 4月 07 19:31:44 debian PackageKit[1123]: search-file transaction /69_adbeddad from uid 1000 finished with success after 137ms
+ 4月 07 19:31:44 debian PackageKit[1123]: search-file transaction /70_acaccaea from uid 1000 finished with success after 138ms
+ 4月 07 19:31:45 debian PackageKit[1123]: search-file transaction /71_daeaaacd from uid 1000 finished with success after 138ms
+ 4月 07 19:31:45 debian PackageKit[1123]: search-file transaction /72_aeeeaded from uid 1000 finished with success after 139ms
+ 4月 07 19:31:45 debian PackageKit[1123]: search-file transaction /73_cedaceab from uid 1000 finished with success after 135ms
+ 4月 07 19:31:45 debian PackageKit[1123]: search-file transaction /74_baeaddcb from uid 1000 finished with success after 149ms
+ 4月 07 19:31:45 debian PackageKit[1123]: search-file transaction /75_dcdcdeab from uid 1000 finished with success after 156ms
+ 4月 07 19:31:45 debian PackageKit[1123]: search-file transaction /76_cedcbbba from uid 1000 finished with success after 155ms
+ 4月 07 19:31:45 debian PackageKit[1123]: search-file transaction /77_deaccdeb from uid 1000 finished with success after 153ms
+ 4月 07 19:31:46 debian PackageKit[1123]: search-file transaction /78_bcebdead from uid 1000 finished with success after 156ms
+ 4月 07 19:31:46 debian PackageKit[1123]: search-file transaction /79_deeeeacb from uid 1000 finished with success after 182ms
+ 4月 07 19:31:46 debian PackageKit[1123]: search-file transaction /80_eecabcab from uid 1000 finished with success after 137ms
+ 4月 07 19:31:46 debian PackageKit[1123]: search-file transaction /81_babcaebd from uid 1000 finished with success after 133ms
+ 4月 07 19:31:46 debian PackageKit[1123]: search-file transaction /82_baceccbc from uid 1000 finished with success after 140ms
+ 4月 07 19:31:46 debian PackageKit[1123]: search-file transaction /83_ddeeadbd from uid 1000 finished with success after 138ms
+ 4月 07 19:31:46 debian PackageKit[1123]: search-file transaction /84_ecbabadb from uid 1000 finished with success after 153ms
+ 4月 07 19:31:47 debian PackageKit[1123]: get-updates transaction /85_aaccabdd from uid 1000 finished with success after 154ms
+ 4月 07 19:31:54 debian systemd[1459]: Started app-gnome-org.gnome.Terminal-2653.scope - Application launched by gnome-shell.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:54 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.96' (uid=1000 pid=2653 comm="gnome-terminal")
+ 4月 07 19:31:54 debian systemd[1459]: Created slice app-org.gnome.Terminal.slice - Slice /app/org.gnome.Terminal.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:54 debian systemd[1459]: Starting gnome-terminal-server.service - GNOME Terminal Server...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 19:31:54 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.gnome.Terminal'
+ 4月 07 19:31:54 debian systemd[1459]: Started gnome-terminal-server.service - GNOME Terminal Server.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:54 debian systemd[1459]: Started vte-spawn-78fa7cfe-90c3-454a-80d4-07fee4d1e4db.scope - VTE child process 2701 launched by gnome-terminal-server process 2659.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:31:58 debian dbus-daemon[839]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ 4月 07 19:32:01 debian systemd[1]: systemd-localed.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit systemd-localed.service has successfully entered the 'dead' state.
+ 4月 07 19:32:02 debian systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit systemd-hostnamed.service has successfully entered the 'dead' state.
+ 4月 07 19:32:18 debian realmd[1364]: quitting realmd service after timeout
+ 4月 07 19:32:18 debian realmd[1364]: stopping service
+ 4月 07 19:32:18 debian systemd[1]: realmd.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit realmd.service has successfully entered the 'dead' state.
+ 4月 07 19:32:35 debian PackageKit[1123]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+ 4月 07 19:32:35 debian PackageKit[1123]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+ 4月 07 19:32:37 debian PackageKit[1123]: refresh-cache transaction /86_adbeddda from uid 1000 finished with success after 2434ms
+ 4月 07 19:32:39 debian PackageKit[1123]: get-updates transaction /87_ebbebdeb from uid 1000 finished with success after 447ms
+ 4月 07 19:32:42 debian PackageKit[1123]: get-updates transaction /88_cebeedbb from uid 1000 finished with success after 149ms
+ 4月 07 19:36:10 debian sudo[3049]:     kali : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=iptables
+ 4月 07 19:36:13 debian anacron[836]: Job `cron.daily' started
+ 4月 07 19:36:13 debian anacron[3057]: Updated timestamp for job `cron.daily' to 2025-04-07
+ 4月 07 19:36:13 debian anacron[836]: Job `cron.daily' terminated
+ 4月 07 19:36:13 debian anacron[836]: Normal exit (1 job run)
+ 4月 07 19:36:13 debian systemd[1]: anacron.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit anacron.service has successfully entered the 'dead' state.
+ 4月 07 19:36:15 debian su[3062]: (to root) kali on pts/0
+ 4月 07 19:36:15 debian su[3062]: pam_unix(su:session): session opened for user root(uid=0) by (uid=1000)
+ 4月 07 19:37:46 debian PackageKit[1123]: daemon quit
+ 4月 07 19:37:46 debian systemd[1]: packagekit.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit packagekit.service has successfully entered the 'dead' state.
+ 4月 07 19:37:46 debian systemd[1]: packagekit.service: Consumed 8.076s CPU time.
+░░ Subject: Resources consumed by unit runtime
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit packagekit.service completed and consumed the indicated resources.
+ 4月 07 19:41:58 debian crontab[3082]: (root) LIST (root)
+ 4月 07 19:46:12 debian systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+░░ Subject: 單位 systemd-tmpfiles-clean.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 systemd-tmpfiles-clean.service 已開始啟動。
+ 4月 07 19:46:12 debian systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit systemd-tmpfiles-clean.service has successfully entered the 'dead' state.
+ 4月 07 19:46:12 debian systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+░░ Subject: 單位 systemd-tmpfiles-clean.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 systemd-tmpfiles-clean.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:46:12 debian systemd[1]: run-credentials-systemd\x2dtmpfiles\x2dclean.service.mount: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit run-credentials-systemd\x2dtmpfiles\x2dclean.service.mount has successfully entered the 'dead' state.
+ 4月 07 19:46:13 debian NetworkManager[859]: <info>  [1744026373.5648] dhcp4 (ens33): state changed new lease, address=192.168.110.131
+ 4月 07 19:46:35 debian dbus-daemon[839]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.93' (uid=0 pid=3103 comm="timedatectl")
+ 4月 07 19:46:35 debian systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+░░ Subject: 單位 systemd-timedated.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 systemd-timedated.service 已開始啟動。
+ 4月 07 19:46:35 debian dbus-daemon[839]: [system] Successfully activated service 'org.freedesktop.timedate1'
+ 4月 07 19:46:35 debian systemd[1]: Started systemd-timedated.service - Time & Date Service.
+░░ Subject: 單位 systemd-timedated.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 systemd-timedated.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 19:47:05 debian systemd[1]: systemd-timedated.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit systemd-timedated.service has successfully entered the 'dead' state.
+ 4月 07 19:59:52 debian systemd[1]: Starting apt-daily-upgrade.service - Daily apt upgrade and clean activities...
+░░ Subject: 單位 apt-daily-upgrade.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 apt-daily-upgrade.service 已開始啟動。
+ 4月 07 19:59:53 debian systemd[1]: apt-daily-upgrade.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit apt-daily-upgrade.service has successfully entered the 'dead' state.
+ 4月 07 19:59:53 debian systemd[1]: Finished apt-daily-upgrade.service - Daily apt upgrade and clean activities.
+░░ Subject: 單位 apt-daily-upgrade.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 apt-daily-upgrade.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 20:01:13 debian NetworkManager[859]: <info>  [1744027273.5515] dhcp4 (ens33): state changed new lease, address=192.168.110.131
+ 4月 07 20:07:20 debian kernel: usb 4-1: new SuperSpeed USB device number 2 using xhci_hcd
+ 4月 07 20:07:20 debian kernel: usb 4-1: New USB device found, idVendor=8564, idProduct=7000, bcdDevice=21.01
+ 4月 07 20:07:20 debian kernel: usb 4-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+ 4月 07 20:07:20 debian kernel: usb 4-1: Product: StoreJet Transcend
+ 4月 07 20:07:20 debian kernel: usb 4-1: Manufacturer: StoreJet Transcend
+ 4月 07 20:07:20 debian kernel: usb 4-1: SerialNumber: WD-WX22A74MD9XP
+ 4月 07 20:07:20 debian mtp-probe[3234]: checking bus 4, device 2: "/sys/devices/pci0000:00/0000:00:15.0/0000:03:00.0/usb4/4-1"
+ 4月 07 20:07:20 debian mtp-probe[3234]: bus: 4, device: 2 was not an MTP device
+ 4月 07 20:07:20 debian kernel: usb-storage 4-1:1.0: USB Mass Storage device detected
+ 4月 07 20:07:20 debian kernel: scsi host33: usb-storage 4-1:1.0
+ 4月 07 20:07:20 debian kernel: usbcore: registered new interface driver usb-storage
+ 4月 07 20:07:20 debian kernel: usbcore: registered new interface driver uas
+ 4月 07 20:07:20 debian mtp-probe[3245]: checking bus 4, device 2: "/sys/devices/pci0000:00/0000:00:15.0/0000:03:00.0/usb4/4-1"
+ 4月 07 20:07:20 debian mtp-probe[3245]: bus: 4, device: 2 was not an MTP device
+ 4月 07 20:07:21 debian kernel: scsi 33:0:0:0: Direct-Access     StoreJet Transcend        2101 PQ: 0 ANSI: 6
+ 4月 07 20:07:22 debian kernel: sd 33:0:0:0: Attached scsi generic sg2 type 0
+ 4月 07 20:07:22 debian kernel: sd 33:0:0:0: [sdb] 1953525168 512-byte logical blocks: (1.00 TB/932 GiB)
+ 4月 07 20:07:22 debian kernel: sd 33:0:0:0: [sdb] Write Protect is off
+ 4月 07 20:07:22 debian kernel: sd 33:0:0:0: [sdb] Mode Sense: 47 00 00 08
+ 4月 07 20:07:22 debian kernel: sd 33:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+ 4月 07 20:07:22 debian kernel:  sdb: sdb1
+ 4月 07 20:07:22 debian kernel: sd 33:0:0:0: [sdb] Attached SCSI disk
+ 4月 07 20:07:22 debian udisksd[3270]: The disk contains an unclean file system (0, 0).
+ 4月 07 20:07:22 debian udisksd[3270]: The file system wasn't safely closed on Windows. Fixing.
+ 4月 07 20:07:22 debian systemd[1]: fwupd.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit fwupd.service has successfully entered the 'dead' state.
+ 4月 07 20:07:22 debian systemd[1]: fwupd.service: Consumed 1.245s CPU time.
+░░ Subject: Resources consumed by unit runtime
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit fwupd.service completed and consumed the indicated resources.
+ 4月 07 20:07:23 debian ntfs-3g[3278]: Version 2022.10.3 integrated FUSE 28
+ 4月 07 20:07:23 debian ntfs-3g[3278]: Mounted /dev/sdb1 (Read-Write, label "Transcend", NTFS 3.1)
+ 4月 07 20:07:23 debian ntfs-3g[3278]: Cmdline options: rw,nodev,nosuid,uid=1000,gid=1000,windows_names,uhelper=udisks2
+ 4月 07 20:07:23 debian ntfs-3g[3278]: Mount options: nodev,nosuid,uhelper=udisks2,allow_other,nonempty,relatime,rw,default_permissions,fsname=/dev/sdb1,blkdev,blksize=4096
+ 4月 07 20:07:23 debian ntfs-3g[3278]: Global ownership and permissions enforced, configuration type 7
+ 4月 07 20:07:23 debian udisksd[846]: Mounted /dev/sdb1 at /media/kali/Transcend on behalf of uid 1000
+ 4月 07 20:07:23 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating service name='org.gnome.Shell.HotplugSniffer' requested by ':1.29' (uid=1000 pid=1612 comm="/usr/bin/gnome-shell")
+ 4月 07 20:07:23 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.gnome.Shell.HotplugSniffer'
+ 4月 07 20:07:24 debian su[3062]: pam_unix(su:session): session closed for user root
+ 4月 07 20:07:24 debian systemd[1459]: vte-spawn-78fa7cfe-90c3-454a-80d4-07fee4d1e4db.scope: Consumed 1.531s CPU time.
+░░ Subject: Resources consumed by unit runtime
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit UNIT completed and consumed the indicated resources.
+ 4月 07 20:07:24 debian gnome-shell[1612]: JS ERROR: TypeError: this.actor is null
+                                            _syncEnabled@resource:///org/gnome/shell/ui/windowManager.js:138:25
+                                            onStopped@resource:///org/gnome/shell/ui/windowManager.js:150:35
+                                            _makeEaseCallback/<@resource:///org/gnome/shell/ui/environment.js:150:22
+                                            _easeActorProperty/<@resource:///org/gnome/shell/ui/environment.js:316:60
+                                            _destroyWindowDone@resource:///org/gnome/shell/ui/windowManager.js:1596:21
+                                            onStopped@resource:///org/gnome/shell/ui/windowManager.js:1564:39
+                                            _makeEaseCallback/<@resource:///org/gnome/shell/ui/environment.js:150:22
+                                            _easeActor/<@resource:///org/gnome/shell/ui/environment.js:239:64
+ 4月 07 20:07:24 debian systemd[1459]: gnome-terminal-server.service: Consumed 2.956s CPU time.
+░░ Subject: Resources consumed by unit runtime
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit UNIT completed and consumed the indicated resources.
+ 4月 07 20:07:27 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating service name='org.gnome.Nautilus' requested by ':1.29' (uid=1000 pid=1612 comm="/usr/bin/gnome-shell")
+ 4月 07 20:07:27 debian nautilus[3302]: Connecting to org.freedesktop.Tracker3.Miner.Files
+ 4月 07 20:07:27 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.gnome.Nautilus'
+ 4月 07 20:07:28 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating service name='org.gnome.DiskUtility' requested by ':1.101' (uid=1000 pid=3302 comm="/usr/bin/nautilus --gapplication-service")
+ 4月 07 20:07:28 debian dbus-daemon[839]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.105' (uid=1000 pid=3302 comm="/usr/bin/nautilus --gapplication-service")
+ 4月 07 20:07:28 debian systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+░░ Subject: 單位 systemd-hostnamed.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 systemd-hostnamed.service 已開始啟動。
+ 4月 07 20:07:28 debian dbus-daemon[839]: [system] Successfully activated service 'org.freedesktop.hostname1'
+ 4月 07 20:07:28 debian systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+░░ Subject: 單位 systemd-hostnamed.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 systemd-hostnamed.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 20:07:28 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.gnome.DiskUtility'
+ 4月 07 20:07:36 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.101' (uid=1000 pid=3302 comm="/usr/bin/nautilus --gapplication-service")
+ 4月 07 20:07:36 debian systemd[1459]: Starting gnome-terminal-server.service - GNOME Terminal Server...
+░░ Subject: 單位 UNIT 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 已開始啟動。
+ 4月 07 20:07:36 debian dbus-daemon[1487]: [session uid=1000 pid=1487] Successfully activated service 'org.gnome.Terminal'
+ 4月 07 20:07:36 debian systemd[1459]: Started gnome-terminal-server.service - GNOME Terminal Server.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 20:07:36 debian systemd[1459]: Started vte-spawn-48d752ee-e01e-4934-921e-e9c615f96e34.scope - VTE child process 3391 launched by gnome-terminal-server process 3349.
+░░ Subject: 單位 UNIT 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 UNIT 啟動已結束。
+░░ 
+░░ 啟動結果為 done。
+ 4月 07 20:07:50 debian sudo[3397]:     kali : user NOT in sudoers ; TTY=pts/0 ; PWD=/media/kali/Transcend/Digital Forensics/HW2 ; USER=root ; COMMAND=./auto_collect.sh
+ 4月 07 20:07:55 debian su[3398]: (to root) kali on pts/0
+ 4月 07 20:07:55 debian su[3398]: pam_unix(su:session): session opened for user root(uid=0) by (uid=1000)
+ 4月 07 20:07:58 debian systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit systemd-hostnamed.service has successfully entered the 'dead' state.
+ 4月 07 20:08:02 debian crontab[3438]: (root) LIST (root)
+ 4月 07 20:08:04 debian dbus-daemon[839]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.108' (uid=0 pid=3606 comm="timedatectl")
+ 4月 07 20:08:04 debian systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+░░ Subject: 單位 systemd-timedated.service 已開始啟動
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 systemd-timedated.service 已開始啟動。
+ 4月 07 20:08:04 debian dbus-daemon[839]: [system] Successfully activated service 'org.freedesktop.timedate1'
+ 4月 07 20:08:04 debian systemd[1]: Started systemd-timedated.service - Time & Date Service.
+░░ Subject: 單位 systemd-timedated.service 啟動已結束
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ 單位 systemd-timedated.service 啟動已結束。
+░░ 
+░░ 啟動結果為 done。

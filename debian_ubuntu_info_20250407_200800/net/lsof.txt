@@ -1,0 +1,8 @@
+COMMAND   PID  USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
+avahi-dae 837 avahi   12u  IPv4  22918      0t0  UDP *:mdns 
+avahi-dae 837 avahi   13u  IPv6  22919      0t0  UDP *:mdns 
+avahi-dae 837 avahi   14u  IPv4  22920      0t0  UDP *:52588 
+avahi-dae 837 avahi   15u  IPv6  22921      0t0  UDP *:45052 
+NetworkMa 859  root   26u  IPv4  23185      0t0  UDP debian:bootpc->192.168.110.254:bootps 
+cupsd     896  root    6u  IPv6  21307      0t0  TCP localhost:ipp (LISTEN)
+cupsd     896  root    7u  IPv4  21308      0t0  TCP localhost:ipp (LISTEN)

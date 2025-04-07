@@ -1,0 +1,11 @@
+USER     COMMAND    PID   FD  PROTO  LOCAL ADDRESS         FOREIGN ADDRESS      
+root     sshd         894 3   tcp6   *:22                  *:*
+root     sshd         894 4   tcp4   *:22                  *:*
+ntpd     ntpd         843 20  udp6   *:123                 *:*
+ntpd     ntpd         843 21  udp4   *:123                 *:*
+ntpd     ntpd         843 22  udp4   192.168.110.134:123   *:*
+ntpd     ntpd         843 23  udp6   ::1:123               *:*
+ntpd     ntpd         843 24  udp6   fe80::1%lo0:123       *:*
+ntpd     ntpd         843 25  udp4   127.0.0.1:123         *:*
+root     syslogd      783 6   udp6   *:514                 *:*
+root     syslogd      783 7   udp4   *:514                 *:*

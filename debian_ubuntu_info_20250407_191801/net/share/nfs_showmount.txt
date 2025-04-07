@@ -1,0 +1,1 @@
+All mount points on kali-VMware-Virtual-Platform:

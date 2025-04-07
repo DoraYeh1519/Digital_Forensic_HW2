@@ -1,0 +1,17 @@
+COMMAND    PID   USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
+systemd      1   root   79u  IPv6  12255      0t0  TCP *:websm (LISTEN)
+avahi-dae  913  avahi   12u  IPv4  10113      0t0  UDP *:mdns 
+avahi-dae  913  avahi   13u  IPv6  10114      0t0  UDP *:mdns 
+chronyd    937 chrony    5u  IPv4  12547      0t0  UDP localhost:323 
+chronyd    937 chrony    6u  IPv6  12548      0t0  UDP localhost:323 
+NetworkMa 1051   root   26u  IPv4  14175      0t0  UDP localhost.localdomain:bootpc->192.168.110.254:bootps 
+cupsd     1071   root    7u  IPv6  13007      0t0  TCP localhost:ipp (LISTEN)
+cupsd     1071   root    8u  IPv4  13008      0t0  TCP localhost:ipp (LISTEN)
+sshd      1072   root    7u  IPv4  12959      0t0  TCP *:ssh (LISTEN)
+sshd      1072   root    8u  IPv6  12962      0t0  TCP *:ssh (LISTEN)
+wsdd      3811   kali    7u  IPv4 140000      0t0  UDP 239.255.255.250:ws-discovery 
+wsdd      3811   kali    8u  IPv4 140001      0t0  UDP *:44512 
+wsdd      3811   kali    9u  IPv4 140002      0t0  UDP localhost.localdomain:ws-discovery 
+wsdd      3811   kali   10u  IPv6 140015      0t0  UDP [ff02::c]:ws-discovery 
+wsdd      3811   kali   11u  IPv6 140016      0t0  UDP *:47197 
+wsdd      3811   kali   12u  IPv6 140017      0t0  UDP localhost.localdomain:ws-discovery 
